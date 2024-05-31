@@ -1,0 +1,16 @@
+30-May-24 17:36:46 - Test Speaker: MC01
+30-May-24 17:36:46 - Log File Path: output/logs/torgo_whisper_finetune_MC01/MC01_train_20240530_173646.log
+
+30-May-24 17:36:47 - Splitting the dataset into training / validation / test sets...
+30-May-24 17:36:47 - Unique speakers found in the dataset:
+30-May-24 17:36:47 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+30-May-24 17:36:47 - After removal of repeated prompts, the number of data in each dataset is:
+30-May-24 17:36:47 - Train:       8218/13178 (62%)
+30-May-24 17:36:47 - Validation:  483/1075 (44%)
+30-May-24 17:36:47 - Test:        508/2141 (23%)
+
+30-May-24 17:36:48 - Vocab Dictionary:
+30-May-24 17:36:48 - {'[PAD]': 0, '<s>': 1, '</s>': 2, '[UNK]': 3, "'": 4, 'a': 5, 'b': 6, 'c': 7, 'd': 8, 'e': 9, 'f': 10, 'g': 11, 'h': 12, 'i': 13, 'j': 14, 'k': 15, 'l': 16, 'm': 17, 'n': 18, 'o': 19, 'p': 20, 'q': 21, 'r': 22, 's': 23, 't': 24, 'u': 25, 'v': 26, 'w': 27, 'x': 28, 'y': 29, 'z': 30, '|': 31}
+
