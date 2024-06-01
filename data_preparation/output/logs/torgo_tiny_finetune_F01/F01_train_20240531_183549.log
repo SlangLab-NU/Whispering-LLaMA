@@ -1,0 +1,22 @@
+31-May-24 18:35:49 - Test Speaker: F01
+31-May-24 18:35:49 - Log File Path: output/logs/torgo_tiny_finetune_F01/F01_train_20240531_183549.log
+
+31-May-24 18:35:50 - Splitting the dataset into training / validation / test sets...
+31-May-24 18:35:50 - Unique speakers found in the dataset:
+31-May-24 18:35:50 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+31-May-24 18:35:50 - After removal of repeated prompts, the number of data in each dataset is:
+31-May-24 18:35:50 - Train:       9749/15091 (64%)
+31-May-24 18:35:50 - Validation:  483/1075 (44%)
+31-May-24 18:35:50 - Test:        126/228 (55%)
+
+31-May-24 18:35:51 - After filter, the number of data in each dataset is:
+31-May-24 18:35:51 - Train:       9638/15091 (63%)
+31-May-24 18:35:51 - Validation:  460/1075 (42%)
+31-May-24 18:35:51 - Test:        115/228 (50%)
+
+31-May-24 18:36:02 - Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+31-May-24 18:36:03 - Checkpoint found in the repository. Checkpoint files found: ['checkpoint-1000', 'checkpoint-10000', 'checkpoint-10500', 'checkpoint-11000', 'checkpoint-1500', 'checkpoint-2000', 'checkpoint-2500', 'checkpoint-3000', 'checkpoint-3500', 'checkpoint-4000', 'checkpoint-4500', 'checkpoint-500', 'checkpoint-5000', 'checkpoint-5500', 'checkpoint-6000', 'checkpoint-6500', 'checkpoint-7000', 'checkpoint-7500', 'checkpoint-8000', 'checkpoint-8500', 'checkpoint-9000', 'checkpoint-9500']
+31-May-24 18:36:03 - Resuming from checkpoint: output/model/torgo_tiny_finetune_F01/checkpoint-9500
+
