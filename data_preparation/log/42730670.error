@@ -1,0 +1,28 @@
+Test Speaker: F01
+Log File Path: output/logs/torgo_tiny_finetune_F01/F01_train_20240603_024517.log
+
+Splitting the dataset into training / validation / test sets...
+Unique speakers found in the dataset:
+['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+After removal of repeated prompts, the number of data in each dataset is:
+Train:       9749/15091 (64%)
+Validation:  483/1075 (44%)
+Test:        126/228 (55%)
+
+After filter, the number of data in each dataset is:
+Train:       9638/15091 (63%)
+Validation:  460/1075 (42%)
+Test:        115/228 (50%)
+
+/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/datasets/table.py:1421: FutureWarning: promote has been superseded by mode='default'.
+  table = cls._concat_blocks(blocks, axis=0)
+/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/accelerate/accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
+  warnings.warn(
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Checkpoint found in the repository. Checkpoint files found: ['checkpoint-500']
+Resuming from checkpoint: output/model/torgo_tiny_finetune_F01/checkpoint-500
+
+  0%|          | 0/12060 [00:00<?, ?it/s]

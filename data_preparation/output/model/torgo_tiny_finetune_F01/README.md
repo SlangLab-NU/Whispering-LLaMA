@@ -1,6 +1,7 @@
 ---
 language:
 - en
+license: apache-2.0
 base_model: openai/whisper-tiny
 tags:
 - audio
@@ -36,14 +37,14 @@ More information needed
 ### Training hyperparameters
 
 The following hyperparameters were used during training:
-- learning_rate: 1e-05
+- learning_rate: 0.0001
 - train_batch_size: 16
 - eval_batch_size: 1
 - seed: 42
 - optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08
 - lr_scheduler_type: linear
-- lr_scheduler_warmup_steps: 500
-- training_steps: 15000
+- lr_scheduler_warmup_steps: 1000
+- num_epochs: 20
 
 ### Framework versions
 

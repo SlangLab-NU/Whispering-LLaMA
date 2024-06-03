@@ -75,7 +75,6 @@ max_seq_length = 2048
 max_input_length = 1000
 
 # Checkpointing configuration
-
 save_interval = epoch_size # save every epoch
 log_interval = 1
 run_name = f'WL_S_{learning_rate}'
@@ -137,7 +136,7 @@ def main():
     # Adding Cross Attention (K,V) weigths from the Whisper Decoder to Alpaca State_dict 
     (_, w_ck_pt) = whisper.load_model("large-v2",device='cpu')
     print('loaded Whisper checkpoint')
-    for n, p in model.named_parameters():
+    for n, p in model.named_parameters(): # Iterate through all named parameters of whisper
         if 'whisper' in n :
             #transformer.h.2.attn.whisper_value.weight
             layer = n.split('.')[2]
