@@ -64,7 +64,7 @@ print("Loading model ...", file=sys.stderr)
 
 # Loading the Alpaca Checkpoint
 checkpoint = torch.load(pretrained_path) 
-print('loaded LLaMA checkpoint')
+print(f'loaded LLaMA checkpoint, {checkpoint}')
 
 # Loading the model
 config = LLaMAConfig(block_size=2048)
@@ -96,7 +96,7 @@ def result(adapter_path,model):
 
     t0 = time.time()
     adapter_checkpoint = torch.load(adapter_path) 
-    print('loaded Adapter checkpoint')
+    print(f'loaded Adapter checkpoint {adapter_checkpoint}')
     with fabric.init_module():
         model.load_state_dict(adapter_checkpoint, strict=False)
     model.to(dtype)

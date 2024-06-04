@@ -20,3 +20,4 @@
 03-Jun-24 02:45:29 - Checkpoint found in the repository. Checkpoint files found: ['checkpoint-500']
 03-Jun-24 02:45:29 - Resuming from checkpoint: output/model/torgo_tiny_finetune_F01/checkpoint-500
 
+03-Jun-24 08:26:17 - Pushing model to Hugging Face...

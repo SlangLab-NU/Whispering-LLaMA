@@ -367,8 +367,8 @@ def generate_inference_json(dataset, dataset_name):
 
 
 generate_inference_json(train_dataset, f'torgo_train_{speaker_id}')
-generate_inference_json(validation_dataset, f'torgo_test_{speaker_id}')
-generate_inference_json(test_dataset, f'torgo_val_{speaker_id}')
+generate_inference_json(validation_dataset, f'torgo_val_{speaker_id}')
+generate_inference_json(test_dataset, f'torgo_test_{speaker_id}')
 
 
 # In[ ]:
