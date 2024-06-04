@@ -22,12 +22,22 @@ source activate /work/van-speech-nlp/jindaznb/mmenv/
 
 
 
-# general finetuning without training on TORGO, but is on Gigaspeech
+# general inference, without training on TORGO, but is on Gigaspeech
 # 42755979
-cd ..
-speaker_id='F01' && python Inference/WL-S.py \
+# cd ..
+# speaker_id='F01' && python Inference/WL-S_inference.py \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
+#     --save_dir 'runs/Inference' \
+#     --root 'runs/WL_S_0.001'
+
+
+
+# finetuning on TORGO
+cd .. && dataset_name='torgo' && speaker_id='F01' && python Inference/WL-S_inference.py \
     --pretrained_path 'weights/alpaca.pth' \
     --tokenizer_path 'weights/tokenizer.model' \
     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
-    --save_dir 'runs/Inference' \
-    --root 'runs/WL_S_0.001'
+    --save_dir "runs/Inference_${dataset_name}" \
+    --root "runs/WL_S_0.001_${dataset_name}" 

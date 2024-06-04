@@ -34,6 +34,7 @@ parser.add_argument('--tokenizer_path', type=str,help='Path to LLaMA tokenizer')
 parser.add_argument('--data_path', type=str,help='Path to data') 
 # resume
 parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')
+parser.add_argument('--dataset_name', type=str, help='Name of the dataset to be used for training (default: None)')
 
 
 args = parser.parse_args()
@@ -42,6 +43,7 @@ pretrained_path = args.pretrained_path
 tokenizer_path = args.tokenizer_path
 data_path = args.data_path
 is_resume_from_checkpoint = args.resume
+dataset_name = args.dataset_name
 
 # Hyperparameters
 # num_epochs = 25
@@ -78,7 +80,7 @@ max_input_length = 1000
 save_interval = epoch_size # save every epoch
 log_interval = 1
 run_name = f'WL_S_{learning_rate}'
-out_dir: str = 'runs/'+run_name
+out_dir: str = 'runs/'+run_name+dataset_name
 
 # wandb configuration
 # wandb.login()
@@ -327,4 +329,3 @@ if __name__ == "__main__":
     torch.set_float32_matmul_precision("high")
 
     main()
-    
