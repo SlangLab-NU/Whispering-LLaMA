@@ -1,3 +1,8 @@
+import time  # Import the time module at the beginning
+
+# Record the start time
+start_time = time.time()
+
 # https://github.com/SlangLab-NU/torgo_inference_on_cluster/blob/main/train.py
 # https://medium.com/@shridharpawar77/a-comprehensive-guide-for-custom-data-fine-tuning-with-the-whisper-model-60e4cbce736d
 from transformers import Seq2SeqTrainer
@@ -108,45 +113,6 @@ if repo_suffix and not re.match(r'^[_-]', args.repo_suffix):
     repo_suffix = '_' + repo_suffix
 
 
-# In[3]:
-
-
-config = {
-    "evaluation_strategy": "steps",
-    "per_device_train_batch_size": 4,
-    "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 2,
-    "eval_delay": 0,
-    "learning_rate": 0.0001,
-    "weight_decay": 0.005,
-    "adam_beta1": 0.9,
-    "adam_beta2": 0.999,
-    "adam_epsilon": 1e-8,
-    "max_grad_norm": 1.0,
-    "max_steps": -1,
-    "lr_scheduler_type": "linear",
-    "warmup_ratio": 0.0,
-    "warmup_steps": 1000,
-    "save_strategy": "steps",
-    "save_steps": 500,
-    "save_total_limit": 3,
-    "report_to": "all",
-    "seed": 42,
-    "eval_steps": 1000,
-    "num_train_epochs": 20,
-    "optim": "adamw_torch",
-    "optim_args": None,
-    "adafactor": False,
-    "group_by_length": True,
-    "length_column_name": "length",
-    "push_to_hub": True,
-    "hub_strategy": "every_save"
-}
-
-
-# In[4]:
-
-
 # Define the path to the CSV file
 torgo_csv_path = "./torgo.csv"
 
@@ -159,7 +125,7 @@ else:
 torgo_dataset_path = '/work/van-speech-nlp/data/torgo'
 torgo_dataset_dir_path = torgo_dataset_path + \
     '/' if torgo_dataset_path[-1] != '/' else torgo_dataset_path
-output_path = 'output'
+output_path = '../finetuned_whisper_output'
 print(f'torgo_dataset_path: {torgo_dataset_path}')
 print(f'torgo_dataset_dir_path: {torgo_dataset_dir_path}')
 
@@ -491,7 +457,7 @@ trainer = Seq2SeqTrainer(
     args=training_args,
     model=model,
     train_dataset=torgo_dataset['train'],
-    eval_dataset=torgo_dataset['test'],
+    eval_dataset=torgo_dataset['validation'],
     data_collator=data_collator,
     compute_metrics=compute_metrics,
     tokenizer=processor.feature_extractor,
@@ -538,7 +504,8 @@ trainer.push_to_hub()
 # In[ ]:
 
 
-print()
+end_time = time.time()
+elapsed_time = end_time - start_time
+elapsed_minutes = elapsed_time / 60
 
-
-# In[ ]:
+print(f"The script took {elapsed_minutes:.2f} minutes to run.")

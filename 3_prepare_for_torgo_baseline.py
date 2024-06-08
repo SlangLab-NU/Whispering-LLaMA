@@ -23,11 +23,6 @@ from evaluate import load
 from tqdm import tqdm
 from datetime import datetime
 
-# get_ipython().system('huggingface-cli login --token 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')
-
-
-# In[18]:
-
 
 
 parser = argparse.ArgumentParser(
@@ -37,7 +32,6 @@ parser = argparse.ArgumentParser(
 parser.add_argument('--speaker_id',
                     type=str,
                     help='Speaker ID in the format [MF]C?[0-9]{2}')
-
 # Optional arguments for training parameters
 parser.add_argument('--learning_rate', type=float,
                     default=0.0001, help='Learning rate (default: 0.0001)')
@@ -64,6 +58,10 @@ parser.add_argument('--debug', action='store_true',
 parser.add_argument('--repo_suffix', type=str,
                     default='', help='Repository suffix')
 
+parser.add_argument('--model_name', type=str,
+                    default='tiny', help='Whisper model to load (default: tiny.en)')
+
+
 args = parser.parse_args()
 
 # Check if the speaker ID is valid
@@ -73,6 +71,7 @@ if not re.match(r'^[MF]C?[0-9]{2}$', args.speaker_id):
     
 speaker_id = args.speaker_id
 test_speaker = args.speaker_id
+model_name = args.model_name
 
 learning_rate = 0.0001
 train_batch_size = 4
@@ -101,6 +100,7 @@ print(f"Number of epochs: {num_epochs}")
 print(f"Keep all data: {keep_all_data}")
 print(f"Debug mode: {debug}")
 print(f"Repository suffix: {repo_suffix}")
+print(f"model_name: {model_name}")
 
 if not re.match(r'^[MF]C?[0-9]{2}$', speaker_id):
     print("Please provide a valid speaker ID.")
@@ -155,7 +155,7 @@ import numpy
 import whisper_openAI.whisper as whisper
 import torch
 import tqdm
-model, _ = whisper.load_model("tiny") # you can change the whisper model here to largev2 or large to swap the  model.
+model, _ = whisper.load_model(f"{model_name}") # you can change the whisper model here to largev2 or large to swap the  model.
 
 
 # In[6]:
@@ -299,20 +299,12 @@ logging.info(
     f'Test:        {len(torgo_dataset["test"])}/{original_data_count["test"]} ({len(torgo_dataset["test"]) * 100 // original_data_count["test"]}%)\n')
 
 
-# In[13]:
-
 
 train_dataset = torgo_dataset["train"]
 validation_dataset = torgo_dataset["validation"]
 test_dataset = torgo_dataset["test"]
 
 
-# In[14]:
-
-
-
-
-# In[15]:
 
 
 import json
@@ -366,13 +358,13 @@ def generate_inference_json(dataset, dataset_name):
         json.dump(to_json, file, indent=4)
 
 
+# saved dir is in Inference/gs_inferences
 generate_inference_json(train_dataset, f'torgo_train_{speaker_id}')
 generate_inference_json(validation_dataset, f'torgo_val_{speaker_id}')
 generate_inference_json(test_dataset, f'torgo_test_{speaker_id}')
 
 
 # In[ ]:
-
 
 
 

@@ -1,0 +1,20 @@
+whisper-v2 model loaded
+train has 9,502 samples
+Processing train split ...
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint

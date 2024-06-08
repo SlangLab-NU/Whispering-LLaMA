@@ -1,0 +1,351 @@
+loaded test data
+loaded LLaMA checkpoint
+loaded Whisper checkpoint
+loaded LAMMA model
+Number of trainable parameters: 4.8999M
+iter 0: loss 6.0422, time: 1.42s
+{'train_iter': 0, 'train_Iter_loss': 6.042191028594971}
+iter 1: loss 2.0071, time: 0.87s
+{'train_iter': 1, 'train_Iter_loss': 2.0071473121643066}
+iter 2: loss 2.7437, time: 0.85s
+{'train_iter': 2, 'train_Iter_loss': 2.7436606884002686}
+iter 3: loss 5.3049, time: 0.76s
+{'train_iter': 3, 'train_Iter_loss': 5.304920196533203}
+iter 4: loss 5.1801, time: 0.76s
+{'train_iter': 4, 'train_Iter_loss': 5.180055141448975}
+iter 5: loss 2.6337, time: 0.88s
+{'train_iter': 5, 'train_Iter_loss': 2.6337199211120605}
+iter 6: loss 4.8219, time: 0.75s
+{'train_iter': 6, 'train_Iter_loss': 4.821924209594727}
+{'lr': 0.000999707347972973}
+iter 7: loss 6.0447, time: 0.91s
+{'train_iter': 7, 'train_Iter_loss': 6.044714450836182}
+iter 8: loss 3.3029, time: 0.78s
+{'train_iter': 8, 'train_Iter_loss': 3.302917003631592}
+iter 9: loss 2.9458, time: 0.74s
+{'train_iter': 9, 'train_Iter_loss': 2.9458389282226562}
+iter 10: loss 3.6312, time: 0.65s
+{'train_iter': 10, 'train_Iter_loss': 3.6312050819396973}
+iter 11: loss 2.2122, time: 0.85s
+{'train_iter': 11, 'train_Iter_loss': 2.212209701538086}
+iter 12: loss 1.4828, time: 0.82s
+{'train_iter': 12, 'train_Iter_loss': 1.4827940464019775}
+iter 13: loss 2.3376, time: 0.84s
+{'train_iter': 13, 'train_Iter_loss': 2.3376004695892334}
+iter 14: loss 1.1732, time: 0.78s
+{'train_iter': 14, 'train_Iter_loss': 1.1732374429702759}
+{'lr': 0.0009993728885135135}
+iter 15: loss 0.3521, time: 0.82s
+{'train_iter': 15, 'train_Iter_loss': 0.352119117975235}
+iter 16: loss 1.5483, time: 0.75s
+{'train_iter': 16, 'train_Iter_loss': 1.5482685565948486}
+iter 17: loss 0.4127, time: 0.92s
+{'train_iter': 17, 'train_Iter_loss': 0.41266068816185}
+iter 18: loss 0.5394, time: 0.88s
+{'train_iter': 18, 'train_Iter_loss': 0.5393604636192322}
+iter 19: loss 0.9733, time: 0.78s
+{'train_iter': 19, 'train_Iter_loss': 0.9733317494392395}
+iter 20: loss 1.3836, time: 0.66s
+{'train_iter': 20, 'train_Iter_loss': 1.3835500478744507}
+iter 21: loss 1.6015, time: 0.74s
+{'train_iter': 21, 'train_Iter_loss': 1.6014540195465088}
+iter 22: loss 0.8582, time: 0.77s
+{'train_iter': 22, 'train_Iter_loss': 0.858174741268158}
+{'lr': 0.000999038429054054}
+iter 23: loss 2.4413, time: 0.73s
+{'train_iter': 23, 'train_Iter_loss': 2.4412951469421387}
+iter 24: loss 1.0233, time: 0.73s
+{'train_iter': 24, 'train_Iter_loss': 1.0232962369918823}
+iter 25: loss 0.9798, time: 0.73s
+{'train_iter': 25, 'train_Iter_loss': 0.9797919392585754}
+iter 26: loss 0.6952, time: 0.75s
+{'train_iter': 26, 'train_Iter_loss': 0.6952463984489441}
+iter 27: loss 1.5839, time: 0.75s
+{'train_iter': 27, 'train_Iter_loss': 1.5839329957962036}
+iter 28: loss 1.0678, time: 0.81s
+{'train_iter': 28, 'train_Iter_loss': 1.0678044557571411}
+iter 29: loss 1.9894, time: 0.85s
+{'train_iter': 29, 'train_Iter_loss': 1.989405870437622}
+iter 30: loss 0.3395, time: 0.75s
+{'train_iter': 30, 'train_Iter_loss': 0.33952727913856506}
+{'lr': 0.0009987039695945946}
+iter 31: loss 2.0603, time: 0.74s
+{'train_iter': 31, 'train_Iter_loss': 2.0603439807891846}
+iter 32: loss 1.3739, time: 0.69s
+{'train_iter': 32, 'train_Iter_loss': 1.3738712072372437}
+iter 33: loss 4.0490, time: 1.33s
+{'train_iter': 33, 'train_Iter_loss': 4.048982620239258}
+iter 34: loss 1.9077, time: 0.73s
+{'train_iter': 34, 'train_Iter_loss': 1.9077354669570923}
+iter 35: loss 2.5597, time: 0.67s
+{'train_iter': 35, 'train_Iter_loss': 2.5596888065338135}
+iter 36: loss 0.5955, time: 0.81s
+{'train_iter': 36, 'train_Iter_loss': 0.5955097079277039}
+iter 37: loss 0.8609, time: 0.84s
+{'train_iter': 37, 'train_Iter_loss': 0.8608934283256531}
+iter 38: loss 2.4232, time: 0.82s
+{'train_iter': 38, 'train_Iter_loss': 2.423166513442993}
+{'lr': 0.0009983695101351351}
+iter 39: loss 1.7089, time: 0.76s
+{'train_iter': 39, 'train_Iter_loss': 1.708876371383667}
+iter 40: loss 1.1625, time: 0.73s
+{'train_iter': 40, 'train_Iter_loss': 1.1625351905822754}
+iter 41: loss 1.1166, time: 0.90s
+{'train_iter': 41, 'train_Iter_loss': 1.1166043281555176}
+iter 42: loss 1.3159, time: 0.74s
+{'train_iter': 42, 'train_Iter_loss': 1.3159048557281494}
+iter 43: loss 0.5611, time: 0.77s
+{'train_iter': 43, 'train_Iter_loss': 0.5611296892166138}
+iter 44: loss 0.1346, time: 0.82s
+{'train_iter': 44, 'train_Iter_loss': 0.1345951110124588}
+iter 45: loss 1.0750, time: 0.91s
+{'train_iter': 45, 'train_Iter_loss': 1.0749669075012207}
+iter 46: loss 0.7879, time: 0.74s
+{'train_iter': 46, 'train_Iter_loss': 0.787854015827179}
+{'lr': 0.0009980350506756757}
+iter 47: loss 1.2771, time: 0.79s
+{'train_iter': 47, 'train_Iter_loss': 1.2771376371383667}
+iter 48: loss 1.1546, time: 0.89s
+{'train_iter': 48, 'train_Iter_loss': 1.1546008586883545}
+iter 49: loss 0.8765, time: 0.79s
+{'train_iter': 49, 'train_Iter_loss': 0.8765071630477905}
+iter 50: loss 0.7417, time: 0.76s
+{'train_iter': 50, 'train_Iter_loss': 0.7416573762893677}
+iter 51: loss 0.4954, time: 0.86s
+{'train_iter': 51, 'train_Iter_loss': 0.49544060230255127}
+iter 52: loss 0.8805, time: 0.84s
+{'train_iter': 52, 'train_Iter_loss': 0.8805148005485535}
+iter 53: loss 2.4426, time: 0.85s
+{'train_iter': 53, 'train_Iter_loss': 2.4425573348999023}
+iter 54: loss 2.1869, time: 0.83s
+{'train_iter': 54, 'train_Iter_loss': 2.186906337738037}
+{'lr': 0.0009977005912162162}
+iter 55: loss 0.5899, time: 0.96s
+{'train_iter': 55, 'train_Iter_loss': 0.5899412631988525}
+iter 56: loss 2.1280, time: 0.66s
+{'train_iter': 56, 'train_Iter_loss': 2.1280407905578613}
+iter 57: loss 0.8311, time: 0.73s
+{'train_iter': 57, 'train_Iter_loss': 0.8310661315917969}
+iter 58: loss 1.6496, time: 0.68s
+{'train_iter': 58, 'train_Iter_loss': 1.649619460105896}
+iter 59: loss 2.3702, time: 0.66s
+{'train_iter': 59, 'train_Iter_loss': 2.3702285289764404}
+iter 60: loss 0.6147, time: 0.70s
+{'train_iter': 60, 'train_Iter_loss': 0.6147239208221436}
+iter 61: loss 2.0412, time: 0.65s
+{'train_iter': 61, 'train_Iter_loss': 2.0412442684173584}
+iter 62: loss 1.9826, time: 0.77s
+{'train_iter': 62, 'train_Iter_loss': 1.982616901397705}
+{'lr': 0.0009973661317567567}
+iter 63: loss 0.9401, time: 0.74s
+{'train_iter': 63, 'train_Iter_loss': 0.9400964379310608}
+iter 64: loss 1.6654, time: 1.01s
+{'train_iter': 64, 'train_Iter_loss': 1.6653733253479004}
+iter 65: loss 0.8049, time: 0.69s
+{'train_iter': 65, 'train_Iter_loss': 0.8049208521842957}
+iter 66: loss 0.5841, time: 0.86s
+{'train_iter': 66, 'train_Iter_loss': 0.5840961933135986}
+iter 67: loss 1.3178, time: 0.70s
+{'train_iter': 67, 'train_Iter_loss': 1.3178116083145142}
+iter 68: loss 1.4644, time: 0.76s
+{'train_iter': 68, 'train_Iter_loss': 1.464439034461975}
+iter 69: loss 0.2833, time: 0.81s
+{'train_iter': 69, 'train_Iter_loss': 0.28326109051704407}
+iter 70: loss 0.3199, time: 0.79s
+{'train_iter': 70, 'train_Iter_loss': 0.31990846991539}
+{'lr': 0.0009970316722972973}
+iter 71: loss 0.4992, time: 0.71s
+{'train_iter': 71, 'train_Iter_loss': 0.49915236234664917}
+iter 72: loss 1.2508, time: 0.77s
+{'train_iter': 72, 'train_Iter_loss': 1.2508491277694702}
+iter 73: loss 1.0682, time: 0.75s
+{'train_iter': 73, 'train_Iter_loss': 1.0682182312011719}
+iter 74: loss 1.2040, time: 0.87s
+{'train_iter': 74, 'train_Iter_loss': 1.2039703130722046}
+iter 75: loss 0.6744, time: 0.77s
+{'train_iter': 75, 'train_Iter_loss': 0.6744458675384521}
+iter 76: loss 0.4860, time: 0.72s
+{'train_iter': 76, 'train_Iter_loss': 0.48596450686454773}
+iter 77: loss 0.5487, time: 0.66s
+{'train_iter': 77, 'train_Iter_loss': 0.5486957430839539}
+iter 78: loss 0.7309, time: 0.70s
+{'train_iter': 78, 'train_Iter_loss': 0.7308615446090698}
+{'lr': 0.0009966972128378378}
+iter 79: loss 0.4945, time: 0.92s
+{'train_iter': 79, 'train_Iter_loss': 0.49447280168533325}
+iter 80: loss 1.7928, time: 0.75s
+{'train_iter': 80, 'train_Iter_loss': 1.792777419090271}
+iter 81: loss 0.9296, time: 0.68s
+{'train_iter': 81, 'train_Iter_loss': 0.9295623898506165}
+iter 82: loss 0.9157, time: 0.78s
+{'train_iter': 82, 'train_Iter_loss': 0.9156714081764221}
+iter 83: loss 0.6469, time: 0.88s
+{'train_iter': 83, 'train_Iter_loss': 0.6469112038612366}
+iter 84: loss 1.7852, time: 0.78s
+{'train_iter': 84, 'train_Iter_loss': 1.785249948501587}
+iter 85: loss 1.4779, time: 0.76s
+{'train_iter': 85, 'train_Iter_loss': 1.4779317378997803}
+iter 86: loss 1.1315, time: 0.69s
+{'train_iter': 86, 'train_Iter_loss': 1.1314740180969238}
+{'lr': 0.0009963627533783783}
+iter 87: loss 1.0484, time: 0.76s
+{'train_iter': 87, 'train_Iter_loss': 1.0484222173690796}
+iter 88: loss 3.2457, time: 0.80s
+{'train_iter': 88, 'train_Iter_loss': 3.2456629276275635}
+iter 89: loss 1.8483, time: 0.73s
+{'train_iter': 89, 'train_Iter_loss': 1.8482916355133057}
+iter 90: loss 1.6210, time: 0.79s
+{'train_iter': 90, 'train_Iter_loss': 1.6209509372711182}
+iter 91: loss 0.5712, time: 0.66s
+{'train_iter': 91, 'train_Iter_loss': 0.5712000727653503}
+iter 92: loss 0.5345, time: 0.75s
+{'train_iter': 92, 'train_Iter_loss': 0.5344603657722473}
+iter 93: loss 2.0118, time: 0.79s
+{'train_iter': 93, 'train_Iter_loss': 2.0117669105529785}
+iter 94: loss 0.4667, time: 0.76s
+{'train_iter': 94, 'train_Iter_loss': 0.46668389439582825}
+{'lr': 0.0009960282939189189}
+iter 95: loss 0.3045, time: 0.75s
+{'train_iter': 95, 'train_Iter_loss': 0.30449211597442627}
+iter 96: loss 1.8241, time: 0.80s
+{'train_iter': 96, 'train_Iter_loss': 1.8241215944290161}
+iter 97: loss 0.6329, time: 0.74s
+{'train_iter': 97, 'train_Iter_loss': 0.632945716381073}
+iter 98: loss 1.7286, time: 0.82s
+{'train_iter': 98, 'train_Iter_loss': 1.7285972833633423}
+iter 99: loss 1.6245, time: 0.76s
+{'train_iter': 99, 'train_Iter_loss': 1.6244617700576782}
+iter 100: loss 0.9004, time: 0.74s
+{'train_iter': 100, 'train_Iter_loss': 0.9003962874412537}
+iter 101: loss 1.0186, time: 0.79s
+{'train_iter': 101, 'train_Iter_loss': 1.0185555219650269}
+iter 102: loss 1.0307, time: 0.86s
+{'train_iter': 102, 'train_Iter_loss': 1.0307098627090454}
+{'lr': 0.0009956938344594594}
+iter 103: loss 1.6990, time: 0.68s
+{'train_iter': 103, 'train_Iter_loss': 1.6990232467651367}
+iter 104: loss 2.8702, time: 0.72s
+{'train_iter': 104, 'train_Iter_loss': 2.870197057723999}
+iter 105: loss 0.9505, time: 0.72s
+{'train_iter': 105, 'train_Iter_loss': 0.9504507184028625}
+iter 106: loss 0.2542, time: 0.79s
+{'train_iter': 106, 'train_Iter_loss': 0.254190593957901}
+iter 107: loss 0.5471, time: 0.83s
+{'train_iter': 107, 'train_Iter_loss': 0.5470777750015259}
+iter 108: loss 0.4545, time: 0.76s
+{'train_iter': 108, 'train_Iter_loss': 0.4544529318809509}
+iter 109: loss 0.7889, time: 0.67s
+{'train_iter': 109, 'train_Iter_loss': 0.7889177203178406}
+iter 110: loss 3.3532, time: 0.65s
+{'train_iter': 110, 'train_Iter_loss': 3.3531508445739746}
+{'lr': 0.000995359375}
+iter 111: loss 0.7796, time: 0.75s
+{'train_iter': 111, 'train_Iter_loss': 0.7795705795288086}
+iter 112: loss 0.2348, time: 0.73s
+{'train_iter': 112, 'train_Iter_loss': 0.2347579449415207}
+iter 113: loss 2.3073, time: 0.73s
+{'train_iter': 113, 'train_Iter_loss': 2.307297945022583}
+iter 114: loss 0.7231, time: 0.79s
+{'train_iter': 114, 'train_Iter_loss': 0.7230867147445679}
+iter 115: loss 0.5945, time: 0.84s
+{'train_iter': 115, 'train_Iter_loss': 0.5945072770118713}
+iter 116: loss 0.9392, time: 0.81s
+{'train_iter': 116, 'train_Iter_loss': 0.9391534328460693}
+iter 117: loss 1.5280, time: 0.80s
+{'train_iter': 117, 'train_Iter_loss': 1.52801513671875}
+iter 118: loss 1.4867, time: 0.66s
+{'train_iter': 118, 'train_Iter_loss': 1.4867271184921265}
+{'lr': 0.0009950249155405405}
+iter 119: loss 0.8165, time: 0.77s
+{'train_iter': 119, 'train_Iter_loss': 0.8164684176445007}
+iter 120: loss 1.3339, time: 0.69s
+{'train_iter': 120, 'train_Iter_loss': 1.3339083194732666}
+iter 121: loss 0.9105, time: 0.76s
+{'train_iter': 121, 'train_Iter_loss': 0.9105092883110046}
+iter 122: loss 1.0884, time: 0.80s
+{'train_iter': 122, 'train_Iter_loss': 1.0883690118789673}
+iter 123: loss 0.6135, time: 0.73s
+{'train_iter': 123, 'train_Iter_loss': 0.6134642958641052}
+iter 124: loss 1.1463, time: 0.72s
+{'train_iter': 124, 'train_Iter_loss': 1.1462976932525635}
+iter 125: loss 0.4154, time: 0.73s
+{'train_iter': 125, 'train_Iter_loss': 0.4154011011123657}
+iter 126: loss 1.8567, time: 0.91s
+{'train_iter': 126, 'train_Iter_loss': 1.8567367792129517}
+{'lr': 0.000994690456081081}
+iter 127: loss 1.9996, time: 0.79s
+{'train_iter': 127, 'train_Iter_loss': 1.9995994567871094}
+iter 128: loss 2.0773, time: 0.73s
+{'train_iter': 128, 'train_Iter_loss': 2.0773332118988037}
+iter 129: loss 1.1390, time: 0.81s
+{'train_iter': 129, 'train_Iter_loss': 1.1389985084533691}
+iter 130: loss 0.7027, time: 0.72s
+{'train_iter': 130, 'train_Iter_loss': 0.702679455280304}
+iter 131: loss 0.5758, time: 0.77s
+{'train_iter': 131, 'train_Iter_loss': 0.575832724571228}
+iter 132: loss 1.1561, time: 0.67s
+{'train_iter': 132, 'train_Iter_loss': 1.1560531854629517}
+iter 133: loss 0.7983, time: 0.78s
+{'train_iter': 133, 'train_Iter_loss': 0.7983206510543823}
+iter 134: loss 0.8155, time: 0.86s
+{'train_iter': 134, 'train_Iter_loss': 0.8155297636985779}
+{'lr': 0.0009943559966216215}
+iter 135: loss 0.2834, time: 0.73s
+{'train_iter': 135, 'train_Iter_loss': 0.28342270851135254}
+iter 136: loss 0.3304, time: 0.76s
+{'train_iter': 136, 'train_Iter_loss': 0.330426961183548}
+iter 137: loss 1.2013, time: 0.72s
+{'train_iter': 137, 'train_Iter_loss': 1.2012887001037598}
+iter 138: loss 1.7969, time: 0.71s
+{'train_iter': 138, 'train_Iter_loss': 1.7968685626983643}
+iter 139: loss 0.4797, time: 0.67s
+{'train_iter': 139, 'train_Iter_loss': 0.4796719253063202}
+iter 140: loss 2.5210, time: 0.80s
+{'train_iter': 140, 'train_Iter_loss': 2.5210061073303223}
+iter 141: loss 1.5259, time: 0.76s
+{'train_iter': 141, 'train_Iter_loss': 1.5258965492248535}
+iter 142: loss 1.1941, time: 0.74s
+{'train_iter': 142, 'train_Iter_loss': 1.1941356658935547}
+{'lr': 0.0009940215371621623}
+iter 143: loss 4.4997, time: 0.71s
+{'train_iter': 143, 'train_Iter_loss': 4.499658584594727}
+iter 144: loss 0.8579, time: 0.70s
+{'train_iter': 144, 'train_Iter_loss': 0.8578919768333435}
+iter 145: loss 1.7583, time: 0.72s
+{'train_iter': 145, 'train_Iter_loss': 1.7582918405532837}
+iter 146: loss 0.7036, time: 0.73s
+{'train_iter': 146, 'train_Iter_loss': 0.703564465045929}
+iter 147: loss 0.9246, time: 0.73s
+{'train_iter': 147, 'train_Iter_loss': 0.9246498942375183}
+iter 148: loss 0.5624, time: 0.75s
+{'train_iter': 148, 'train_Iter_loss': 0.5624080300331116}
+iter 149: loss 1.4918, time: 0.73s
+{'train_iter': 149, 'train_Iter_loss': 1.491788625717163}
+iter 150: loss 0.5110, time: 0.70s
+{'train_iter': 150, 'train_Iter_loss': 0.5109516382217407}
+{'lr': 0.0009936870777027028}
+iter 151: loss 0.5928, time: 0.76s
+{'train_iter': 151, 'train_Iter_loss': 0.5927545428276062}
+iter 152: loss 1.5105, time: 0.79s
+{'train_iter': 152, 'train_Iter_loss': 1.5105116367340088}
+iter 153: loss 1.8760, time: 0.65s
+{'train_iter': 153, 'train_Iter_loss': 1.876041293144226}
+iter 154: loss 0.7981, time: 0.70s
+{'train_iter': 154, 'train_Iter_loss': 0.7981469035148621}
+iter 155: loss 1.2954, time: 0.68s
+{'train_iter': 155, 'train_Iter_loss': 1.2953715324401855}
+iter 156: loss 1.8219, time: 0.68s
+{'train_iter': 156, 'train_Iter_loss': 1.8218539953231812}
+iter 157: loss 0.5370, time: 0.72s
+{'train_iter': 157, 'train_Iter_loss': 0.536992073059082}
+iter 158: loss 1.0902, time: 0.76s
+{'train_iter': 158, 'train_Iter_loss': 1.0902494192123413}
+{'lr': 0.0009933526182432434}
+iter 159: loss 0.9690, time: 0.68s
+{'train_iter': 159, 'train_Iter_loss': 0.9689991474151611}
+iter 160: loss 1.3536, time: 0.78s
+{'train_iter': 160, 'train_Iter_loss': 1.3536376953125}
+iter 161: loss 0.9172, time: 0.65s
+{'train_iter': 161, 'train_Iter_loss': 0.9171983003616333}
+iter 162: loss 3.1565, time: 0.66s
+{'train_iter': 162, 'train_Iter_loss': 3.156451940536499}

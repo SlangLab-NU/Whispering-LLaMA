@@ -1,0 +1,466 @@
+[
+    {
+        "inference": "pick",
+        "ground_truth": "stick"
+    },
+    {
+        "inference": "hold",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "no",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "before you can afford one, you'll be ready again",
+        "ground_truth": "he slowly takes a short walk in the open air each day"
+    },
+    {
+        "inference": "zulu",
+        "ground_truth": "double"
+    },
+    {
+        "inference": "my mother and father are both very successful businessmen",
+        "ground_truth": "you wished to know all about my grandfather"
+    },
+    {
+        "inference": "neigh",
+        "ground_truth": "knee"
+    },
+    {
+        "inference": "he has enough love to go around",
+        "ground_truth": "she had your dark suit in greasy wash water all year"
+    },
+    {
+        "inference": "bill",
+        "ground_truth": "car"
+    },
+    {
+        "inference": "wat",
+        "ground_truth": "swore"
+    },
+    {
+        "inference": "leak",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "op",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "bill",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "ok",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "leak",
+        "ground_truth": "fair"
+    },
+    {
+        "inference": "deal",
+        "ground_truth": "beta"
+    },
+    {
+        "inference": "bunk",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "beat",
+        "ground_truth": "race"
+    },
+    {
+        "inference": "gal",
+        "ground_truth": "the"
+    },
+    {
+        "inference": "gal",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "hat",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "farm",
+        "ground_truth": "raid"
+    },
+    {
+        "inference": "three",
+        "ground_truth": "fee"
+    },
+    {
+        "inference": "sail",
+        "ground_truth": "weed"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "gal",
+        "ground_truth": "jagged"
+    },
+    {
+        "inference": "leak",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "zero",
+        "ground_truth": "bubble"
+    },
+    {
+        "inference": "horn",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "hat",
+        "ground_truth": "hair"
+    },
+    {
+        "inference": "air",
+        "ground_truth": "share"
+    },
+    {
+        "inference": "leak",
+        "ground_truth": "rate"
+    },
+    {
+        "inference": "go",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "oscar",
+        "ground_truth": "trace"
+    },
+    {
+        "inference": "kink",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "go",
+        "ground_truth": "go"
+    },
+    {
+        "inference": "auze",
+        "ground_truth": "alpha"
+    },
+    {
+        "inference": "towel",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "these are the most appropriate words for the given situation",
+        "ground_truth": "dagger"
+    },
+    {
+        "inference": "a lamp near me clinked and twinkled",
+        "ground_truth": "a long flowing beard clings to his chin"
+    },
+    {
+        "inference": "snap",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "ug",
+        "ground_truth": "trade"
+    },
+    {
+        "inference": "mink",
+        "ground_truth": "range"
+    },
+    {
+        "inference": "zulu",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "foe",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "feed",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "whale kills whale",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "he jetted for skil in the night",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "this is the most likely selection",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "cats",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "one",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "no",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "you can play with this",
+        "ground_truth": "twice each day he plays skillfully and with zest upon our small organ"
+    },
+    {
+        "inference": "mill",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "buck",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "again",
+        "ground_truth": "gadget"
+    },
+    {
+        "inference": "bread",
+        "ground_truth": "trait"
+    },
+    {
+        "inference": "snack",
+        "ground_truth": "stick"
+    },
+    {
+        "inference": "and so in the way we used the pass",
+        "ground_truth": "except in the winter when the ooze or snow or ice prevents"
+    },
+    {
+        "inference": "hoop",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "no",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "he slowly kicked a rat in the open area",
+        "ground_truth": "he slowly takes a short walk in the open air each day"
+    },
+    {
+        "inference": "duck",
+        "ground_truth": "double"
+    },
+    {
+        "inference": "this is all my own ramparts",
+        "ground_truth": "you wished to know all about my grandfather"
+    },
+    {
+        "inference": "mom",
+        "ground_truth": "knee"
+    },
+    {
+        "inference": "young",
+        "ground_truth": "she had your dark suit in greasy wash water all year"
+    },
+    {
+        "inference": "fork",
+        "ground_truth": "swore"
+    },
+    {
+        "inference": "tam",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "raze",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "seep",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "beat",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "cute",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "feat",
+        "ground_truth": "fair"
+    },
+    {
+        "inference": "bin",
+        "ground_truth": "beta"
+    },
+    {
+        "inference": "fork",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "geese",
+        "ground_truth": "race"
+    },
+    {
+        "inference": "dead",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "seed",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "wake",
+        "ground_truth": "raid"
+    },
+    {
+        "inference": "feed",
+        "ground_truth": "fee"
+    },
+    {
+        "inference": "whee",
+        "ground_truth": "weed"
+    },
+    {
+        "inference": "pot",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "okay",
+        "ground_truth": "jagged"
+    },
+    {
+        "inference": "surgery",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "bill",
+        "ground_truth": "bubble"
+    },
+    {
+        "inference": "one",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "he",
+        "ground_truth": "hair"
+    },
+    {
+        "inference": "farm",
+        "ground_truth": "share"
+    },
+    {
+        "inference": "red",
+        "ground_truth": "rate"
+    },
+    {
+        "inference": "go",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "select",
+        "ground_truth": "trace"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "go",
+        "ground_truth": "go"
+    },
+    {
+        "inference": "apart",
+        "ground_truth": "alpha"
+    },
+    {
+        "inference": "geese",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "aluminum",
+        "ground_truth": "dagger"
+    },
+    {
+        "inference": "a long flowery mercaly clinked thin",
+        "ground_truth": "a long flowing beard clings to his chin"
+    },
+    {
+        "inference": "sleep",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "geese",
+        "ground_truth": "trade"
+    },
+    {
+        "inference": "ink",
+        "ground_truth": "range"
+    },
+    {
+        "inference": "cats",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "blud",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "bug",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "I hope to buy some furniture for my new house",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "he can't take care of himself",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "and he still takes a rest as a thorn",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "and",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "one",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "new",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "he placed the blame on the small organ",
+        "ground_truth": "twice each day he plays skillfully and with zest upon our small organ"
+    },
+    {
+        "inference": "new",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "pork",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "geese",
+        "ground_truth": "gadget"
+    },
+    {
+        "inference": "he speaks in a troubled voice",
+        "ground_truth": "when he speaks his voice is just a bit cracked and quivers a trifle"
+    },
+    {
+        "inference": "geese",
+        "ground_truth": "trait"
+    },
+    {
+        "wer": 0.9527272727272728,
+        "gtms": "3/115"
+    }
+]

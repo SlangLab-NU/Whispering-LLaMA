@@ -1,0 +1,54 @@
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_giga17/iter-000010.pth
+WER is 0.7993630573248408
+Ground truth matches is 7/363
+runs/Inference/F04/WL_S_0.001_giga17.json
+the post string normalization wer is
+WER 0.6507430997876857
+91 / 363
+*********************
+{'epoch': 10, 'WER': 0.7993630573248408, 'WER_post': 0.6507430997876857, 'GTM': 0.01928374655647383, 'GTM_post': 0.25068870523415976}
+Total runtime: 7.51 minutes.
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_giga17/iter-000010.pth
+WER is 1.6838487972508591
+Ground truth matches is 0/388
+runs/Inference/M01/WL_S_0.001_giga17.json
+the post string normalization wer is
+WER 1.654066437571592
+12 / 388
+*********************
+{'epoch': 10, 'WER': 1.6838487972508591, 'WER_post': 1.654066437571592, 'GTM': 0.0, 'GTM_post': 0.030927835051546393}
+Total runtime: 8.13 minutes.

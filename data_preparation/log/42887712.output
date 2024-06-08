@@ -1,0 +1,47 @@
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+loaded Adapter checkpoint
+For runs/WL_S_0.001_torgo_M03/iter-000005.pth
+WER is 0.3023850085178876
+Ground truth matches is 180/442
+runs/Inference/M03/WL_S_0.001_torgo_M03.json
+the post string normalization wer is
+WER 0.30153321976149916
+180 / 442
+*********************
+{'epoch': 5, 'WER': 0.3023850085178876, 'WER_post': 0.30153321976149916, 'GTM': 0.4072398190045249, 'GTM_post': 0.4072398190045249}
+Total runtime: 10.08 minutes.
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_torgo_M04/iter-000010.pth
+WER is 0.9780621572212066
+Ground truth matches is 9/319
+runs/Inference/M04/WL_S_0.001_torgo_M04.json
+the post string normalization wer is
+WER 0.9780621572212066
+9 / 319
+*********************
+{'epoch': 10, 'WER': 0.9780621572212066, 'WER_post': 0.9780621572212066, 'GTM': 0.02821316614420063, 'GTM_post': 0.02821316614420063}
+Total runtime: 6.20 minutes.

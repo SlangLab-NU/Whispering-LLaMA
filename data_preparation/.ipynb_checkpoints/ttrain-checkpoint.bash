@@ -2,8 +2,8 @@
 #SBATCH -N 1
 #SBATCH -c 3
 #SBATCH -p gpu
-#SBATCH --gres=gpu:a100:1   # --gres=gpu:t4:1
-#SBATCH --constraint=a100@80g  # Constraint for A100 GPU with 80GB memory
+#SBATCH --gres=gpu:a100:1   
+#SBATCH --constraint=a100@80g
 #SBATCH --time=08:00:00
 #SBATCH --output=log/%j.output
 #SBATCH --error=log/%j.error
@@ -16,7 +16,6 @@ cd ..
 
 
 # train adpater with giga_17 dataset
-# 42827940
 # python training/WL-S_train-Copy1.py --lr 1e-3 \
 #     --d 1 \
 #     --pretrained_path 'weights/alpaca.pth' \
@@ -24,17 +23,47 @@ cd ..
 #     --data_path "Inference/gs_inferences/17" \
 #     --dataset_name "giga17"
 
-# 42832434
+# 42867478
 # speaker_id='F01' && python training/WL-S_train-Copy1.py --lr 1e-3 \
 #     --d 1 \
 #     --pretrained_path 'weights/alpaca.pth' \
 #     --tokenizer_path 'weights/tokenizer.model' \
-#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" \ 
-#     --dataset_name "torgo_F01"
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
 
 
-# 42835408
-# python 4_output_feature_pt.py --speaker_id M03
+# speaker_id='F03' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
+
+
+# 42867479
+# speaker_id='F04' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
+
+
+# 42884604
+# speaker_id='M01' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
+
+
+# 42867483
+# speaker_id='M02' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
+
+
+
+# 42884605
 # speaker_id='M03' && python training/WL-S_train-Copy1.py --lr 1e-3 \
 #     --d 1 \
 #     --pretrained_path 'weights/alpaca.pth' \
@@ -42,11 +71,26 @@ cd ..
 #     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
 
 
-# 42839821
-# python 4_output_feature_pt.py --speaker_id M03
-# python 4_output_feature_pt.py --speaker_id F03
-# python 4_output_feature_pt.py --speaker_id F04
-# python 4_output_feature_pt.py --speaker_id M01
-# python 4_output_feature_pt.py --speaker_id M02
-# python 4_output_feature_pt.py --speaker_id M04
+
+# 42867486
+# speaker_id='M04' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
+
+
+
+# 42889119
+# debug M05 running with whisper-en
+# python 3_prepare_for_torgo_baseline.py --speaker_id M05
 # python 4_output_feature_pt.py --speaker_id M05
+# speaker_id='M05' && python Inference/WL-S_inference.py \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root 'runs/WL_S_0.001_giga17'
+
+
+# python 3_hypothesis_whisper_finetuned.py --speaker_id M01 --model_name "finetuned_whisper_output/model/torgo_tiny_finetune_F01"
