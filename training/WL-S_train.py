@@ -32,7 +32,10 @@ parser.add_argument('--d', type=int, default=1,help='No of GPUs (default: 1)')
 parser.add_argument('--pretrained_path', type=str,default= 'model/Alpaca_PY/lit-llama.pth',help='Path to Alpaca checkpoint') 
 parser.add_argument('--tokenizer_path', type=str,help='Path to LLaMA tokenizer') 
 parser.add_argument('--data_path', type=str,help='Path to data') 
+# resume
 parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')
+parser.add_argument('--dataset_name', type=str, help='Name of the dataset to be used for training (default: None)')
+
 
 args = parser.parse_args()
 learning_rate = args.lr
@@ -40,6 +43,7 @@ pretrained_path = args.pretrained_path
 tokenizer_path = args.tokenizer_path
 data_path = args.data_path
 is_resume_from_checkpoint = args.resume
+dataset_name = args.dataset_name
 
 # Hyperparameters
 # num_epochs = 25
@@ -75,14 +79,26 @@ max_input_length = 1000
 # Checkpointing configuration
 save_interval = epoch_size # save every epoch
 log_interval = 1
-from datetime import datetime
-
-# Get the current time and format it as a string
-current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-
-# Create the run name with the learning rate and the timestamp
 run_name = f'WL_S_{learning_rate}'
-out_dir: str = 'runs/'+run_name
+out_dir: str = 'runs/'+run_name+dataset_name
+
+# wandb configuration
+# wandb.login()
+# wandb.init(
+#     project="GigaCat",
+#     name=run_name,
+#     group=run_name,
+#     config={
+#     "learning_rate": learning_rate,
+#     "num_epochs": num_epochs,
+#     "weight_decay": weight_decay,
+#     "batch_size": (batch_size*devices),
+#     "micro_batch_size":micro_batch_size,
+#     "dataset":'gigaspeech',
+#     'devices':devices,
+#     'max_input_length':max_input_length,
+#     }
+# )
 
 # Use if needed, we use DDP strategy with the current implementation on 2x A100s
 ds_config = {
@@ -103,7 +119,7 @@ def main():
     fabric.launch()
     fabric.seed_everything(1337 + fabric.global_rank)
 
-    # Setup Model and Load Pretrained Weights
+    ## Setup Model and Load Pretrained Weights
     if fabric.global_rank == 0:
         os.makedirs(out_dir, exist_ok=True)
         
@@ -162,10 +178,9 @@ def train(
 
     Loosely based on the nanoGPT implementation: https://github.com/karpathy/nanoGPT.
     """
-    model, start_iter = load_latest_checkpoint(fabric, model, out_dir)
     step_count = 0 # gets updated each time you compleate a batch aka each time you take a step
 
-    for iter_num in range(start_iter, max_iters):
+    for iter_num in range(max_iters):
 
         t0 = time.time()
 
@@ -175,7 +190,7 @@ def train(
         with fabric.no_backward_sync(model, enabled=((iter_num + 1) % gradient_accumulation_steps != 0)): # Skip gradient synchronization during backward to avoid redundant communication overhead (Sync after gradient accumaltion is done)
             fabric.backward(loss / gradient_accumulation_steps)
 
-        if (iter_num + 1) % gradient_accumulation_steps == 0: # Update model after step
+        if (iter_num + 1) % gradient_accumulation_steps == 0: # Update model after  step
             optimizer.step()
             optimizer.zero_grad()
             step_count += 1
@@ -287,6 +302,16 @@ def get_batch(fabric: L.Fabric, model ,data: list):
 
 
 def save_model_checkpoint(fabric, model, file_path):
+    """
+    Save the model checkpoint to the specified file path.
+
+    This function saves the state of the model in a way that can be restored later. 
+
+    Args:
+        fabric (L.Fabric): The training fabric instance, which handles distributed training and other utilities.
+        model (torch.nn.Module): The model that needs to be saved.
+        file_path (str or Path): The file path where the model checkpoint will be saved.
+    """
     file_path = Path(file_path)
 
     if isinstance(fabric.strategy, DeepSpeedStrategy):
@@ -308,50 +333,9 @@ def save_model_checkpoint(fabric, model, file_path):
         fabric.barrier()
 
 
-def load_latest_checkpoint(fabric, model, out_dir):
-    """
-    Load the latest checkpoint from the specified directory.
-    
-    Args:
-        fabric (L.Fabric): The training fabric instance.
-        model (torch.nn.Module): The model to load the checkpoint into.
-        out_dir (str): The directory where the checkpoints are saved.
-        
-    Returns:
-        tuple: The model with the loaded state and the iteration number of the latest checkpoint, or 0 if no checkpoint is found.
-    """
-    out_dir = Path(out_dir)
-    checkpoints = list(out_dir.glob('iter-*.pth'))
-    if not checkpoints:
-        print("No checkpoints found in the directory. Starting from scratch.")
-        return model, 0
-    
-    # Sort checkpoints by their modification time or by iteration number in the filename
-    checkpoints.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-    latest_checkpoint = checkpoints[0]
-    
-    print(f"Loading latest checkpoint: {latest_checkpoint}")
-    
-    if isinstance(fabric.strategy, DeepSpeedStrategy):
-        from deepspeed.utils.zero_to_fp32 import get_fp32_state_dict_from_zero_checkpoint
-        state_dict = get_fp32_state_dict_from_zero_checkpoint(latest_checkpoint)
-        state_dict = adapter_state_from_state_dict(state_dict)
-        model.load_state_dict(state_dict)
-    else:
-        state_dict = torch.load(latest_checkpoint, map_location=fabric.device)
-        state_dict = adapter_state_from_state_dict(state_dict)
-        model.load_state_dict(state_dict)
-    
-    # Extract iteration number from the checkpoint filename
-    iter_num = int(latest_checkpoint.stem.split('-')[-1])
-    return model, iter_num
-
-
 if __name__ == "__main__":
     # Uncomment this line if you see an error: "Expected is_sm80 to be true, but got false"
     # torch.backends.cuda.enable_flash_sdp(False)
     torch.set_float32_matmul_precision("high")
 
     main()
-    
-parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')

@@ -1,0 +1,5 @@
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/training/WL-S_train-Copy1.py", line 83
+    out_dir: str = f"runs/{run_name}_{dataset_name}“
+                                                      ^
+SyntaxError: EOL while scanning string literal
+/var/spool/slurmd/job42823498/slurm_script: line 34: --dataset_name: command not found

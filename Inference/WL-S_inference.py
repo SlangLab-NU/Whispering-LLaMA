@@ -10,6 +10,8 @@ import argparse
 import tqdm
 from evaluate import load
 
+start_time = time.time()
+
 wd = Path(__file__).parent.parent.resolve() # does not work as jupyter notebook 
 sys.path.append(str(wd))
 
@@ -25,6 +27,7 @@ from lit_llama.utils import EmptyInitOnDevice, lazy_load, llama_model_lookup
 from generate.generate_for_WL import generate 
 wer = load("wer")
 
+print("start of script")
 parser = argparse.ArgumentParser()
 parser.add_argument('--root', type=str, help='Path to the directory containing the Adapter checkpoints')
 parser.add_argument('--save_dir', default= '/ibex/user/radhaks/LLMs/LLaMA_7B/LLAMA_EMNLP_DeepSpeed/predictions/wers',type=str, help='directory to save predictions as JSON files')
@@ -43,6 +46,7 @@ tokenizer_path = args.tokenizer_path
 
 files = os.listdir(root_path)
 files.sort() # files contains all the adapter checkpoints 
+print(f"files, {files}")
 
 ## initializes settings for high precision matrix multiplication in PyTorch, loads a tokenizer and pretrained model, and then loads data from a specified path
 torch.set_float32_matmul_precision("high")
@@ -64,7 +68,6 @@ print("Loading model ...", file=sys.stderr)
 
 # Loading the Alpaca Checkpoint
 checkpoint = torch.load(pretrained_path) 
-print(f'loaded LLaMA checkpoint, {checkpoint}')
 
 # Loading the model
 config = LLaMAConfig(block_size=2048)
@@ -96,7 +99,7 @@ def result(adapter_path,model):
 
     t0 = time.time()
     adapter_checkpoint = torch.load(adapter_path) 
-    print(f'loaded Adapter checkpoint {adapter_checkpoint}')
+    print(f'loaded Adapter checkpoint')
     with fabric.init_module():
         model.load_state_dict(adapter_checkpoint, strict=False)
     model.to(dtype)
@@ -138,6 +141,8 @@ def result(adapter_path,model):
     to_json.append({'wer':wer_, 'gtms':f'{c}/{len(data)}'})
     return_dict['gtms']=c/len(data)
     
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
     # Saving the results to a JSON file here
     with open(os.path.join(save_dir,adapter_path.split('/')[-2]+adapter_path.split('/')[-1]+'.json'),'w') as f:
         f.write(json.dumps(to_json , indent = 4,ensure_ascii=False))
@@ -189,9 +194,14 @@ latest_checkpoint = None
 
 # Find the latest checkpoint
 for i in files:
+    print(i)
     if not i.endswith('.pth'):
         continue
-    epoch_num = int(i.split('-')[1].split('.')[0])
+    try:
+        epoch_num = int(i.split('-')[1].split('.')[0])
+    except (IndexError, ValueError) as e:
+        print(f"Skipping file {i} due to incorrect format: {e}")
+        continue
     if epoch_num > latest_epoch:
         latest_epoch = epoch_num
         latest_checkpoint = os.path.join(root_path, i)
@@ -200,11 +210,11 @@ for i in files:
 if latest_checkpoint is not None:
     adapter_path = latest_checkpoint
     result_dict = result(adapter_path, model)
-    wer_percent = result_dict['WER'] * 100
-    wer_percent_post = result_dict['post_ST_wer'] * 100
+    wer_percent = result_dict['WER'] 
+    wer_percent_post = result_dict['post_ST_wer'] 
 
-    gt_percent = result_dict['gtms'] * 100
-    gt_percent_post = result_dict['post_gtms'] * 100
+    gt_percent = result_dict['gtms'] 
+    gt_percent_post = result_dict['post_gtms'] 
     print({
         'epoch': latest_epoch,
         'WER': wer_percent,
@@ -214,3 +224,11 @@ if latest_checkpoint is not None:
     })
 else:
     print('No checkpoint found.')
+
+
+# Record the end time
+end_time = time.time()
+
+# Calculate the total runtime in minutes
+total_runtime_minutes = (end_time - start_time) / 60
+print(f"Total runtime: {total_runtime_minutes:.2f} minutes.")

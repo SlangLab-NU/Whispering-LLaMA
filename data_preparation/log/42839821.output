@@ -1,0 +1,42 @@
+whisper-v2 model loaded
+train has 9,376 samples
+Processing train split ...
+Processed train data and saved checkpoint for M03
+Processed val data and saved checkpoint for M03
+Processed test data and saved checkpoint for M03
+whisper-v2 model loaded
+train has 9,440 samples
+Processing train split ...
+Processed train data and saved checkpoint for F03
+Processed val data and saved checkpoint for F03
+Processed test data and saved checkpoint for F03
+whisper-v2 model loaded
+train has 9,440 samples
+Processing train split ...
+Processed train data and saved checkpoint for F04
+Processed val data and saved checkpoint for F04
+Processed test data and saved checkpoint for F04
+whisper-v2 model loaded
+train has 9,413 samples
+Processing train split ...
+Processed train data and saved checkpoint for M01
+Processed val data and saved checkpoint for M01
+Processed test data and saved checkpoint for M01
+whisper-v2 model loaded
+train has 9,402 samples
+Processing train split ...
+Processed train data and saved checkpoint for M02
+Processed val data and saved checkpoint for M02
+Processed test data and saved checkpoint for M02
+whisper-v2 model loaded
+train has 9,475 samples
+Processing train split ...
+Processed train data and saved checkpoint for M04
+Processed val data and saved checkpoint for M04
+Processed test data and saved checkpoint for M04
+whisper-v2 model loaded
+train has 9,502 samples
+Processing train split ...
+Processed train data and saved checkpoint for M05
+Processed val data and saved checkpoint for M05
+Processed test data and saved checkpoint for M05

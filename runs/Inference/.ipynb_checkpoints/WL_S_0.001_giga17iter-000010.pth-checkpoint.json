@@ -1,0 +1,2234 @@
+[
+    {
+        "inference": "badra.",
+        "ground_truth": "beta"
+    },
+    {
+        "inference": "step up.",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "staple.",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "graco.",
+        "ground_truth": "trace"
+    },
+    {
+        "inference": "john:",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "she had your dock s in greasy wash water all year.",
+        "ground_truth": "she had your dark suit in greasy wash water all year"
+    },
+    {
+        "inference": "well, he is nearly ninety-three years old.",
+        "ground_truth": "well he is nearly ninety three years old"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "here's what i say.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "opa!",
+        "ground_truth": "alpha"
+    },
+    {
+        "inference": "chuck it.",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "great.",
+        "ground_truth": "rate"
+    },
+    {
+        "inference": "create.",
+        "ground_truth": "trade"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "except in the winter when the ozone or snow or ice prevents.",
+        "ground_truth": "except in the winter when the ozone or snow or ice prevents"
+    },
+    {
+        "inference": "except in the winter when the weather is snow or ice.",
+        "ground_truth": "except in the winter when the ooze or snow or ice prevents"
+    },
+    {
+        "inference": "fare.",
+        "ground_truth": "fair"
+    },
+    {
+        "inference": "oh,",
+        "ground_truth": "weed"
+    },
+    {
+        "inference": "it's fun.",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "there.",
+        "ground_truth": "hair"
+    },
+    {
+        "inference": "a long flowing beard brings to his chin.",
+        "ground_truth": "a long flowing beard clings to his chin"
+    },
+    {
+        "inference": "true.",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "that's what i'm saying.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "what?",
+        "ground_truth": "bag"
+    },
+    {
+        "inference": "oh, my god.",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "perch.",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "you wish to know all about my grandmother.",
+        "ground_truth": "you wished to know all about my grandfather"
+    },
+    {
+        "inference": "point.",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "stick.",
+        "ground_truth": "stick"
+    },
+    {
+        "inference": "there's nothing left of them.",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "that's okay.",
+        "ground_truth": "dagger"
+    },
+    {
+        "inference": "gain,",
+        "ground_truth": "gadget"
+    },
+    {
+        "inference": "brave!",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "baba,",
+        "ground_truth": "bubble"
+    },
+    {
+        "inference": "goh.",
+        "ground_truth": "gnaw"
+    },
+    {
+        "inference": "red.",
+        "ground_truth": "range"
+    },
+    {
+        "inference": "drink,",
+        "ground_truth": "trait"
+    },
+    {
+        "inference": "they slowly take a short walk and the open air each day.",
+        "ground_truth": "he slowly takes a short walk in the open air each day"
+    },
+    {
+        "inference": "hmm.",
+        "ground_truth": "knee"
+    },
+    {
+        "inference": "thank you.",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "go!",
+        "ground_truth": "go"
+    },
+    {
+        "inference": "these videos",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "big fish.",
+        "ground_truth": "race"
+    },
+    {
+        "inference": "sure.",
+        "ground_truth": "share"
+    },
+    {
+        "inference": "gabble.",
+        "ground_truth": "double"
+    },
+    {
+        "inference": "think.",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "that's it.",
+        "ground_truth": "jagged"
+    },
+    {
+        "inference": "sword.",
+        "ground_truth": "swore"
+    },
+    {
+        "inference": "okay.",
+        "ground_truth": "car"
+    },
+    {
+        "inference": "when he speaks, his voice is just a bit cracked and that covers on the truffle.",
+        "ground_truth": "when he speaks his voice is just a bit cracked and quivers a trifle"
+    },
+    {
+        "inference": "don't ask me to carry an order oily drag like that.",
+        "ground_truth": "don't ask me to carry an oily rag like that"
+    },
+    {
+        "inference": "rate.",
+        "ground_truth": "raid"
+    },
+    {
+        "inference": "point.",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "think.",
+        "ground_truth": "the"
+    },
+    {
+        "inference": "oh!",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "wow!",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "that's good.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "think.",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "yet he still thinks as quickly as ever.",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "chef.",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "wann,",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "free.",
+        "ground_truth": "fee"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "bad"
+    },
+    {
+        "inference": "no,",
+        "ground_truth": "gnaw"
+    },
+    {
+        "inference": "hold on",
+        "ground_truth": "pile"
+    },
+    {
+        "inference": "bye!",
+        "ground_truth": "bad"
+    },
+    {
+        "inference": "ah.",
+        "ground_truth": "shear"
+    },
+    {
+        "inference": "i looked and noticed two old men,",
+        "ground_truth": "i looked up and noticed two old men"
+    },
+    {
+        "inference": "well,",
+        "ground_truth": "of"
+    },
+    {
+        "inference": "good day.",
+        "ground_truth": "suit"
+    },
+    {
+        "inference": "what you've been trying to do,",
+        "ground_truth": "we're"
+    },
+    {
+        "inference": "back",
+        "ground_truth": "back"
+    },
+    {
+        "inference": "dream me earn more money by working hard.",
+        "ground_truth": "jane may earn more money by working hard"
+    },
+    {
+        "inference": "for,",
+        "ground_truth": "fruit"
+    },
+    {
+        "inference": "ahh,",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "the trainer pushed the deep hole slowly.",
+        "ground_truth": "the train approached the depot slowly"
+    },
+    {
+        "inference": "light.",
+        "ground_truth": "light"
+    },
+    {
+        "inference": "the most likely transcript is,",
+        "ground_truth": "this was easy for us"
+    },
+    {
+        "inference": "but",
+        "ground_truth": "prior"
+    },
+    {
+        "inference": "i feel like i can play the switch this week.",
+        "ground_truth": "i feel i can play this weekend"
+    },
+    {
+        "inference": "think.",
+        "ground_truth": "mut"
+    },
+    {
+        "inference": "freckled.",
+        "ground_truth": "fate"
+    },
+    {
+        "inference": "shot.",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "chunk.",
+        "ground_truth": "toot"
+    },
+    {
+        "inference": "while we were severely items,",
+        "ground_truth": "why yell or worry over silly items"
+    },
+    {
+        "inference": "you're used to being on the field.",
+        "ground_truth": "you're used to being on the field"
+    },
+    {
+        "inference": "done!",
+        "ground_truth": "dot"
+    },
+    {
+        "inference": "or,",
+        "ground_truth": "error"
+    },
+    {
+        "inference": "are you a year grades higher or lower than nines?",
+        "ground_truth": "are your grades higher or lower than nancy's"
+    },
+    {
+        "inference": "sure.",
+        "ground_truth": "cycle"
+    },
+    {
+        "inference": "the humanities are overwhelming there.",
+        "ground_truth": "the humidity is overwhelming there"
+    },
+    {
+        "inference": "one fell at the xo school districts.",
+        "ground_truth": "one validated acts of school districts"
+    },
+    {
+        "inference": "yeah.",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "i was conscious of the time,",
+        "ground_truth": "i was conscious all the time"
+    },
+    {
+        "inference": "they carried me on the stretcher.",
+        "ground_truth": "they carried me off on the stretcher"
+    },
+    {
+        "inference": "think,",
+        "ground_truth": "tie"
+    },
+    {
+        "inference": "sit.",
+        "ground_truth": "suit"
+    },
+    {
+        "inference": "backup?",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "bdaw",
+        "ground_truth": "beta"
+    },
+    {
+        "inference": "step-up.",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "trace.",
+        "ground_truth": "trace"
+    },
+    {
+        "inference": "goat,",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "she had your ducks, your dark suit, in greasy wash water all year.",
+        "ground_truth": "she had your dark suit in greasy wash water all year"
+    },
+    {
+        "inference": "well, he's nearly nine decades old.",
+        "ground_truth": "well he is nearly ninety three years old"
+    },
+    {
+        "inference": "new,",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "that's it.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "alpha.",
+        "ground_truth": "alpha"
+    },
+    {
+        "inference": "chaka.",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "rate.",
+        "ground_truth": "rate"
+    },
+    {
+        "inference": "trade.",
+        "ground_truth": "trade"
+    },
+    {
+        "inference": "each day he plays skills will skillfully and with this upon our little organ,",
+        "ground_truth": "twice each day he plays skillfully and with zest upon our little organ"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "except in the winter when the ozone or snow or ice prevents.",
+        "ground_truth": "except in the winter when the ozone or snow or ice prevents"
+    },
+    {
+        "inference": "except in the winter, when the snow or ice prevent,",
+        "ground_truth": "except in the winter when the ooze or snow or ice prevents"
+    },
+    {
+        "inference": "fair,",
+        "ground_truth": "fair"
+    },
+    {
+        "inference": "it's just too weird.",
+        "ground_truth": "weed"
+    },
+    {
+        "inference": "speak?",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "there.",
+        "ground_truth": "hair"
+    },
+    {
+        "inference": "a long flowing beer clings to his chin.",
+        "ground_truth": "a long flowing beard clings to his chin"
+    },
+    {
+        "inference": "cheer.",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "so,",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "bridge?",
+        "ground_truth": "bag"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "it's ok.",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "you wish to know all about my grandfather.",
+        "ground_truth": "you wished to know all about my grandfather"
+    },
+    {
+        "inference": "but,",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "stick.",
+        "ground_truth": "stick"
+    },
+    {
+        "inference": "loss.",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "daji,",
+        "ground_truth": "gadget"
+    },
+    {
+        "inference": "grave,",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "taboo.",
+        "ground_truth": "bubble"
+    },
+    {
+        "inference": "green.",
+        "ground_truth": "range"
+    },
+    {
+        "inference": "trait.",
+        "ground_truth": "trait"
+    },
+    {
+        "inference": "he slowly takes a short walk and they're open air each day.",
+        "ground_truth": "he slowly takes a short walk in the open air each day"
+    },
+    {
+        "inference": "three, four, five,",
+        "ground_truth": "knee"
+    },
+    {
+        "inference": "that's right.",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "cabo.",
+        "ground_truth": "double"
+    },
+    {
+        "inference": "cultura,",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "enjoy!",
+        "ground_truth": "jagged"
+    },
+    {
+        "inference": "sword.",
+        "ground_truth": "swore"
+    },
+    {
+        "inference": "ahh,",
+        "ground_truth": "car"
+    },
+    {
+        "inference": "when he speaks, his voice is just a bit cracked and it covers on the travel,",
+        "ground_truth": "when he speaks his voice is just a bit cracked and quivers a trifle"
+    },
+    {
+        "inference": "don't ask me to carry an order to oily drag like that.",
+        "ground_truth": "don't ask me to carry an oily rag like that"
+    },
+    {
+        "inference": "wow!",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "good.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "no,",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "yet he still thinks as swiftly as ever.",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "cheer.",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "one,",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "fiie.",
+        "ground_truth": "fee"
+    },
+    {
+        "inference": "that's right.",
+        "ground_truth": "bad"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "gnaw"
+    },
+    {
+        "inference": "tao",
+        "ground_truth": "pile"
+    },
+    {
+        "inference": "bad.",
+        "ground_truth": "bad"
+    },
+    {
+        "inference": "write.",
+        "ground_truth": "shear"
+    },
+    {
+        "inference": "i looked up and noticed two old men.",
+        "ground_truth": "i looked up and noticed two old men"
+    },
+    {
+        "inference": "way,",
+        "ground_truth": "we're"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "back"
+    },
+    {
+        "inference": "jane makes more money by working hard.",
+        "ground_truth": "jane may earn more money by working hard"
+    },
+    {
+        "inference": "they try and push to deep state slowly.",
+        "ground_truth": "the train approached the depot slowly"
+    },
+    {
+        "inference": "light.",
+        "ground_truth": "light"
+    },
+    {
+        "inference": "that was easy for us,",
+        "ground_truth": "this was easy for us"
+    },
+    {
+        "inference": "right?",
+        "ground_truth": "prior"
+    },
+    {
+        "inference": "i feel like i can play this weekend.",
+        "ground_truth": "i feel i can play this weekend"
+    },
+    {
+        "inference": "bar.",
+        "ground_truth": "bear"
+    },
+    {
+        "inference": "on task.",
+        "ground_truth": "mut"
+    },
+    {
+        "inference": "while you are overly items.",
+        "ground_truth": "why yell or worry over silly items"
+    },
+    {
+        "inference": "you're used to being on the field.",
+        "ground_truth": "you're used to being on the field"
+    },
+    {
+        "inference": "of course,",
+        "ground_truth": "error"
+    },
+    {
+        "inference": "are your grades higher or lower than lenses?",
+        "ground_truth": "are your grades higher or lower than nancy's"
+    },
+    {
+        "inference": "the humanities are overwhelming there.",
+        "ground_truth": "the humidity is overwhelming there"
+    },
+    {
+        "inference": "explore.",
+        "ground_truth": "explore"
+    },
+    {
+        "inference": "in the u.s. school districts.",
+        "ground_truth": "one validated acts of school districts"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "sorry.",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "i was conscious of all the time,",
+        "ground_truth": "i was conscious all the time"
+    },
+    {
+        "inference": "they carried me off on the stretcher.",
+        "ground_truth": "they carried me off on the stretcher"
+    },
+    {
+        "inference": "time.",
+        "ground_truth": "tie"
+    },
+    {
+        "inference": "sos,",
+        "ground_truth": "suit"
+    },
+    {
+        "inference": "mack?",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "they had a year.",
+        "ground_truth": "fear"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "go.",
+        "ground_truth": "though"
+    },
+    {
+        "inference": "yeah?",
+        "ground_truth": "droop"
+    },
+    {
+        "inference": "kool?",
+        "ground_truth": "loop"
+    },
+    {
+        "inference": "if you destroy confidence in banks, you do something to the economy if not,",
+        "ground_truth": "if you destroy confidence in banks you do something to the economy he said"
+    },
+    {
+        "inference": "you'll be better off taking a cold shower.",
+        "ground_truth": "you'd be better off taking a cold shower"
+    },
+    {
+        "inference": "rock.",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "well, robin, where are you? you little yellow lily.",
+        "ground_truth": "will robin wear a yellow lily"
+    },
+    {
+        "inference": "clone it.",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "so islands are sparsely populated",
+        "ground_truth": "the islands are sparsely populated"
+    },
+    {
+        "inference": "great sunshine shimmers on the ocean.",
+        "ground_truth": "bright sunshine shimmers on the ocean"
+    },
+    {
+        "inference": "jongo.",
+        "ground_truth": "jungle"
+    },
+    {
+        "inference": "fingo.",
+        "ground_truth": "single"
+    },
+    {
+        "inference": "byrer",
+        "ground_truth": "briar"
+    },
+    {
+        "inference": "find!",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "where they were away?",
+        "ground_truth": "where were you while we were away"
+    },
+    {
+        "inference": "everything that real moves the shaft does",
+        "ground_truth": "everything went real smooth the sheriff said"
+    },
+    {
+        "inference": "two other cases were also were,",
+        "ground_truth": "two other cases also were under advisement"
+    },
+    {
+        "inference": "two other cases also were under average high school level.",
+        "ground_truth": "two other cases also were under advisement"
+    },
+    {
+        "inference": "two, it's also underestimated me,",
+        "ground_truth": "two other cases were also under advisement"
+    },
+    {
+        "inference": "i pray",
+        "ground_truth": "pay"
+    },
+    {
+        "inference": "charlie.",
+        "ground_truth": "charlie"
+    },
+    {
+        "inference": "interview,",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "but it,",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "i tried to tell people in the community,",
+        "ground_truth": "i tried to tell people in the community"
+    },
+    {
+        "inference": "and here in the air,",
+        "ground_truth": "near"
+    },
+    {
+        "inference": "but not",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "bunker.",
+        "ground_truth": "sparkle"
+    },
+    {
+        "inference": "spring girl.",
+        "ground_truth": "sprinkle"
+    },
+    {
+        "inference": "cool.",
+        "ground_truth": "root"
+    },
+    {
+        "inference": "orange.",
+        "ground_truth": "snoop"
+    },
+    {
+        "inference": "mother cells yellow,",
+        "ground_truth": "mother sews yellow"
+    },
+    {
+        "inference": "here, here, here.",
+        "ground_truth": "here"
+    },
+    {
+        "inference": "if you're doing more than six words at a time, replace it immediately,",
+        "ground_truth": "if you are losing water replace it immediately"
+    },
+    {
+        "inference": "carte.",
+        "ground_truth": "cart"
+    },
+    {
+        "inference": "see you after days of the ipt, some new episode is revised.",
+        "ground_truth": "day after day some new episode is reported"
+    },
+    {
+        "inference": "it's like",
+        "ground_truth": "lick"
+    },
+    {
+        "inference": "airport.",
+        "ground_truth": "echo"
+    },
+    {
+        "inference": "we'll look at the stars back to the fortress.",
+        "ground_truth": "we rode horseback to the farm"
+    },
+    {
+        "inference": "three salt.",
+        "ground_truth": "sergeant"
+    },
+    {
+        "inference": "ric.",
+        "ground_truth": "rich"
+    },
+    {
+        "inference": "and then we have",
+        "ground_truth": "quebec"
+    },
+    {
+        "inference": "fahrenheit.",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "reconcile.",
+        "ground_truth": "written"
+    },
+    {
+        "inference": "but",
+        "ground_truth": "thought"
+    },
+    {
+        "inference": "for the little school house stood empty.",
+        "ground_truth": "the little schoolhouse stood empty"
+    },
+    {
+        "inference": "that and",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "say,",
+        "ground_truth": "seeds"
+    },
+    {
+        "inference": "then I have to make a separate that the body has",
+        "ground_truth": "hem"
+    },
+    {
+        "inference": "transcript,",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "i'm here.",
+        "ground_truth": "part"
+    },
+    {
+        "inference": "bye, you",
+        "ground_truth": "loyal"
+    },
+    {
+        "inference": "it's a box containing four rivers,",
+        "ground_truth": "the box contained three sweaters"
+    },
+    {
+        "inference": "much.",
+        "ground_truth": "golf"
+    },
+    {
+        "inference": "ham.",
+        "ground_truth": "hum"
+    },
+    {
+        "inference": "the museum has high-end resolutions every evening.",
+        "ground_truth": "the museum hires musicians every evening"
+    },
+    {
+        "inference": "it's great.",
+        "ground_truth": "mike"
+    },
+    {
+        "inference": "fuevey,",
+        "ground_truth": "city"
+    },
+    {
+        "inference": "you're having",
+        "ground_truth": "sitting"
+    },
+    {
+        "inference": "i'm ready.",
+        "ground_truth": "witty"
+    },
+    {
+        "inference": "it's frankly",
+        "ground_truth": "sign"
+    },
+    {
+        "inference": "bit.",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "and the next day,",
+        "ground_truth": "kitten"
+    },
+    {
+        "inference": "heart,",
+        "ground_truth": "hark"
+    },
+    {
+        "inference": "brought a bond,",
+        "ground_truth": "brawn"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "liar"
+    },
+    {
+        "inference": "yes.",
+        "ground_truth": "lair"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "good evening.",
+        "ground_truth": "fitting"
+    },
+    {
+        "inference": "thor.",
+        "ground_truth": "thorn"
+    },
+    {
+        "inference": "i have had my bike",
+        "ground_truth": "i have had my bell rung"
+    },
+    {
+        "inference": "done it.",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "but",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "rankin,",
+        "ground_truth": "reek"
+    },
+    {
+        "inference": "finally.",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "good luck.",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "it was very quiet and to the quiet and to the boat",
+        "ground_truth": "the dolphins swam around our boat"
+    },
+    {
+        "inference": "the dolphins swam around our boat",
+        "ground_truth": "the dolphins swam around our boat"
+    },
+    {
+        "inference": "wonderful.",
+        "ground_truth": "mitten"
+    },
+    {
+        "inference": "group.",
+        "ground_truth": "barn"
+    },
+    {
+        "inference": "start",
+        "ground_truth": "start"
+    },
+    {
+        "inference": "having,",
+        "ground_truth": "hitting"
+    },
+    {
+        "inference": "hauling.",
+        "ground_truth": "hitting"
+    },
+    {
+        "inference": "their stay for b'teachery.org is designed to protect the kinder-hostility.",
+        "ground_truth": "before thursday's exam review every formula"
+    },
+    {
+        "inference": "softball t-shirt. in the end, it's t-shirt.",
+        "ground_truth": "students watched as he got out"
+    },
+    {
+        "inference": "hip,",
+        "ground_truth": "harp"
+    },
+    {
+        "inference": "thoughts for fux trot.",
+        "ground_truth": "foxtrot"
+    },
+    {
+        "inference": "fucking",
+        "ground_truth": "foxtrot"
+    },
+    {
+        "inference": "the misguided so old touched last year away.",
+        "ground_truth": "the misguided souls have lost their way"
+    },
+    {
+        "inference": "think carefully.",
+        "ground_truth": "knitting"
+    },
+    {
+        "inference": "carl lived in a livelihood home.",
+        "ground_truth": "carl lives in a lively home"
+    },
+    {
+        "inference": "hello.",
+        "ground_truth": "tell"
+    },
+    {
+        "inference": "chew it,",
+        "ground_truth": "juliet"
+    },
+    {
+        "inference": "hardi,",
+        "ground_truth": "pretty"
+    },
+    {
+        "inference": "twenty or twenty you can.",
+        "ground_truth": "swing your arm as high as you can"
+    },
+    {
+        "inference": "there's fear and there's",
+        "ground_truth": "fear"
+    },
+    {
+        "inference": "wait no.",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "that done,",
+        "ground_truth": "though"
+    },
+    {
+        "inference": "come on.",
+        "ground_truth": "droop"
+    },
+    {
+        "inference": "look,",
+        "ground_truth": "loop"
+    },
+    {
+        "inference": "if you destroy confidence in banks, you do something to the economy yourself.",
+        "ground_truth": "if you destroy confidence in banks you do something to the economy he said"
+    },
+    {
+        "inference": "you'll be better off taking a cold shower.",
+        "ground_truth": "you'd be better off taking a cold shower"
+    },
+    {
+        "inference": "rock.",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "well, robin, where are you? a little lily.",
+        "ground_truth": "will robin wear a yellow lily"
+    },
+    {
+        "inference": "blur,",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "so islands are sparsely populated",
+        "ground_truth": "the islands are sparsely populated"
+    },
+    {
+        "inference": "bright sunshine shimmers under the ocean.",
+        "ground_truth": "bright sunshine shimmers on the ocean"
+    },
+    {
+        "inference": "jungle software.",
+        "ground_truth": "jungle"
+    },
+    {
+        "inference": "fingle!",
+        "ground_truth": "single"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "briar"
+    },
+    {
+        "inference": "side-effects,",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "where we were away,",
+        "ground_truth": "where were you while we were away"
+    },
+    {
+        "inference": "everything that really matters with the sheriff does,",
+        "ground_truth": "everything went real smooth the sheriff said"
+    },
+    {
+        "inference": "two cases are also works,",
+        "ground_truth": "two other cases also were under advisement"
+    },
+    {
+        "inference": "to other cases also were under average heights.",
+        "ground_truth": "two other cases also were under advisement"
+    },
+    {
+        "inference": "two other cases were also under employment",
+        "ground_truth": "two other cases were also under advisement"
+    },
+    {
+        "inference": "pray",
+        "ground_truth": "pay"
+    },
+    {
+        "inference": "charlie.",
+        "ground_truth": "charlie"
+    },
+    {
+        "inference": "flip it",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "flip it,",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "i try to tell people in the community,",
+        "ground_truth": "i tried to tell people in the community"
+    },
+    {
+        "inference": "and here,",
+        "ground_truth": "near"
+    },
+    {
+        "inference": "not.",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "sparkle.",
+        "ground_truth": "sparkle"
+    },
+    {
+        "inference": "sprinkler.",
+        "ground_truth": "sprinkle"
+    },
+    {
+        "inference": "phew!",
+        "ground_truth": "root"
+    },
+    {
+        "inference": "snoop.",
+        "ground_truth": "snoop"
+    },
+    {
+        "inference": "that's good. sounds yellow.",
+        "ground_truth": "mother sews yellow"
+    },
+    {
+        "inference": "it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's",
+        "ground_truth": "here"
+    },
+    {
+        "inference": "if you have losing water, replace it immediately.",
+        "ground_truth": "if you are losing water replace it immediately"
+    },
+    {
+        "inference": "cut.",
+        "ground_truth": "cart"
+    },
+    {
+        "inference": "on after the day, some new episodes are reported.",
+        "ground_truth": "day after day some new episode is reported"
+    },
+    {
+        "inference": "like?",
+        "ground_truth": "lick"
+    },
+    {
+        "inference": "echo,",
+        "ground_truth": "echo"
+    },
+    {
+        "inference": "we roil her back to the farm.",
+        "ground_truth": "we rode horseback to the farm"
+    },
+    {
+        "inference": "it's a sergeant.",
+        "ground_truth": "sergeant"
+    },
+    {
+        "inference": "rich,",
+        "ground_truth": "rich"
+    },
+    {
+        "inference": "take it back",
+        "ground_truth": "quebec"
+    },
+    {
+        "inference": "rtas.",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "i'm breaking.",
+        "ground_truth": "written"
+    },
+    {
+        "inference": "why?",
+        "ground_truth": "thought"
+    },
+    {
+        "inference": "the little school house stood empty",
+        "ground_truth": "the little schoolhouse stood empty"
+    },
+    {
+        "inference": "him.",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "see.",
+        "ground_truth": "seeds"
+    },
+    {
+        "inference": "hmm.",
+        "ground_truth": "hem"
+    },
+    {
+        "inference": "hmm,",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "though I thought I'd have a blue bad,",
+        "ground_truth": "part"
+    },
+    {
+        "inference": "the most likely transcript is,",
+        "ground_truth": "loyal"
+    },
+    {
+        "inference": "the box contained three squibs.",
+        "ground_truth": "the box contained three sweaters"
+    },
+    {
+        "inference": "go!",
+        "ground_truth": "golf"
+    },
+    {
+        "inference": "ahrr,",
+        "ground_truth": "hum"
+    },
+    {
+        "inference": "is an amazing idea of higher musicians every evening.",
+        "ground_truth": "the museum hires musicians every evening"
+    },
+    {
+        "inference": "like!",
+        "ground_truth": "mike"
+    },
+    {
+        "inference": "it's funny.",
+        "ground_truth": "city"
+    },
+    {
+        "inference": "curry,",
+        "ground_truth": "sitting"
+    },
+    {
+        "inference": "ready?",
+        "ground_truth": "witty"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "sign"
+    },
+    {
+        "inference": "be.",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "it can,",
+        "ground_truth": "kitten"
+    },
+    {
+        "inference": "fuck.",
+        "ground_truth": "hark"
+    },
+    {
+        "inference": "brah, upon",
+        "ground_truth": "brawn"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "liar"
+    },
+    {
+        "inference": "left,",
+        "ground_truth": "lair"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "breathing,",
+        "ground_truth": "fitting"
+    },
+    {
+        "inference": "dunn.",
+        "ground_truth": "thorn"
+    },
+    {
+        "inference": "i had my belt on run.",
+        "ground_truth": "i have had my bell rung"
+    },
+    {
+        "inference": "split!",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "but what about that?",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "rock creek,",
+        "ground_truth": "reek"
+    },
+    {
+        "inference": "find it.",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "okay?",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "the dolphins swam around the boat. yeah,",
+        "ground_truth": "the dolphins swam around our boat"
+    },
+    {
+        "inference": "the devils swarm around our boat.",
+        "ground_truth": "the dolphins swam around our boat"
+    },
+    {
+        "inference": "luke.",
+        "ground_truth": "mitten"
+    },
+    {
+        "inference": "ahn.",
+        "ground_truth": "barn"
+    },
+    {
+        "inference": "stoke.",
+        "ground_truth": "start"
+    },
+    {
+        "inference": "hare?",
+        "ground_truth": "hitting"
+    },
+    {
+        "inference": "fashion.",
+        "ground_truth": "hitting"
+    },
+    {
+        "inference": "we're in a stable bitcoin, if you have a stable bitcoin, why not have a stable bitcoin.",
+        "ground_truth": "before thursday's exam review every formula"
+    },
+    {
+        "inference": "student walked as he got married.",
+        "ground_truth": "students watched as he got out"
+    },
+    {
+        "inference": "hip,",
+        "ground_truth": "harp"
+    },
+    {
+        "inference": "for stratus.",
+        "ground_truth": "foxtrot"
+    },
+    {
+        "inference": "thoughts.",
+        "ground_truth": "foxtrot"
+    },
+    {
+        "inference": "the misguided cells have lost their way.",
+        "ground_truth": "the misguided souls have lost their way"
+    },
+    {
+        "inference": "nothing.",
+        "ground_truth": "knitting"
+    },
+    {
+        "inference": "carl lives in a los angeles home.",
+        "ground_truth": "carl lives in a lively home"
+    },
+    {
+        "inference": "oh,",
+        "ground_truth": "tell"
+    },
+    {
+        "inference": "chewy,",
+        "ground_truth": "juliet"
+    },
+    {
+        "inference": "blue.",
+        "ground_truth": "pretty"
+    },
+    {
+        "inference": "so in the hour, i've had your guest, you can",
+        "ground_truth": "swing your arm as high as you can"
+    },
+    {
+        "inference": "sprint center.",
+        "ground_truth": "sitter"
+    },
+    {
+        "inference": "rock,",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "nice.",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "crap.",
+        "ground_truth": "dread"
+    },
+    {
+        "inference": "look who.",
+        "ground_truth": "wicker"
+    },
+    {
+        "inference": "here i am.",
+        "ground_truth": "sierra"
+    },
+    {
+        "inference": "shira,",
+        "ground_truth": "sierra"
+    },
+    {
+        "inference": "she doesn't like it to have it.",
+        "ground_truth": "she doesn't like it to have"
+    },
+    {
+        "inference": "yeah,",
+        "ground_truth": "chip"
+    },
+    {
+        "inference": "black.",
+        "ground_truth": "back"
+    },
+    {
+        "inference": "no.",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "fuck.",
+        "ground_truth": "dress"
+    },
+    {
+        "inference": "all right.",
+        "ground_truth": "bird"
+    },
+    {
+        "inference": "i'm sorry?",
+        "ground_truth": "bird"
+    },
+    {
+        "inference": "twelve hotels are available nearby.",
+        "ground_truth": "some hotels are available nearby"
+    },
+    {
+        "inference": "spit.",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "actually,",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "bed.",
+        "ground_truth": "fed"
+    },
+    {
+        "inference": "fish.",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "heck.",
+        "ground_truth": "court"
+    },
+    {
+        "inference": "each one from terry to jump first.",
+        "ground_truth": "each one volunteered to jump first"
+    },
+    {
+        "inference": "right.",
+        "ground_truth": "tread"
+    },
+    {
+        "inference": "sure.",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "my brother and i have a very good friend.",
+        "ground_truth": "some hotels are available nearby"
+    },
+    {
+        "inference": "there was only one decision to be made.",
+        "ground_truth": "there was only one decision to be made"
+    },
+    {
+        "inference": "they made me a volunteer at jungle first.",
+        "ground_truth": "each one volunteered to jump first"
+    },
+    {
+        "inference": "help them.",
+        "ground_truth": "kilo"
+    },
+    {
+        "inference": "back",
+        "ground_truth": "walk"
+    },
+    {
+        "inference": "aces.",
+        "ground_truth": "glitter"
+    },
+    {
+        "inference": "bed, beds,",
+        "ground_truth": "bitter"
+    },
+    {
+        "inference": "there was only,",
+        "ground_truth": "it was only"
+    },
+    {
+        "inference": "there was only one decision that they made.",
+        "ground_truth": "there was only one decision to be made"
+    },
+    {
+        "inference": "there's another.",
+        "ground_truth": "glitter"
+    },
+    {
+        "inference": "shit.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "that's",
+        "ground_truth": "zip"
+    },
+    {
+        "inference": "bye-bye.",
+        "ground_truth": "papa"
+    },
+    {
+        "inference": "heart.",
+        "ground_truth": "heart"
+    },
+    {
+        "inference": "hot.",
+        "ground_truth": "heart"
+    },
+    {
+        "inference": "also what we wanted to be made.",
+        "ground_truth": "there was only one decision to be made"
+    },
+    {
+        "inference": "that hotel was on her shirt.",
+        "ground_truth": "the hotel owner shrugged"
+    },
+    {
+        "inference": "that is task.",
+        "ground_truth": "dice"
+    },
+    {
+        "inference": "bracka.",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "a good router two is something beautiful.",
+        "ground_truth": "a good attitude is unbeatable"
+    },
+    {
+        "inference": "backpack.",
+        "ground_truth": "best"
+    },
+    {
+        "inference": "that's not nice.",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "goo.",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "that's right.",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "he is definitely not sure about that.",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "she's definitely a notch above us.",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "he definitely gave me your stuff. give me your stuff, give me your stuff, give me your stuff.",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "nobody really expected to conquer it.",
+        "ground_truth": "nobody really expects to evacuate"
+    },
+    {
+        "inference": "nobody really can spark a true evacuation.",
+        "ground_truth": "nobody really expects to evacuate"
+    },
+    {
+        "inference": "that's it.",
+        "ground_truth": "bitten"
+    },
+    {
+        "inference": "bacon.",
+        "ground_truth": "bitten"
+    },
+    {
+        "inference": "roo,",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "the perfect and strong body.",
+        "ground_truth": "the prospects of cupping"
+    },
+    {
+        "inference": "the prospect of climbing back spending is an unpleasant one for any governor.",
+        "ground_truth": "the prospect of cutting back spending is an unpleasant one for any governor"
+    },
+    {
+        "inference": "focuser.",
+        "ground_truth": "slicker"
+    },
+    {
+        "inference": "quote,",
+        "ground_truth": "court"
+    },
+    {
+        "inference": "certainly.",
+        "ground_truth": "whisky"
+    },
+    {
+        "inference": "wash key.",
+        "ground_truth": "whisky"
+    },
+    {
+        "inference": "bitter.",
+        "ground_truth": "victor"
+    },
+    {
+        "inference": "ahh!",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "they further proposed grant of an unspecified self for experimental hostile.",
+        "ground_truth": "he further proposed grants of an unspecified sum for experimental hospitals"
+    },
+    {
+        "inference": "trash.",
+        "ground_truth": "dress"
+    },
+    {
+        "inference": "buh.",
+        "ground_truth": "brought"
+    },
+    {
+        "inference": "sure.",
+        "ground_truth": "chip"
+    },
+    {
+        "inference": "intervention?",
+        "ground_truth": "yankee"
+    },
+    {
+        "inference": "thank you?",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "not really.",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "friend,",
+        "ground_truth": "sing"
+    },
+    {
+        "inference": "speak.",
+        "ground_truth": "dart"
+    },
+    {
+        "inference": "flatline.",
+        "ground_truth": "fed"
+    },
+    {
+        "inference": "mango.",
+        "ground_truth": "tango"
+    },
+    {
+        "inference": "there.",
+        "ground_truth": "hill"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "dice"
+    },
+    {
+        "inference": "dranter.",
+        "ground_truth": "dread"
+    },
+    {
+        "inference": "think.",
+        "ground_truth": "goose"
+    },
+    {
+        "inference": "boosh!",
+        "ground_truth": "goose"
+    },
+    {
+        "inference": "before that,",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "she wants to shoot,",
+        "ground_truth": "she wore a she"
+    },
+    {
+        "inference": "she worked in public relations, she worked in public relations.",
+        "ground_truth": "she wore wore fleecy over wooden wool oh"
+    },
+    {
+        "inference": "she works very hard at her job, she works very hard at her job,",
+        "ground_truth": "she wore warm fleecy woolen overalls"
+    },
+    {
+        "inference": "i'm taro.",
+        "ground_truth": "hotel"
+    },
+    {
+        "inference": "butt?",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "work it,",
+        "ground_truth": "wicked"
+    },
+    {
+        "inference": "you look at a cat.",
+        "ground_truth": "uniform"
+    },
+    {
+        "inference": "that's it.",
+        "ground_truth": "zip"
+    },
+    {
+        "inference": "net.",
+        "ground_truth": "nest"
+    },
+    {
+        "inference": "bye bye?",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "he brings a proposed grant over unspecified time for expansive state,",
+        "ground_truth": "he further proposed grants of an unspecified sum for experimental hospitals"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "it's very",
+        "ground_truth": "sitter"
+    },
+    {
+        "inference": "rock,",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "nice!",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "come on,",
+        "ground_truth": "dread"
+    },
+    {
+        "inference": "woker.",
+        "ground_truth": "wicker"
+    },
+    {
+        "inference": "cira.",
+        "ground_truth": "sierra"
+    },
+    {
+        "inference": "sara,",
+        "ground_truth": "sierra"
+    },
+    {
+        "inference": "she doesn't like it to have it.",
+        "ground_truth": "she doesn't like it to have"
+    },
+    {
+        "inference": "so,",
+        "ground_truth": "chip"
+    },
+    {
+        "inference": "black.",
+        "ground_truth": "back"
+    },
+    {
+        "inference": "no,",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "trust.",
+        "ground_truth": "dress"
+    },
+    {
+        "inference": "alright?",
+        "ground_truth": "bird"
+    },
+    {
+        "inference": "blood?",
+        "ground_truth": "bird"
+    },
+    {
+        "inference": "so my toes are well-done here by",
+        "ground_truth": "some hotels are available nearby"
+    },
+    {
+        "inference": "just spit.",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "nice.",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "beds.",
+        "ground_truth": "fed"
+    },
+    {
+        "inference": "nice.",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "hmm.",
+        "ground_truth": "court"
+    },
+    {
+        "inference": "each one with citraculture jump first.",
+        "ground_truth": "each one volunteered to jump first"
+    },
+    {
+        "inference": "shotgun.",
+        "ground_truth": "tread"
+    },
+    {
+        "inference": "they transcript.",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "since hwanger.",
+        "ground_truth": "some hotels are available nearby"
+    },
+    {
+        "inference": "there were so many differences to be made.",
+        "ground_truth": "there was only one decision to be made"
+    },
+    {
+        "inference": "e to volunteer, jump first.",
+        "ground_truth": "each one volunteered to jump first"
+    },
+    {
+        "inference": "hug.",
+        "ground_truth": "kilo"
+    },
+    {
+        "inference": "mack,",
+        "ground_truth": "walk"
+    },
+    {
+        "inference": "clever.",
+        "ground_truth": "glitter"
+    },
+    {
+        "inference": "there.",
+        "ground_truth": "bitter"
+    },
+    {
+        "inference": "it was only in it.",
+        "ground_truth": "it was only"
+    },
+    {
+        "inference": "there was only one decision to be made.",
+        "ground_truth": "there was only one decision to be made"
+    },
+    {
+        "inference": "there's transcripts generated by an automatic speech recognition model. if they have grammatical or logical errors, we modify them accordingly.",
+        "ground_truth": "glitter"
+    },
+    {
+        "inference": "shit.",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "three,",
+        "ground_truth": "zip"
+    },
+    {
+        "inference": "rocket.",
+        "ground_truth": "papa"
+    },
+    {
+        "inference": "hot.",
+        "ground_truth": "heart"
+    },
+    {
+        "inference": "hot.",
+        "ground_truth": "heart"
+    },
+    {
+        "inference": "but only wanted it to be made.",
+        "ground_truth": "there was only one decision to be made"
+    },
+    {
+        "inference": "the hotel owner shrugged.",
+        "ground_truth": "the hotel owner shrugged"
+    },
+    {
+        "inference": "hello?",
+        "ground_truth": "dice"
+    },
+    {
+        "inference": "ranime.",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "a good value is the one.",
+        "ground_truth": "a good attitude is unbeatable"
+    },
+    {
+        "inference": "bast,",
+        "ground_truth": "best"
+    },
+    {
+        "inference": "that's not nice.",
+        "ground_truth": "nice"
+    },
+    {
+        "inference": "done!",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "thinks.",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "he definitely is definitely a matcha baba.",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "he's definitely a notch above us.",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "he's definitely invade us.",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "nobody really expected to back her.",
+        "ground_truth": "nobody really expects to evacuate"
+    },
+    {
+        "inference": "nobody really expects to evacuate.",
+        "ground_truth": "nobody really expects to evacuate"
+    },
+    {
+        "inference": "betten.",
+        "ground_truth": "bitten"
+    },
+    {
+        "inference": "bad.",
+        "ground_truth": "bitten"
+    },
+    {
+        "inference": "ross,",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "the cool thing about halo is",
+        "ground_truth": "the prospects of cupping"
+    },
+    {
+        "inference": "the pocketbook of cutting back spending is an unpleasant one for any governor.",
+        "ground_truth": "the prospect of cutting back spending is an unpleasant one for any governor"
+    },
+    {
+        "inference": "fucker,",
+        "ground_truth": "slicker"
+    },
+    {
+        "inference": "those who",
+        "ground_truth": "court"
+    },
+    {
+        "inference": "wfstacy.",
+        "ground_truth": "whisky"
+    },
+    {
+        "inference": "ski.",
+        "ground_truth": "whisky"
+    },
+    {
+        "inference": "fletta.",
+        "ground_truth": "victor"
+    },
+    {
+        "inference": "ah?",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "they funded a proposed grant of an unspecified software for experimental huawei rules.",
+        "ground_truth": "he further proposed grants of an unspecified sum for experimental hospitals"
+    },
+    {
+        "inference": "trust,",
+        "ground_truth": "dress"
+    },
+    {
+        "inference": "bye.",
+        "ground_truth": "brought"
+    },
+    {
+        "inference": "sure.",
+        "ground_truth": "chip"
+    },
+    {
+        "inference": "thank you.",
+        "ground_truth": "yankee"
+    },
+    {
+        "inference": "fuck?",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "no,",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "stay.",
+        "ground_truth": "sing"
+    },
+    {
+        "inference": "thats the story.",
+        "ground_truth": "dart"
+    },
+    {
+        "inference": "fred.",
+        "ground_truth": "fed"
+    },
+    {
+        "inference": "tango.",
+        "ground_truth": "tango"
+    },
+    {
+        "inference": "here's how it works.",
+        "ground_truth": "hill"
+    },
+    {
+        "inference": "why?",
+        "ground_truth": "dice"
+    },
+    {
+        "inference": "dread.",
+        "ground_truth": "dread"
+    },
+    {
+        "inference": "ghosts.",
+        "ground_truth": "goose"
+    },
+    {
+        "inference": "cooks!",
+        "ground_truth": "goose"
+    },
+    {
+        "inference": "i'm spitting",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "she wants to sue.",
+        "ground_truth": "she wore a she"
+    },
+    {
+        "inference": "if you see this,",
+        "ground_truth": "she wore wore fleecy over wooden wool oh"
+    },
+    {
+        "inference": "okay. she was wearing a fleecey, burnt overall.",
+        "ground_truth": "she wore warm fleecy woolen overalls"
+    },
+    {
+        "inference": "whole tale,",
+        "ground_truth": "hotel"
+    },
+    {
+        "inference": "in tell",
+        "ground_truth": "hotel"
+    },
+    {
+        "inference": "state.",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "wink,",
+        "ground_truth": "wicked"
+    },
+    {
+        "inference": "farm.",
+        "ground_truth": "uniform"
+    },
+    {
+        "inference": "the most likely transcript is,",
+        "ground_truth": "zip"
+    },
+    {
+        "inference": "best!",
+        "ground_truth": "nest"
+    },
+    {
+        "inference": "hem,",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "he frozen the proposed grant of an unspecified thumb for experimental classes.",
+        "ground_truth": "he further proposed grants of an unspecified sum for experimental hospitals"
+    },
+    {
+        "inference": "speak.",
+        "ground_truth": "spark"
+    },
+    {
+        "wer": 0.8546712802768166,
+        "gtms": "3/557"
+    }
+]
