@@ -14,25 +14,13 @@ source activate /work/van-speech-nlp/jindaznb/mmenv/
 export CUDA_LAUNCH_BLOCKING=1
 
 
-# 42891022
-# python 2_finetune_whisper_on_torgo.py --speaker_id F01
+# 42906246
+# python 2_finetune_whisper_on_torgo.py --speaker_id F03
+# 42906251
+# python 2_finetune_whisper_on_torgo.py --speaker_id F04
 
-
-
-# 42891023 
-# python 2_finetune_whisper_on_torgo.py --speaker_id M02
-
-
-# 42892079
-# python 2_finetune_whisper_on_torgo.py --speaker_id M04
+# 42906253
 # python 2_finetune_whisper_on_torgo.py --speaker_id M05
-
-
-# 42896885
-# python 2_finetune_whisper_on_torgo.py --speaker_id M01
-
-# 42896886
-python 2_finetune_whisper_on_torgo.py --speaker_id M03
 
 
 cd ..
@@ -99,7 +87,6 @@ cd ..
 
 
 
-# 42783602
 # finetuning on TORGO
 # cd .. && dataset_name='torgo' && speaker_id='F01' && python Inference/WL-S_inference.py \
 #     --pretrained_path 'weights/alpaca.pth' \
@@ -109,8 +96,6 @@ cd ..
 #     --root "runs/WL_S_0.001_${dataset_name}" 
 
 
-
-# 42884645
 # speaker_id='F01' && python Inference/WL-S_inference.py \
 #     --pretrained_path 'weights/alpaca.pth' \
 #     --tokenizer_path 'weights/tokenizer.model' \
@@ -119,30 +104,9 @@ cd ..
 #     --root "runs/WL_S_0.001_torgo_${speaker_id}"
 
 
-# speaker_id='F03' && python Inference/WL-S_inference.py \
-#     --pretrained_path 'weights/alpaca.pth' \
-#     --tokenizer_path 'weights/tokenizer.model' \
-#     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
-#     --save_dir "runs/Inference/${speaker_id}" \
-#     --root "runs/WL_S_0.001_torgo_${speaker_id}"
 
-
-# speaker_id='F04' && python Inference/WL-S_inference.py \
-#     --pretrained_path 'weights/alpaca.pth' \
-#     --tokenizer_path 'weights/tokenizer.model' \
-#     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
-#     --save_dir "runs/Inference/${speaker_id}" \
-#     --root "runs/WL_S_0.001_torgo_${speaker_id}"
-
-# 42887712
-# speaker_id='M03' && python Inference/WL-S_inference.py \
-#     --pretrained_path 'weights/alpaca.pth' \
-#     --tokenizer_path 'weights/tokenizer.model' \
-#     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
-#     --save_dir "runs/Inference/${speaker_id}" \
-#     --root "runs/WL_S_0.001_torgo_${speaker_id}"
-
-# speaker_id='M04' && python Inference/WL-S_inference.py \
+# 42906379
+# speaker_id='M05' && python Inference/WL-S_inference.py \
 #     --pretrained_path 'weights/alpaca.pth' \
 #     --tokenizer_path 'weights/tokenizer.model' \
 #     --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
@@ -151,18 +115,6 @@ cd ..
 
 
 
-# 42896881
-speaker_id='M01' && python Inference/WL-S_inference.py \
-    --pretrained_path 'weights/alpaca.pth' \
-    --tokenizer_path 'weights/tokenizer.model' \
-    --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
-    --save_dir "runs/Inference/${speaker_id}" \
-    --root "runs/WL_S_0.001_torgo_${speaker_id}"
 
 
-speaker_id='M02' && python Inference/WL-S_inference.py \
-    --pretrained_path 'weights/alpaca.pth' \
-    --tokenizer_path 'weights/tokenizer.model' \
-    --data "Inference/gs_inferences/torgo_${speaker_id}_test.pt" \
-    --save_dir "runs/Inference/${speaker_id}" \
-    --root "runs/WL_S_0.001_torgo_${speaker_id}"
+python 1_finetuned_gen_json_torch_pt_train.py --speaker_id M02

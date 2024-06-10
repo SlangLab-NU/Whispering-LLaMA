@@ -1,0 +1,1118 @@
+[
+    {
+        "inference": "two",
+        "ground_truth": "swore"
+    },
+    {
+        "inference": "at",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "rage",
+        "ground_truth": "race"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "cheer",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "it was a mutual friend who informed us",
+        "ground_truth": "a long flowing beard clings to his chin"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "swat",
+        "ground_truth": "trade"
+    },
+    {
+        "inference": "dug",
+        "ground_truth": "dagger"
+    },
+    {
+        "inference": "swarm",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "vat",
+        "ground_truth": "bubble"
+    },
+    {
+        "inference": "at",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "shoot",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "rage",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "torn",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "swarm",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "boot",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "neigh",
+        "ground_truth": "weed"
+    },
+    {
+        "inference": "ticker",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "rain",
+        "ground_truth": "range"
+    },
+    {
+        "inference": "there is always a flowing river",
+        "ground_truth": "you wished to know all about my grandfather"
+    },
+    {
+        "inference": "bait",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "bake",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "chop",
+        "ground_truth": "fee"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "bottle",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "hate",
+        "ground_truth": "fair"
+    },
+    {
+        "inference": "air",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "sticks",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "troop",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "and yet it can be a pleasant day",
+        "ground_truth": "yet he still thinks as swiftly as ever"
+    },
+    {
+        "inference": "both sides are red",
+        "ground_truth": "don't ask me to carry an oily rag like that"
+    },
+    {
+        "inference": "left",
+        "ground_truth": "double"
+    },
+    {
+        "inference": "vat",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "group",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "at",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "three",
+        "ground_truth": "trait"
+    },
+    {
+        "inference": "down",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "cake",
+        "ground_truth": "jagged"
+    },
+    {
+        "inference": "rain",
+        "ground_truth": "rate"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "raid"
+    },
+    {
+        "inference": "air",
+        "ground_truth": "car"
+    },
+    {
+        "inference": "shine",
+        "ground_truth": "share"
+    },
+    {
+        "inference": "tile",
+        "ground_truth": "trace"
+    },
+    {
+        "inference": "three",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "pat",
+        "ground_truth": "beta"
+    },
+    {
+        "inference": "hear",
+        "ground_truth": "hair"
+    },
+    {
+        "inference": "alpha",
+        "ground_truth": "alpha"
+    },
+    {
+        "inference": "get",
+        "ground_truth": "gadget"
+    },
+    {
+        "inference": "map",
+        "ground_truth": "the"
+    },
+    {
+        "inference": "air",
+        "ground_truth": "the"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "stick"
+    },
+    {
+        "inference": "left",
+        "ground_truth": "knee"
+    },
+    {
+        "inference": "blow",
+        "ground_truth": "go"
+    },
+    {
+        "inference": "group",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "swore"
+    },
+    {
+        "inference": "out",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "at",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "rush",
+        "ground_truth": "race"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "chill",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "although we often dream of distant thunders",
+        "ground_truth": "a long flowing beard clings to his chin"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "tile",
+        "ground_truth": "trade"
+    },
+    {
+        "inference": "train",
+        "ground_truth": "dagger"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "caboose",
+        "ground_truth": "bubble"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "rain",
+        "ground_truth": "rave"
+    },
+    {
+        "inference": "chair",
+        "ground_truth": "chair"
+    },
+    {
+        "inference": "horn",
+        "ground_truth": "stubble"
+    },
+    {
+        "inference": "swarm",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "group",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "seed",
+        "ground_truth": "weed"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "write",
+        "ground_truth": "jacket"
+    },
+    {
+        "inference": "tug",
+        "ground_truth": "range"
+    },
+    {
+        "inference": "bog",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "pad",
+        "ground_truth": "bug"
+    },
+    {
+        "inference": "fee",
+        "ground_truth": "fee"
+    },
+    {
+        "inference": "ship",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "fork",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "feed",
+        "ground_truth": "fair"
+    },
+    {
+        "inference": "ham",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "troop",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "torn",
+        "ground_truth": "trouble"
+    },
+    {
+        "inference": "galore",
+        "ground_truth": "double"
+    },
+    {
+        "inference": "pat",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "jump",
+        "ground_truth": "warm"
+    },
+    {
+        "inference": "mush",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "take",
+        "ground_truth": "trait"
+    },
+    {
+        "inference": "group",
+        "ground_truth": "goat"
+    },
+    {
+        "inference": "galore",
+        "ground_truth": "jagged"
+    },
+    {
+        "inference": "pitch",
+        "ground_truth": "rate"
+    },
+    {
+        "inference": "hand",
+        "ground_truth": "raid"
+    },
+    {
+        "inference": "storm",
+        "ground_truth": "car"
+    },
+    {
+        "inference": "seed",
+        "ground_truth": "share"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "trace"
+    },
+    {
+        "inference": "no",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "beta"
+    },
+    {
+        "inference": "hail",
+        "ground_truth": "hair"
+    },
+    {
+        "inference": "alfa",
+        "ground_truth": "alpha"
+    },
+    {
+        "inference": "get",
+        "ground_truth": "gadget"
+    },
+    {
+        "inference": "that",
+        "ground_truth": "the"
+    },
+    {
+        "inference": "dug",
+        "ground_truth": "the"
+    },
+    {
+        "inference": "sticks",
+        "ground_truth": "stick"
+    },
+    {
+        "inference": "me",
+        "ground_truth": "knee"
+    },
+    {
+        "inference": "down",
+        "ground_truth": "go"
+    },
+    {
+        "inference": "bought",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "he always has a warm welcome waiting for us",
+        "ground_truth": "where were you while we were away"
+    },
+    {
+        "inference": "eight",
+        "ground_truth": "explore"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "sway"
+    },
+    {
+        "inference": "sail",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "i can read this weekend",
+        "ground_truth": "i feel i can play this weekend"
+    },
+    {
+        "inference": "left",
+        "ground_truth": "root"
+    },
+    {
+        "inference": "write",
+        "ground_truth": "light"
+    },
+    {
+        "inference": "tile",
+        "ground_truth": "charlie"
+    },
+    {
+        "inference": "no",
+        "ground_truth": "know"
+    },
+    {
+        "inference": "shoot",
+        "ground_truth": "suit"
+    },
+    {
+        "inference": "horn",
+        "ground_truth": "prior"
+    },
+    {
+        "inference": "flier",
+        "ground_truth": "prior"
+    },
+    {
+        "inference": "it was easy for him to get a job",
+        "ground_truth": "this was easy for us"
+    },
+    {
+        "inference": "no",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "he usually brings in the earnings",
+        "ground_truth": "you're used to being on the field"
+    },
+    {
+        "inference": "bed",
+        "ground_truth": "bad"
+    },
+    {
+        "inference": "shoot",
+        "ground_truth": "suit"
+    },
+    {
+        "inference": "hear",
+        "ground_truth": "shear"
+    },
+    {
+        "inference": "selling",
+        "ground_truth": "single"
+    },
+    {
+        "inference": "basket",
+        "ground_truth": "fate"
+    },
+    {
+        "inference": "swarm",
+        "ground_truth": "sprinkle"
+    },
+    {
+        "inference": "bee",
+        "ground_truth": "pile"
+    },
+    {
+        "inference": "shy",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "roof",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "pad",
+        "ground_truth": "pay"
+    },
+    {
+        "inference": "too many strings attach to it",
+        "ground_truth": "the islands are sparsely populated"
+    },
+    {
+        "inference": "area",
+        "ground_truth": "error"
+    },
+    {
+        "inference": "their is a medical facility nearby",
+        "ground_truth": "why yell or worry over silly items"
+    },
+    {
+        "inference": "all righty all righty aluminum items",
+        "ground_truth": "why yell or worry over silly items"
+    },
+    {
+        "inference": "vat",
+        "ground_truth": "bat"
+    },
+    {
+        "inference": "owe",
+        "ground_truth": "of"
+    },
+    {
+        "inference": "blow",
+        "ground_truth": "floor"
+    },
+    {
+        "inference": "the entire town was pleased with the library's new digital penetration",
+        "ground_truth": "i tried to tell people in the community"
+    },
+    {
+        "inference": "peep",
+        "ground_truth": "cycle"
+    },
+    {
+        "inference": "dut",
+        "ground_truth": "dot"
+    },
+    {
+        "inference": "swarm",
+        "ground_truth": "fruit"
+    },
+    {
+        "inference": "alfalfa may have an unpleasant odor",
+        "ground_truth": "they carried me off on the stretcher"
+    },
+    {
+        "inference": "blow",
+        "ground_truth": "briar"
+    },
+    {
+        "inference": "torn",
+        "ground_truth": "toot"
+    },
+    {
+        "inference": "downtown",
+        "ground_truth": "gnaw"
+    },
+    {
+        "inference": "thigh",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "tile",
+        "ground_truth": "tie"
+    },
+    {
+        "inference": "hair",
+        "ground_truth": "here"
+    },
+    {
+        "inference": "this is an impressive facility",
+        "ground_truth": "the humidity is overwhelming there"
+    },
+    {
+        "inference": "neigh",
+        "ground_truth": "near"
+    },
+    {
+        "inference": "grow",
+        "ground_truth": "though"
+    },
+    {
+        "inference": "slay",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "tinning",
+        "ground_truth": "jungle"
+    },
+    {
+        "inference": "toe",
+        "ground_truth": "were"
+    },
+    {
+        "inference": "way",
+        "ground_truth": "we're"
+    },
+    {
+        "inference": "seven",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "sit",
+        "ground_truth": "slip"
+    },
+    {
+        "inference": "bad",
+        "ground_truth": "bad"
+    },
+    {
+        "inference": "alfalfa is always good for the soul",
+        "ground_truth": "i was conscious all the time"
+    },
+    {
+        "inference": "weigh",
+        "ground_truth": "knew"
+    },
+    {
+        "inference": "feet",
+        "ground_truth": "fear"
+    },
+    {
+        "inference": "back",
+        "ground_truth": "back"
+    },
+    {
+        "inference": "i consulted with old men",
+        "ground_truth": "i looked up and noticed two old men"
+    },
+    {
+        "inference": "peep",
+        "ground_truth": "bear"
+    },
+    {
+        "inference": "easy",
+        "ground_truth": "snoop"
+    },
+    {
+        "inference": "i will be able to receive as much as you will be able to afford",
+        "ground_truth": "will robin wear a yellow lily"
+    },
+    {
+        "inference": "who",
+        "ground_truth": "loop"
+    },
+    {
+        "inference": "down",
+        "ground_truth": "droop"
+    },
+    {
+        "inference": "buth",
+        "ground_truth": "mut"
+    },
+    {
+        "inference": "quiet",
+        "ground_truth": "pretty"
+    },
+    {
+        "inference": "the bachelor ate his three o'clock snack",
+        "ground_truth": "the box contained three sweaters"
+    },
+    {
+        "inference": "air",
+        "ground_truth": "hill"
+    },
+    {
+        "inference": "the museum has modernized its approach to education",
+        "ground_truth": "the museum hires musicians every evening"
+    },
+    {
+        "inference": "two",
+        "ground_truth": "kilo"
+    },
+    {
+        "inference": "still",
+        "ground_truth": "start"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "bit"
+    },
+    {
+        "inference": "pet",
+        "ground_truth": "bitten"
+    },
+    {
+        "inference": "grow",
+        "ground_truth": "golf"
+    },
+    {
+        "inference": "the answer is not as offensive as it is innocent",
+        "ground_truth": "the little schoolhouse stood empty"
+    },
+    {
+        "inference": "farm",
+        "ground_truth": "foxtrot"
+    },
+    {
+        "inference": "steak",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "bath",
+        "ground_truth": "brawn"
+    },
+    {
+        "inference": "group",
+        "ground_truth": "knitting"
+    },
+    {
+        "inference": "gatheaps",
+        "ground_truth": "kitten"
+    },
+    {
+        "inference": "pad",
+        "ground_truth": "tell"
+    },
+    {
+        "inference": "their house is very modern",
+        "ground_truth": "we rode horseback to the farm"
+    },
+    {
+        "inference": "ham",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "arm",
+        "ground_truth": "hum"
+    },
+    {
+        "inference": "witch",
+        "ground_truth": "rich"
+    },
+    {
+        "inference": "red",
+        "ground_truth": "juliet"
+    },
+    {
+        "inference": "left",
+        "ground_truth": "cart"
+    },
+    {
+        "inference": "the walls in the house are white",
+        "ground_truth": "swing your arm as high as you can"
+    },
+    {
+        "inference": "much",
+        "ground_truth": "mike"
+    },
+    {
+        "inference": "pitting",
+        "ground_truth": "witty"
+    },
+    {
+        "inference": "dug",
+        "ground_truth": "dart"
+    },
+    {
+        "inference": "leaky",
+        "ground_truth": "mitten"
+    },
+    {
+        "inference": "seam",
+        "ground_truth": "sign"
+    },
+    {
+        "inference": "storm",
+        "ground_truth": "spark"
+    },
+    {
+        "inference": "heart",
+        "ground_truth": "heart"
+    },
+    {
+        "inference": "seating",
+        "ground_truth": "sitting"
+    },
+    {
+        "inference": "hate",
+        "ground_truth": "hark"
+    },
+    {
+        "inference": "eagle",
+        "ground_truth": "echo"
+    },
+    {
+        "inference": "i have had my best room",
+        "ground_truth": "i have had my bell rung"
+    },
+    {
+        "inference": "he",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "sore",
+        "ground_truth": "thorn"
+    },
+    {
+        "inference": "shy",
+        "ground_truth": "papa"
+    },
+    {
+        "inference": "pot",
+        "ground_truth": "papa"
+    },
+    {
+        "inference": "left",
+        "ground_truth": "lair"
+    },
+    {
+        "inference": "blow",
+        "ground_truth": "park"
+    },
+    {
+        "inference": "leaving",
+        "ground_truth": "written"
+    },
+    {
+        "inference": "boat",
+        "ground_truth": "barn"
+    },
+    {
+        "inference": "hop",
+        "ground_truth": "harp"
+    },
+    {
+        "inference": "troop",
+        "ground_truth": "quebec"
+    },
+    {
+        "inference": "these misguided souls have lost their range",
+        "ground_truth": "the misguided souls have lost their way"
+    },
+    {
+        "inference": "sin",
+        "ground_truth": "sigh"
+    },
+    {
+        "inference": "the walls were white",
+        "ground_truth": "students watched as he got out"
+    },
+    {
+        "inference": "hotel",
+        "ground_truth": "hotel"
+    },
+    {
+        "inference": "pot",
+        "ground_truth": "part"
+    },
+    {
+        "inference": "sight",
+        "ground_truth": "side"
+    },
+    {
+        "inference": "ham",
+        "ground_truth": "hem"
+    },
+    {
+        "inference": "witch",
+        "ground_truth": "brought"
+    },
+    {
+        "inference": "slim",
+        "ground_truth": "city"
+    },
+    {
+        "inference": "lick",
+        "ground_truth": "lick"
+    },
+    {
+        "inference": "dug",
+        "ground_truth": "dark"
+    },
+    {
+        "inference": "seed",
+        "ground_truth": "seeds"
+    },
+    {
+        "inference": "sticks",
+        "ground_truth": "sergeant"
+    },
+    {
+        "inference": "torn",
+        "ground_truth": "loyal"
+    },
+    {
+        "inference": "the library was always a positive influence on him",
+        "ground_truth": "carl lives in a lively home"
+    },
+    {
+        "inference": "pitch",
+        "ground_truth": "reek"
+    },
+    {
+        "inference": "pot",
+        "ground_truth": "thought"
+    },
+    {
+        "inference": "feed",
+        "ground_truth": "fitting"
+    },
+    {
+        "inference": "pitting",
+        "ground_truth": "hitting"
+    },
+    {
+        "inference": "the answers are usually straightforward",
+        "ground_truth": "some hotels are available nearby"
+    },
+    {
+        "inference": "batt",
+        "ground_truth": "spit"
+    },
+    {
+        "inference": "the glass is half full",
+        "ground_truth": "a good attitude is unbeatable"
+    },
+    {
+        "inference": "pit",
+        "ground_truth": "sitter"
+    },
+    {
+        "inference": "ham",
+        "ground_truth": "him"
+    },
+    {
+        "inference": "sleep",
+        "ground_truth": "sierra"
+    },
+    {
+        "inference": "witch",
+        "ground_truth": "wicked"
+    },
+    {
+        "inference": "left",
+        "ground_truth": "up"
+    },
+    {
+        "inference": "meeting",
+        "ground_truth": "uniform"
+    },
+    {
+        "inference": "leak",
+        "ground_truth": "whisky"
+    },
+    {
+        "inference": "pat",
+        "ground_truth": "sing"
+    },
+    {
+        "inference": "best",
+        "ground_truth": "best"
+    },
+    {
+        "inference": "rocks",
+        "ground_truth": "rock"
+    },
+    {
+        "inference": "ise",
+        "ground_truth": "zip"
+    },
+    {
+        "inference": "nobody expects much from anybody else",
+        "ground_truth": "nobody really expects to evacuate"
+    },
+    {
+        "inference": "nobody expects the resurrection",
+        "ground_truth": "nobody really expects to evacuate"
+    },
+    {
+        "inference": "two",
+        "ground_truth": "tread"
+    },
+    {
+        "inference": "eight",
+        "ground_truth": "yankee"
+    },
+    {
+        "inference": "feet",
+        "ground_truth": "bitter"
+    },
+    {
+        "inference": "tangled",
+        "ground_truth": "tango"
+    },
+    {
+        "inference": "sew",
+        "ground_truth": "sip"
+    },
+    {
+        "inference": "nut",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "two",
+        "ground_truth": "dress"
+    },
+    {
+        "inference": "pork",
+        "ground_truth": "wicker"
+    },
+    {
+        "inference": "chip",
+        "ground_truth": "chip"
+    },
+    {
+        "inference": "dead",
+        "ground_truth": "dread"
+    },
+    {
+        "inference": "vat",
+        "ground_truth": "nest"
+    },
+    {
+        "inference": "each one came after dark to jump first",
+        "ground_truth": "each one volunteered to jump first"
+    },
+    {
+        "inference": "shoot",
+        "ground_truth": "slicker"
+    },
+    {
+        "inference": "neat",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "not",
+        "ground_truth": "knot"
+    },
+    {
+        "inference": "alright he will wait again",
+        "ground_truth": "although always again again"
+    },
+    {
+        "inference": "witch",
+        "ground_truth": "victor"
+    },
+    {
+        "inference": "he definitely has a banana oil facility",
+        "ground_truth": "he is definitely a notch above us"
+    },
+    {
+        "inference": "their house is very old",
+        "ground_truth": "the hotel man"
+    },
+    {
+        "inference": "the house was very old",
+        "ground_truth": "the hotel owner shrugged"
+    },
+    {
+        "inference": "pitting",
+        "ground_truth": "glitter"
+    },
+    {
+        "wer": 0.9700854700854701,
+        "gtms": "10/278"
+    }
+]

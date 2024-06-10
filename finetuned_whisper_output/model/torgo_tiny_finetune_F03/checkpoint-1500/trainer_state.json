@@ -1,0 +1,64 @@
+{
+  "best_metric": 7.818930041152264,
+  "best_model_checkpoint": "../finetuned_whisper_output/model/torgo_tiny_finetune_F03/checkpoint-500",
+  "epoch": 2.542372881355932,
+  "eval_steps": 500,
+  "global_step": 1500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.85,
+      "learning_rate": 4.94e-05,
+      "loss": 0.6368,
+      "step": 500
+    },
+    {
+      "epoch": 0.85,
+      "eval_loss": 0.113603875041008,
+      "eval_runtime": 65.8462,
+      "eval_samples_per_second": 4.465,
+      "eval_steps_per_second": 4.465,
+      "eval_wer": 7.818930041152264,
+      "step": 500
+    },
+    {
+      "epoch": 1.69,
+      "learning_rate": 9.94e-05,
+      "loss": 0.11,
+      "step": 1000
+    },
+    {
+      "epoch": 1.69,
+      "eval_loss": 0.08724436908960342,
+      "eval_runtime": 65.6519,
+      "eval_samples_per_second": 4.478,
+      "eval_steps_per_second": 4.478,
+      "eval_wer": 9.190672153635116,
+      "step": 1000
+    },
+    {
+      "epoch": 2.54,
+      "learning_rate": 9.542592592592593e-05,
+      "loss": 0.0969,
+      "step": 1500
+    },
+    {
+      "epoch": 2.54,
+      "eval_loss": 0.08427990972995758,
+      "eval_runtime": 65.8695,
+      "eval_samples_per_second": 4.463,
+      "eval_steps_per_second": 4.463,
+      "eval_wer": 9.327846364883403,
+      "step": 1500
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 11800,
+  "num_train_epochs": 20,
+  "save_steps": 500,
+  "total_flos": 5.9085324288e+17,
+  "trial_name": null,
+  "trial_params": null
+}

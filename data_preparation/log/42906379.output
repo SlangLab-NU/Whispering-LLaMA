@@ -1,0 +1,27 @@
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_torgo_M05/iter-000010.pth
+WER is 0.9700854700854701
+Ground truth matches is 10/278
+runs/Inference/M05/WL_S_0.001_torgo_M05.json
+the post string normalization wer is
+WER 0.9700854700854701
+10 / 278
+*********************
+{'epoch': 10, 'WER': 0.9700854700854701, 'WER_post': 0.9700854700854701, 'GTM': 0.03597122302158273, 'GTM_post': 0.03597122302158273}
+Total runtime: 6.47 minutes.

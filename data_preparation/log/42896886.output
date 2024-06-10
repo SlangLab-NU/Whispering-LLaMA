@@ -29,3 +29,89 @@ torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
 {'eval_loss': 0.26894864439964294, 'eval_wer': 24.78777589134126, 'eval_runtime': 98.9254, 'eval_samples_per_second': 4.65, 'eval_steps_per_second': 4.65, 'epoch': 5.97}
 {'loss': 0.0207, 'learning_rate': 7.207089552238806e-05, 'epoch': 6.83}
 {'eval_loss': 0.414420485496521, 'eval_wer': 35.144312393887944, 'eval_runtime': 99.2543, 'eval_samples_per_second': 4.635, 'eval_steps_per_second': 4.635, 'epoch': 6.83}
+{'loss': 0.0148, 'learning_rate': 6.740671641791045e-05, 'epoch': 7.68}
+{'eval_loss': 0.2551720142364502, 'eval_wer': 31.833616298811545, 'eval_runtime': 99.7817, 'eval_samples_per_second': 4.61, 'eval_steps_per_second': 4.61, 'epoch': 7.68}
+{'loss': 0.015, 'learning_rate': 6.274253731343283e-05, 'epoch': 8.53}
+{'eval_loss': 0.3355836868286133, 'eval_wer': 32.512733446519526, 'eval_runtime': 99.1478, 'eval_samples_per_second': 4.64, 'eval_steps_per_second': 4.64, 'epoch': 8.53}
+{'loss': 0.0114, 'learning_rate': 5.807835820895523e-05, 'epoch': 9.39}
+{'eval_loss': 0.33105435967445374, 'eval_wer': 32.93718166383701, 'eval_runtime': 100.8825, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 4.56, 'epoch': 9.39}
+{'loss': 0.0098, 'learning_rate': 5.3414179104477614e-05, 'epoch': 10.24}
+{'eval_loss': 0.33183130621910095, 'eval_wer': 24.448217317487266, 'eval_runtime': 101.3739, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 4.538, 'epoch': 10.24}
+{'loss': 0.0067, 'learning_rate': 4.875e-05, 'epoch': 11.09}
+{'eval_loss': 0.294239342212677, 'eval_wer': 29.541595925297116, 'eval_runtime': 100.6149, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 4.572, 'epoch': 11.09}
+{'loss': 0.0031, 'learning_rate': 4.408582089552239e-05, 'epoch': 11.95}
+{'eval_loss': 0.394537091255188, 'eval_wer': 60.86587436332768, 'eval_runtime': 100.0502, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 4.598, 'epoch': 11.95}
+{'loss': 0.0044, 'learning_rate': 3.9421641791044775e-05, 'epoch': 12.8}
+{'eval_loss': 0.3342619836330414, 'eval_wer': 28.522920203735147, 'eval_runtime': 98.5144, 'eval_samples_per_second': 4.669, 'eval_steps_per_second': 4.669, 'epoch': 12.8}
+{'loss': 0.0026, 'learning_rate': 3.4757462686567167e-05, 'epoch': 13.65}
+{'eval_loss': 0.3203812539577484, 'eval_wer': 23.3446519524618, 'eval_runtime': 99.0852, 'eval_samples_per_second': 4.642, 'eval_steps_per_second': 4.642, 'epoch': 13.65}
+{'loss': 0.0019, 'learning_rate': 3.0093283582089555e-05, 'epoch': 14.51}
+{'eval_loss': 0.3103010654449463, 'eval_wer': 24.61799660441426, 'eval_runtime': 98.6419, 'eval_samples_per_second': 4.663, 'eval_steps_per_second': 4.663, 'epoch': 14.51}
+{'loss': 0.001, 'learning_rate': 2.5429104477611943e-05, 'epoch': 15.36}
+{'eval_loss': 0.32570454478263855, 'eval_wer': 29.626485568760614, 'eval_runtime': 98.854, 'eval_samples_per_second': 4.653, 'eval_steps_per_second': 4.653, 'epoch': 15.36}
+{'loss': 0.0004, 'learning_rate': 2.076492537313433e-05, 'epoch': 16.21}
+{'eval_loss': 0.3614771366119385, 'eval_wer': 28.183361629881155, 'eval_runtime': 98.7076, 'eval_samples_per_second': 4.66, 'eval_steps_per_second': 4.66, 'epoch': 16.21}
+{'loss': 0.0001, 'learning_rate': 1.6100746268656715e-05, 'epoch': 17.06}
+{'eval_loss': 0.340969979763031, 'eval_wer': 26.7402376910017, 'eval_runtime': 98.9663, 'eval_samples_per_second': 4.648, 'eval_steps_per_second': 4.648, 'epoch': 17.06}
+{'loss': 0.0002, 'learning_rate': 1.1436567164179105e-05, 'epoch': 17.92}
+{'eval_loss': 0.33271273970603943, 'eval_wer': 28.183361629881155, 'eval_runtime': 98.844, 'eval_samples_per_second': 4.654, 'eval_steps_per_second': 4.654, 'epoch': 17.92}
+{'loss': 0.0001, 'learning_rate': 6.772388059701493e-06, 'epoch': 18.77}
+{'eval_loss': 0.33139634132385254, 'eval_wer': 28.607809847198638, 'eval_runtime': 98.9626, 'eval_samples_per_second': 4.648, 'eval_steps_per_second': 4.648, 'epoch': 18.77}
+{'loss': 0.0001, 'learning_rate': 2.1082089552238805e-06, 'epoch': 19.62}
+{'eval_loss': 0.3314965069293976, 'eval_wer': 28.35314091680815, 'eval_runtime': 99.4018, 'eval_samples_per_second': 4.628, 'eval_steps_per_second': 4.628, 'epoch': 19.62}
+{'train_runtime': 23428.6748, 'train_samples_per_second': 8.004, 'train_steps_per_second': 0.5, 'train_loss': 0.04766199083393082, 'epoch': 20.0}
+The script took 400.84 minutes to run.
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_torgo_M01/iter-000010.pth
+WER is 0.9610538373424972
+Ground truth matches is 8/388
+runs/Inference/M01/WL_S_0.001_torgo_M01.json
+the post string normalization wer is
+WER 0.9610538373424972
+8 / 388
+*********************
+{'epoch': 10, 'WER': 0.9610538373424972, 'WER_post': 0.9610538373424972, 'GTM': 0.020618556701030927, 'GTM_post': 0.020618556701030927}
+Total runtime: 10.91 minutes.
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_torgo_M02/iter-000010.pth
+WER is 0.973124300111982
+Ground truth matches is 7/403
+runs/Inference/M02/WL_S_0.001_torgo_M02.json
+the post string normalization wer is
+WER 0.973124300111982
+7 / 403
+*********************
+{'epoch': 10, 'WER': 0.973124300111982, 'WER_post': 0.973124300111982, 'GTM': 0.017369727047146403, 'GTM_post': 0.017369727047146403}
+Total runtime: 7.71 minutes.
