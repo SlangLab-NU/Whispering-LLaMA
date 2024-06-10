@@ -1,0 +1,35 @@
+Speaker ID: M04
+Learning rate: {learning_rate}
+Training batch size: 4
+Evaluation batch size: 4
+Random seed: 42
+Gradient accumulation steps: 2
+Optimizer type: adamw_torch
+Learning rate scheduler type: linear
+Number of epochs: 20
+Keep all data: False
+Debug mode: False
+Repository suffix: 
+The CSV file exists.
+torgo_dataset_path: /work/van-speech-nlp/data/torgo
+torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
+{'loss': 0.6227, 'learning_rate': 4.94e-05, 'epoch': 0.84}
+{'eval_loss': 0.32646995782852173, 'eval_wer': 33.106960950764005, 'eval_runtime': 102.649, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 4.481, 'epoch': 0.84}
+{'loss': 0.1053, 'learning_rate': 9.94e-05, 'epoch': 1.69}
+{'eval_loss': 0.39058810472488403, 'eval_wer': 37.011884550084886, 'eval_runtime': 101.3066, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 4.541, 'epoch': 1.69}
+{'loss': 0.0906, 'learning_rate': 9.5451197053407e-05, 'epoch': 2.53}
+Speaker ID: M05
+Learning rate: {learning_rate}
+Training batch size: 4
+Evaluation batch size: 4
+Random seed: 42
+Gradient accumulation steps: 2
+Optimizer type: adamw_torch
+Learning rate scheduler type: linear
+Number of epochs: 20
+Keep all data: False
+Debug mode: False
+Repository suffix: 
+The CSV file exists.
+torgo_dataset_path: /work/van-speech-nlp/data/torgo
+torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/

@@ -1,0 +1,34 @@
+{
+  "best_metric": 29.28692699490662,
+  "best_model_checkpoint": "../finetuned_whisper_output/model/torgo_tiny_finetune_M02/checkpoint-500",
+  "epoch": 0.8503401360544217,
+  "eval_steps": 500,
+  "global_step": 500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.85,
+      "learning_rate": 4.94e-05,
+      "loss": 0.6178,
+      "step": 500
+    },
+    {
+      "epoch": 0.85,
+      "eval_loss": 0.3569907546043396,
+      "eval_runtime": 99.8607,
+      "eval_samples_per_second": 4.606,
+      "eval_steps_per_second": 4.606,
+      "eval_wer": 29.28692699490662,
+      "step": 500
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 11760,
+  "num_train_epochs": 20,
+  "save_steps": 500,
+  "total_flos": 1.9695108096e+17,
+  "trial_name": null,
+  "trial_params": null
+}

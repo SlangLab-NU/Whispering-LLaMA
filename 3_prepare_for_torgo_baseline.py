@@ -326,7 +326,7 @@ def generate_inference_json(dataset, dataset_name):
         time = len(audio)/16000
         path_to_file = item['audio']['path']
         random_temperature = np.random.randint(70, 81) / 100
-        options = whisper.DecodingOptions(fp16=True, without_timestamps=True, temperature=random_temperature, best_of=200)
+        options = whisper.DecodingOptions(fp16=True, without_timestamps=True, temperature=random_temperature, best_of=200, language='english')
         result, _ = whisper.decode(model, mel, options)
         result = list(result)
 

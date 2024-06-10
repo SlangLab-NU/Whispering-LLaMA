@@ -1,0 +1,81 @@
+Speaker ID: F01
+Learning rate: {learning_rate}
+Training batch size: 4
+Evaluation batch size: 4
+Random seed: 42
+Gradient accumulation steps: 2
+Optimizer type: adamw_torch
+Learning rate scheduler type: linear
+Number of epochs: 20
+Keep all data: False
+Debug mode: False
+Repository suffix: 
+The CSV file exists.
+torgo_dataset_path: /work/van-speech-nlp/data/torgo
+torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
+{'loss': 0.6321, 'learning_rate': 4.94e-05, 'epoch': 0.83}
+{'eval_loss': 0.3242032825946808, 'eval_wer': 51.01867572156197, 'eval_runtime': 102.5787, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 4.484, 'epoch': 0.83}
+{'loss': 0.1046, 'learning_rate': 9.94e-05, 'epoch': 1.66}
+{'eval_loss': 0.45105504989624023, 'eval_wer': 55.34804753820034, 'eval_runtime': 101.6816, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 4.524, 'epoch': 1.66}
+{'loss': 0.099, 'learning_rate': 9.553345388788428e-05, 'epoch': 2.49}
+{'eval_loss': 0.3224842846393585, 'eval_wer': 31.57894736842105, 'eval_runtime': 100.9041, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 4.559, 'epoch': 2.49}
+{'loss': 0.0656, 'learning_rate': 9.10126582278481e-05, 'epoch': 3.32}
+{'eval_loss': 0.3007366359233856, 'eval_wer': 50.67911714770798, 'eval_runtime': 102.0738, 'eval_samples_per_second': 4.507, 'eval_steps_per_second': 4.507, 'epoch': 3.32}
+{'loss': 0.0506, 'learning_rate': 8.649186256781195e-05, 'epoch': 4.15}
+{'eval_loss': 0.2983623743057251, 'eval_wer': 27.67402376910017, 'eval_runtime': 99.1784, 'eval_samples_per_second': 4.638, 'eval_steps_per_second': 4.638, 'epoch': 4.15}
+{'loss': 0.0383, 'learning_rate': 8.197106690777578e-05, 'epoch': 4.98}
+{'eval_loss': 0.28534117341041565, 'eval_wer': 23.684210526315788, 'eval_runtime': 100.5445, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 4.575, 'epoch': 4.98}
+{'loss': 0.0296, 'learning_rate': 7.74502712477396e-05, 'epoch': 5.8}
+{'eval_loss': 0.3448736369609833, 'eval_wer': 32.34295415959253, 'eval_runtime': 98.7742, 'eval_samples_per_second': 4.657, 'eval_steps_per_second': 4.657, 'epoch': 5.8}
+{'loss': 0.0198, 'learning_rate': 7.292947558770345e-05, 'epoch': 6.63}
+{'eval_loss': 0.27303704619407654, 'eval_wer': 26.6553480475382, 'eval_runtime': 99.8771, 'eval_samples_per_second': 4.606, 'eval_steps_per_second': 4.606, 'epoch': 6.63}
+{'loss': 0.0192, 'learning_rate': 6.840867992766727e-05, 'epoch': 7.46}
+{'eval_loss': 0.30494463443756104, 'eval_wer': 49.23599320882852, 'eval_runtime': 100.8506, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 4.561, 'epoch': 7.46}
+{'loss': 0.0136, 'learning_rate': 6.38878842676311e-05, 'epoch': 8.29}
+{'eval_loss': 0.32794398069381714, 'eval_wer': 25.806451612903224, 'eval_runtime': 99.5074, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 4.623, 'epoch': 8.29}
+{'loss': 0.0121, 'learning_rate': 5.9367088607594944e-05, 'epoch': 9.12}
+{'eval_loss': 0.3081691861152649, 'eval_wer': 23.853989813242784, 'eval_runtime': 99.9378, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 4.603, 'epoch': 9.12}
+{'loss': 0.0101, 'learning_rate': 5.484629294755877e-05, 'epoch': 9.95}
+{'eval_loss': 0.2722148597240448, 'eval_wer': 25.551782682512737, 'eval_runtime': 99.8606, 'eval_samples_per_second': 4.606, 'eval_steps_per_second': 4.606, 'epoch': 9.95}
+{'loss': 0.0065, 'learning_rate': 5.0325497287522606e-05, 'epoch': 10.78}
+{'eval_loss': 0.3413708209991455, 'eval_wer': 32.088285229202036, 'eval_runtime': 97.8991, 'eval_samples_per_second': 4.699, 'eval_steps_per_second': 4.699, 'epoch': 10.78}
+{'loss': 0.0062, 'learning_rate': 4.580470162748644e-05, 'epoch': 11.61}
+{'eval_loss': 0.3139704763889313, 'eval_wer': 22.920203735144312, 'eval_runtime': 98.0363, 'eval_samples_per_second': 4.692, 'eval_steps_per_second': 4.692, 'epoch': 11.61}
+{'loss': 0.0053, 'learning_rate': 4.1283905967450275e-05, 'epoch': 12.44}
+{'eval_loss': 0.2600632905960083, 'eval_wer': 24.70288624787776, 'eval_runtime': 98.3807, 'eval_samples_per_second': 4.676, 'eval_steps_per_second': 4.676, 'epoch': 12.44}
+{'loss': 0.002, 'learning_rate': 3.676311030741411e-05, 'epoch': 13.27}
+{'eval_loss': 0.29776597023010254, 'eval_wer': 33.87096774193548, 'eval_runtime': 96.8629, 'eval_samples_per_second': 4.749, 'eval_steps_per_second': 4.749, 'epoch': 13.27}
+{'loss': 0.0021, 'learning_rate': 3.2242314647377943e-05, 'epoch': 14.1}
+{'eval_loss': 0.27976155281066895, 'eval_wer': 31.154499151103565, 'eval_runtime': 98.2638, 'eval_samples_per_second': 4.681, 'eval_steps_per_second': 4.681, 'epoch': 14.1}
+{'loss': 0.0011, 'learning_rate': 2.772151898734177e-05, 'epoch': 14.93}
+{'eval_loss': 0.31370967626571655, 'eval_wer': 25.127334465195243, 'eval_runtime': 98.152, 'eval_samples_per_second': 4.687, 'eval_steps_per_second': 4.687, 'epoch': 14.93}
+{'loss': 0.0006, 'learning_rate': 2.3200723327305605e-05, 'epoch': 15.75}
+{'eval_loss': 0.292641282081604, 'eval_wer': 22.24108658743633, 'eval_runtime': 98.5899, 'eval_samples_per_second': 4.666, 'eval_steps_per_second': 4.666, 'epoch': 15.75}
+{'loss': 0.0003, 'learning_rate': 1.867992766726944e-05, 'epoch': 16.58}
+{'eval_loss': 0.2891221344470978, 'eval_wer': 23.429541595925297, 'eval_runtime': 98.055, 'eval_samples_per_second': 4.691, 'eval_steps_per_second': 4.691, 'epoch': 16.58}
+{'loss': 0.0001, 'learning_rate': 1.4159132007233276e-05, 'epoch': 17.41}
+{'eval_loss': 0.29299396276474, 'eval_wer': 25.21222410865874, 'eval_runtime': 98.2709, 'eval_samples_per_second': 4.681, 'eval_steps_per_second': 4.681, 'epoch': 17.41}
+{'loss': 0.0001, 'learning_rate': 9.638336347197108e-06, 'epoch': 18.24}
+{'eval_loss': 0.2906463146209717, 'eval_wer': 24.78777589134126, 'eval_runtime': 97.9856, 'eval_samples_per_second': 4.695, 'eval_steps_per_second': 4.695, 'epoch': 18.24}
+{'loss': 0.0001, 'learning_rate': 5.11754068716094e-06, 'epoch': 19.07}
+{'eval_loss': 0.29057469964027405, 'eval_wer': 24.61799660441426, 'eval_runtime': 99.3459, 'eval_samples_per_second': 4.63, 'eval_steps_per_second': 4.63, 'epoch': 19.07}
+{'loss': 0.0, 'learning_rate': 5.96745027124774e-07, 'epoch': 19.9}
+{'eval_loss': 0.2908893823623657, 'eval_wer': 24.61799660441426, 'eval_runtime': 101.2459, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 4.543, 'epoch': 19.9}
+{'train_runtime': 23872.1567, 'train_samples_per_second': 8.075, 'train_steps_per_second': 0.505, 'train_loss': 0.04638441621142648, 'epoch': 20.0}
+The script took 399.52 minutes to run.
+Speaker ID: M01
+Learning rate: {learning_rate}
+Training batch size: 4
+Evaluation batch size: 4
+Random seed: 42
+Gradient accumulation steps: 2
+Optimizer type: adamw_torch
+Learning rate scheduler type: linear
+Number of epochs: 20
+Keep all data: False
+Debug mode: False
+Repository suffix: 
+The CSV file exists.
+torgo_dataset_path: /work/van-speech-nlp/data/torgo
+torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
+{'loss': 0.6272, 'learning_rate': 4.94e-05, 'epoch': 0.85}

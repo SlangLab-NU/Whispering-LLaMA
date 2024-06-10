@@ -1,0 +1,50 @@
+Speaker ID: M05
+Learning rate: 0.0001
+Training batch size: 4
+Evaluation batch size: 4
+Random seed: 42
+Gradient accumulation steps: 2
+Optimizer type: adamw_torch
+Learning rate scheduler type: linear
+Number of epochs: 20
+Keep all data: False
+Debug mode: False
+Repository suffix: 
+model_name: tiny
+The CSV file exists.
+torgo_dataset_path: /work/van-speech-nlp/data/torgo
+torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
+pat
+whisper-v2 model loaded
+train has 9,502 samples
+Processing train split ...
+Processed train data and saved checkpoint for M05
+Processed val data and saved checkpoint for M05
+Processed test data and saved checkpoint for M05
+start of script
+files, ['iter-000001.pth', 'iter-000002.pth', 'iter-000003.pth', 'iter-000004.pth', 'iter-000005.pth', 'iter-000006.pth', 'iter-000007.pth', 'iter-000008.pth', 'iter-000009.pth', 'iter-000010.pth', 'lit-llama-adapter-finetuned.pth']
+loaded Whisper checkpoint
+eveything except llama model loaded
+iter-000001.pth
+iter-000002.pth
+iter-000003.pth
+iter-000004.pth
+iter-000005.pth
+iter-000006.pth
+iter-000007.pth
+iter-000008.pth
+iter-000009.pth
+iter-000010.pth
+lit-llama-adapter-finetuned.pth
+Skipping file lit-llama-adapter-finetuned.pth due to incorrect format: invalid literal for int() with base 10: 'llama'
+loaded Adapter checkpoint
+For runs/WL_S_0.001_giga17/iter-000010.pth
+WER is 1.8803418803418803
+Ground truth matches is 3/278
+runs/Inference/M05/WL_S_0.001_giga17.json
+the post string normalization wer is
+WER 1.8461538461538463
+10 / 278
+*********************
+{'epoch': 10, 'WER': 1.8803418803418803, 'WER_post': 1.8461538461538463, 'GTM': 0.01079136690647482, 'GTM_post': 0.03597122302158273}
+Total runtime: 2.84 minutes.

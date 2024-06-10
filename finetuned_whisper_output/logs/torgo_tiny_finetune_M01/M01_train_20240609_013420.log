@@ -1,0 +1,20 @@
+09-Jun-24 01:34:20 - Test Speaker: M01
+09-Jun-24 01:34:20 - Log File Path: ../finetuned_whisper_output/logs/torgo_tiny_finetune_M01/M01_train_20240609_013420.log
+
+09-Jun-24 01:34:20 - Splitting the dataset into training / validation / test sets...
+09-Jun-24 01:34:20 - Unique speakers found in the dataset:
+09-Jun-24 01:34:20 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+09-Jun-24 01:34:20 - After removal of repeated prompts, the number of data in each dataset is:
+09-Jun-24 01:34:20 - Train:       9519/14580 (65%)
+09-Jun-24 01:34:20 - Validation:  483/1075 (44%)
+09-Jun-24 01:34:20 - Test:        407/739 (55%)
+
+09-Jun-24 01:34:20 - After filter, the number of data in each dataset is:
+09-Jun-24 01:34:20 - Train:       9413/14580 (64%)
+09-Jun-24 01:34:20 - Validation:  460/1075 (42%)
+09-Jun-24 01:34:20 - Test:        388/739 (52%)
+
+09-Jun-24 01:34:40 - Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+09-Jun-24 01:34:42 - No checkpoint found in the repository. Training from scratch.

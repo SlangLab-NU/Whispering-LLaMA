@@ -80,8 +80,16 @@ cd ..
 #     --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
 
 
+# 42896850
+speaker_id='M05' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+    --d 1 \
+    --pretrained_path 'weights/alpaca.pth' \
+    --tokenizer_path 'weights/tokenizer.model' \
+    --data_path "Inference/gs_inferences/torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}"
 
-# 42889119
+
+
+# 42892049
 # debug M05 running with whisper-en
 # python 3_prepare_for_torgo_baseline.py --speaker_id M05
 # python 4_output_feature_pt.py --speaker_id M05

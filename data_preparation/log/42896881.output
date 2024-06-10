@@ -1,0 +1,31 @@
+Speaker ID: M04
+Learning rate: {learning_rate}
+Training batch size: 4
+Evaluation batch size: 4
+Random seed: 42
+Gradient accumulation steps: 2
+Optimizer type: adamw_torch
+Learning rate scheduler type: linear
+Number of epochs: 20
+Keep all data: False
+Debug mode: False
+Repository suffix: 
+The CSV file exists.
+torgo_dataset_path: /work/van-speech-nlp/data/torgo
+torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
+{'loss': 0.1027, 'learning_rate': 9.910000000000001e-05, 'epoch': 1.69}
+{'eval_loss': 0.3359842598438263, 'eval_wer': 32.682512733446515, 'eval_runtime': 98.5809, 'eval_samples_per_second': 4.666, 'eval_steps_per_second': 4.666, 'epoch': 1.69}
+{'loss': 0.1001, 'learning_rate': 9.547882136279926e-05, 'epoch': 2.53}
+{'eval_loss': 0.4013928472995758, 'eval_wer': 60.0169779286927, 'eval_runtime': 102.1041, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 4.505, 'epoch': 2.53}
+{'loss': 0.0686, 'learning_rate': 9.087476979742173e-05, 'epoch': 3.37}
+{'eval_loss': 0.322017103433609, 'eval_wer': 40.32258064516129, 'eval_runtime': 99.5239, 'eval_samples_per_second': 4.622, 'eval_steps_per_second': 4.622, 'epoch': 3.37}
+{'loss': 0.048, 'learning_rate': 8.62707182320442e-05, 'epoch': 4.22}
+{'eval_loss': 0.3145637810230255, 'eval_wer': 31.32427843803056, 'eval_runtime': 96.5051, 'eval_samples_per_second': 4.767, 'eval_steps_per_second': 4.767, 'epoch': 4.22}
+{'loss': 0.0366, 'learning_rate': 8.166666666666667e-05, 'epoch': 5.06}
+{'eval_loss': 0.3476742208003998, 'eval_wer': 57.80984719864176, 'eval_runtime': 100.8133, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 4.563, 'epoch': 5.06}
+{'loss': 0.0262, 'learning_rate': 7.706261510128913e-05, 'epoch': 5.9}
+{'eval_loss': 0.3054102957248688, 'eval_wer': 21.816638370118845, 'eval_runtime': 101.4659, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 4.534, 'epoch': 5.9}
+{'loss': 0.0237, 'learning_rate': 7.245856353591161e-05, 'epoch': 6.75}
+{'eval_loss': 0.30067649483680725, 'eval_wer': 43.463497453310694, 'eval_runtime': 103.0593, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 4.463, 'epoch': 6.75}
+{'loss': 0.0153, 'learning_rate': 6.785451197053407e-05, 'epoch': 7.59}
+{'eval_loss': 0.2969285845756531, 'eval_wer': 24.872665534804753, 'eval_runtime': 101.7047, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 4.523, 'epoch': 7.59}
