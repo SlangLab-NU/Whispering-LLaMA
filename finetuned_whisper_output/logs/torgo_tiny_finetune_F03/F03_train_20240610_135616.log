@@ -18,3 +18,4 @@
 
 10-Jun-24 14:05:19 - Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
 10-Jun-24 14:05:19 - No checkpoint found in the repository. Training from scratch.
+10-Jun-24 20:44:51 - Pushing model to Hugging Face...

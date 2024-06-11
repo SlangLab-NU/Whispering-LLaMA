@@ -142,23 +142,60 @@ model_local_path = output_path + '/model/' + repo_name
 pretrained_model_name = "openai/whisper-tiny"
 
 
-# In[4]:
+import os
+MODEL_PATH = "finetuned_whisper_output/model/torgo_tiny_finetune_M02/pytorch_model.bin"
+
+if os.path.exists(MODEL_PATH):
+    print("The file exists.")
+else:
+    print("The file does not exist.")
 
 
-
-
-# In[5]:
-
-
-import numpy
-# Renamed the Whisepr repo (https://github.com/openai/whisper) with the changed decoding.py file as whisper_openAI
+import re
 import whisper_openAI.whisper as whisper
-import torch
-import tqdm
-model, _ = whisper.load_model(f"{model_name}") # you can change the whisper model here to largev2 or large to swap the  model.
+
+# https://github.com/openai/whisper/discussions/830
+def hf_to_whisper_states(text):
+    text = re.sub('.layers.', '.blocks.', text)
+    text = re.sub('.self_attn.', '.attn.', text)
+    text = re.sub('.q_proj.', '.query.', text)
+    text = re.sub('.k_proj.', '.key.', text)
+    text = re.sub('.v_proj.', '.value.', text)
+    text = re.sub('.out_proj.', '.out.', text)
+    text = re.sub('.fc1.', '.mlp.0.', text)
+    text = re.sub('.fc2.', '.mlp.2.', text)
+    text = re.sub('.fc3.', '.mlp.3.', text)
+    text = re.sub('.fc3.', '.mlp.3.', text)
+    text = re.sub('.encoder_attn.', '.cross_attn.', text)
+    text = re.sub('.cross_attn.ln.', '.cross_attn_ln.', text)
+    text = re.sub('.embed_positions.weight', '.positional_embedding', text)
+    text = re.sub('.embed_tokens.', '.token_embedding.', text)
+    text = re.sub('model.', '', text)
+    text = re.sub('attn.layer_norm.', 'attn_ln.', text)
+    text = re.sub('.final_layer_norm.', '.mlp_ln.', text)
+    text = re.sub('encoder.layer_norm.', 'encoder.ln_post.', text)
+    text = re.sub('decoder.layer_norm.', 'decoder.ln.', text)
+    text = re.sub('proj_out.weight', 'decoder.token_embedding.weight', text)
+    return text
+
+# Load HF Model
+hf_state_dict = torch.load(MODEL_PATH)    # pytorch_model.bin file
+# print(hf_state_dict)
+
+# Rename layers
+for key in list(hf_state_dict.keys())[:]:
+    new_key = hf_to_whisper_states(key)
+    hf_state_dict[new_key] = hf_state_dict.pop(key)
+
+# Init Whisper Model and replace model weights
+model,_ = whisper.load_model('tiny')
+model.load_state_dict(hf_state_dict)
 
 
-# In[6]:
+
+
+
+
 
 
 data_df = pd.read_csv(torgo_csv_path)
@@ -326,7 +363,7 @@ def generate_inference_json(dataset, dataset_name):
         time = len(audio)/16000
         path_to_file = item['audio']['path']
         random_temperature = np.random.randint(70, 81) / 100
-        options = whisper.DecodingOptions(fp16=True, without_timestamps=True, temperature=random_temperature, best_of=200)
+        options = whisper.DecodingOptions(fp16=True, without_timestamps=True, temperature=random_temperature, best_of=200, language='english')
         result, _ = whisper.decode(model, mel, options)
         result = list(result)
 
@@ -359,12 +396,113 @@ def generate_inference_json(dataset, dataset_name):
 
 
 # saved dir is in Inference/gs_inferences
-generate_inference_json(train_dataset, f'torgo_train_{speaker_id}_finetuned')
-generate_inference_json(validation_dataset, f'torgo_val_{speaker_id}_finetuned')
-generate_inference_json(test_dataset, f'torgo_test_{speaker_id}_finetuned')
-
-
-# In[ ]:
+# generate_inference_json(train_dataset, f'finetuned_torgo_train_{speaker_id}')
+# generate_inference_json(validation_dataset, f'finetuned_torgo_val_{speaker_id}')
+# generate_inference_json(test_dataset, f'finetuned_torgo_test_{speaker_id}')
 
 
 
+
+
+import os
+from dataclasses import dataclass, field, replace
+from typing import TYPE_CHECKING, Dict, Iterable, List, Optional, Sequence, Tuple, Union
+import whisper_openAI.whisper as whisper
+import torch
+from whisper_openAI.whisper.tokenizer import Tokenizer, get_tokenizer
+import torch
+import torch.nn.functional as F
+from torch import Tensor
+
+# We get the acoustic embeddings from Whisper Large V2
+model,processor = whisper.load_model("large-v2")
+# model,processor = whisper.load_model("medium")
+
+
+model.eval()
+
+import json
+
+# The below is the json file you can generate using the "To generatn-best hyporhesis.ipynb" notebook; Need to further tokenize the hypothesis
+
+with open(f'Inference/gs_inferences/finetuned_torgo_train_{speaker_id}.json', "r") as file:  # Change the file path and name here
+    train_data = json.load(file)
+
+with open(f'Inference/gs_inferences/finetuned_torgo_val_{speaker_id}.json', "r") as valid_file:
+    val_data = json.load(valid_file)
+
+# Load the test set
+with open(f'Inference/gs_inferences/finetuned_torgo_test_{speaker_id}.json', "r") as test_file:
+    test_data = json.load(test_file)
+
+"""Implementation derived from https://github.com/tloen/alpaca-lora"""
+import sys
+from pathlib import Path
+import torch
+import requests
+import json
+import os 
+
+from lit_llama.tokenizer import Tokenizer
+from tqdm import tqdm
+
+tokenizer_path: Path = Path("weights/tokenizer.model")
+tokenizer = Tokenizer(tokenizer_path)
+print(f"train has {len(train_data):,} samples")
+print("Processing train split ...")
+
+
+def tokenize(tokenizer: Tokenizer, string: str, max_length: int, eos=True) -> torch.Tensor:
+    return tokenizer.encode(string, bos=True, eos=eos, max_length=max_length)
+    
+def process_train_data(train_data):
+    instruction = 'You are an ASR transcript selector. You have a few transcripts generated by an automatic speech recognition model. Your task is to generate the most likely transcript from them. If the generated transcripts have grammatical or logical errors, you will modify them accordingly to produce the most accurate and coherent transcript.'
+    result = []
+
+    for i in tqdm(range(len(train_data))):        
+        for name in train_data[i].keys():
+            ip = train_data[i][name]
+        inference = ip['inference']
+        gt = ip['ground_truth']
+            
+        # Removing the ground_truth, if present among the inferences for the prompt
+        if gt in inference:
+            inference.remove(gt)
+                
+        # Joining the inputs with '\n'
+        for_input = '\n'.join(inference[:15])
+        # The prompt follows the Alpaca template
+        full_prompt = f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Input:\n{for_input}\n\n### Response:"""
+        full_prompt_and_response = full_prompt + gt
+
+        encoded_full_prompt = tokenize(tokenizer, full_prompt, max_length=2048, eos=False)
+        encoded_full_prompt_and_response = tokenize(tokenizer, full_prompt_and_response, eos=True, max_length=2048)
+        labels = encoded_full_prompt_and_response.clone()
+        labels_with_masked_input = encoded_full_prompt_and_response.clone()
+        labels_with_masked_input[:len(encoded_full_prompt)] = -1
+        
+        path = ip['path']
+        audio = whisper.load_audio(path)  
+        audio = whisper.pad_or_trim(audio)            
+        mel = whisper.log_mel_spectrogram(audio).to(model.device)  # Adjust as needed for your model
+        mel = mel.unsqueeze(0)
+        
+        with torch.no_grad():
+            audio_features = model.encoder(mel)
+        
+        result.append({**ip, 'index': name, "input_ids": encoded_full_prompt_and_response, "input_ids_no_response": encoded_full_prompt, "labels": labels, 'labels_with_masked_input': labels_with_masked_input, 'audio_features': audio_features.bfloat16()})
+
+    return result
+
+
+
+result = process_train_data(train_data)
+torch.save(result,f'Inference/gs_inferences/finetuned_torgo_{speaker_id}_train.pt')
+
+
+result = process_train_data(validation_dataset)
+torch.save(result,f'Inference/gs_inferences/finetuned_torgo_{speaker_id}_{split}_en.pt')
+
+
+result = process_train_data(test_data)
+torch.save(result,f'Inference/gs_inferences/finetuned_torgo_{speaker_id}_{split}_en.pt')

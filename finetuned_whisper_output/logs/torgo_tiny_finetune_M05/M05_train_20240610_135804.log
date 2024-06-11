@@ -20,3 +20,4 @@
 10-Jun-24 13:58:30 - Checkpoint found in the repository. Checkpoint files found: ['checkpoint-1000', 'checkpoint-1500', 'checkpoint-500']
 10-Jun-24 13:58:30 - Resuming from checkpoint: ../finetuned_whisper_output/model/torgo_tiny_finetune_M05/checkpoint-500
 
+10-Jun-24 20:10:36 - Pushing model to Hugging Face...

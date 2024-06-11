@@ -35,3 +35,27 @@ torgo_dataset_dir_path: /work/van-speech-nlp/data/torgo/
 {'eval_loss': 0.3638792037963867, 'eval_wer': 20.71307300509338, 'eval_runtime': 97.1938, 'eval_samples_per_second': 4.733, 'eval_steps_per_second': 4.733, 'epoch': 9.26}
 {'loss': 0.0083, 'learning_rate': 5.412683823529412e-05, 'epoch': 10.1}
 {'eval_loss': 0.3622039556503296, 'eval_wer': 24.95755517826825, 'eval_runtime': 95.9447, 'eval_samples_per_second': 4.794, 'eval_steps_per_second': 4.794, 'epoch': 10.1}
+{'loss': 0.0066, 'learning_rate': 4.953125e-05, 'epoch': 10.94}
+{'eval_loss': 0.295848548412323, 'eval_wer': 21.561969439728355, 'eval_runtime': 99.4848, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 4.624, 'epoch': 10.94}
+{'loss': 0.005, 'learning_rate': 4.493566176470588e-05, 'epoch': 11.78}
+{'eval_loss': 0.3477976322174072, 'eval_wer': 46.434634974533104, 'eval_runtime': 90.6434, 'eval_samples_per_second': 5.075, 'eval_steps_per_second': 5.075, 'epoch': 11.78}
+{'loss': 0.0023, 'learning_rate': 4.034007352941176e-05, 'epoch': 12.63}
+{'eval_loss': 0.320604145526886, 'eval_wer': 33.1918505942275, 'eval_runtime': 90.4161, 'eval_samples_per_second': 5.088, 'eval_steps_per_second': 5.088, 'epoch': 12.63}
+{'loss': 0.0026, 'learning_rate': 3.5744485294117644e-05, 'epoch': 13.47}
+{'eval_loss': 0.3022858798503876, 'eval_wer': 27.843803056027166, 'eval_runtime': 95.1075, 'eval_samples_per_second': 4.837, 'eval_steps_per_second': 4.837, 'epoch': 13.47}
+{'loss': 0.0017, 'learning_rate': 3.115808823529412e-05, 'epoch': 14.31}
+{'eval_loss': 0.29895880818367004, 'eval_wer': 19.949066213921903, 'eval_runtime': 96.7989, 'eval_samples_per_second': 4.752, 'eval_steps_per_second': 4.752, 'epoch': 14.31}
+{'loss': 0.0008, 'learning_rate': 2.6562500000000002e-05, 'epoch': 15.15}
+{'eval_loss': 0.2862023413181305, 'eval_wer': 17.65704584040747, 'eval_runtime': 95.4831, 'eval_samples_per_second': 4.818, 'eval_steps_per_second': 4.818, 'epoch': 15.15}
+{'loss': 0.0007, 'learning_rate': 2.1966911764705883e-05, 'epoch': 15.99}
+{'eval_loss': 0.29244551062583923, 'eval_wer': 20.54329371816638, 'eval_runtime': 95.2336, 'eval_samples_per_second': 4.83, 'eval_steps_per_second': 4.83, 'epoch': 15.99}
+{'loss': 0.0002, 'learning_rate': 1.7371323529411764e-05, 'epoch': 16.84}
+{'eval_loss': 0.2935420870780945, 'eval_wer': 23.174872665534803, 'eval_runtime': 94.4968, 'eval_samples_per_second': 4.868, 'eval_steps_per_second': 4.868, 'epoch': 16.84}
+{'loss': 0.0001, 'learning_rate': 1.2775735294117647e-05, 'epoch': 17.68}
+{'eval_loss': 0.30475759506225586, 'eval_wer': 23.599320882852293, 'eval_runtime': 95.0552, 'eval_samples_per_second': 4.839, 'eval_steps_per_second': 4.839, 'epoch': 17.68}
+{'loss': 0.0001, 'learning_rate': 8.18014705882353e-06, 'epoch': 18.52}
+{'eval_loss': 0.30610930919647217, 'eval_wer': 24.533106960950764, 'eval_runtime': 96.8386, 'eval_samples_per_second': 4.75, 'eval_steps_per_second': 4.75, 'epoch': 18.52}
+{'loss': 0.0001, 'learning_rate': 3.584558823529412e-06, 'epoch': 19.36}
+{'eval_loss': 0.30717727541923523, 'eval_wer': 24.193548387096776, 'eval_runtime': 94.3115, 'eval_samples_per_second': 4.877, 'eval_steps_per_second': 4.877, 'epoch': 19.36}
+{'train_runtime': 22324.1024, 'train_samples_per_second': 8.513, 'train_steps_per_second': 0.532, 'train_loss': 0.020100431095946718, 'epoch': 20.0}
+The script took 374.31 minutes to run.
