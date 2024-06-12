@@ -14,13 +14,16 @@ source activate /work/van-speech-nlp/jindaznb/mmenv/
 export CUDA_LAUNCH_BLOCKING=1
 
 
-# 42906246
-# python 2_finetune_whisper_on_torgo.py --speaker_id F03
-# 42906251
-# python 2_finetune_whisper_on_torgo.py --speaker_id F04
+# 42951175
+# python 2_finetune_whisper_on_torgo.py --speaker_id M03
+# 42950955
+# python 2_finetune_whisper_on_torgo.py --speaker_id M04
 
-# 42906253
+# 42951173
 # python 2_finetune_whisper_on_torgo.py --speaker_id M05
+
+# 42951178
+python 2_finetune_whisper_on_torgo.py --speaker_id M02
 
 
 cd ..
@@ -117,4 +120,24 @@ cd ..
 
 
 
-python 1_finetuned_gen_json_torch_pt_train.py --speaker_id M02
+# python 1_finetuned_gen_json_torch_pt_train.py --speaker_id M02
+
+
+# 42935867
+# python 2_whisper_tiny_baseline.py --speaker_id F01
+# python 2_whisper_tiny_baseline.py --speaker_id F03
+# python 2_whisper_tiny_baseline.py --speaker_id F04
+# python 2_whisper_tiny_baseline.py --speaker_id M02
+# python 2_whisper_tiny_baseline.py --speaker_id M03
+# python 2_whisper_tiny_baseline.py --speaker_id M04
+# python 2_whisper_tiny_baseline.py --speaker_id M05
+
+
+# 42938168
+# python 2_whisper_tiny_baseline.py --speaker_id F01 --model_name "large-v2"
+# python 2_whisper_tiny_baseline.py --speaker_id F03 --model_name "large-v2"
+# python 2_whisper_tiny_baseline.py --speaker_id F04 --model_name "large-v2"
+# python 2_whisper_tiny_baseline.py --speaker_id M02 --model_name "large-v2"
+# python 2_whisper_tiny_baseline.py --speaker_id M03 --model_name "large-v2"
+# python 2_whisper_tiny_baseline.py --speaker_id M04 --model_name "large-v2"
+# python 2_whisper_tiny_baseline.py --speaker_id M05 --model_name "large-v2"

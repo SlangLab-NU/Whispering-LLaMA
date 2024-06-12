@@ -1,0 +1,20 @@
+11-Jun-24 21:51:34 - Test Speaker: F01
+11-Jun-24 21:51:34 - Log File Path: output/logs/torgo_tiny_finetune_F01/F01_train_20240611_215134.log
+
+11-Jun-24 21:51:35 - Splitting the dataset into training / validation / test sets...
+11-Jun-24 21:51:35 - Unique speakers found in the dataset:
+11-Jun-24 21:51:35 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+11-Jun-24 21:51:35 - After removal of repeated prompts, the number of data in each dataset is:
+11-Jun-24 21:51:35 - Train:       9749/15091 (64%)
+11-Jun-24 21:51:35 - Validation:  483/1075 (44%)
+11-Jun-24 21:51:35 - Test:        126/228 (55%)
+
+11-Jun-24 21:54:05 - After filter, the number of data in each dataset is:
+11-Jun-24 21:54:05 - Train:       9638/15091 (63%)
+11-Jun-24 21:54:05 - Validation:  460/1075 (42%)
+11-Jun-24 21:54:05 - Test:        115/228 (50%)
+
+11-Jun-24 22:28:19 - No such comm target registered: jupyter.widget.control
+11-Jun-24 22:28:19 - No such comm: 48e3a45a-b41a-4d00-8afd-68446e729073

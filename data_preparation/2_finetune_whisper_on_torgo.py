@@ -129,7 +129,7 @@ output_path = '../finetuned_whisper_output'
 print(f'torgo_dataset_path: {torgo_dataset_path}')
 print(f'torgo_dataset_dir_path: {torgo_dataset_dir_path}')
 
-repo_name = f'torgo_tiny_finetune_{test_speaker}{repo_suffix}'
+repo_name = f'torgo_tiny_finetune_{test_speaker}{repo_suffix}_frozen_encoder'
 repo_path = f'jindaxz/{repo_name}'
 
 # Path to save model / checkpoints{repo_name}'
@@ -420,6 +420,11 @@ def compute_metrics(pred):
 # Load a Pre-Trained Checkpoint
 model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-tiny")
 
+
+# Freeze the feature encoder
+for name, param in model.named_parameters():
+    if 'encoder' in name:  # Assuming 'encoder' is in the name of the feature encoder layers
+        param.requires_grad = False
 
 # In[19]:
 
