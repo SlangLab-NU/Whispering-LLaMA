@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH -N 1
-#SBATCH -c 3
+#SBATCH -c 12
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:1   
 #SBATCH --constraint=a100@80g
@@ -8,11 +8,49 @@
 #SBATCH --output=log/%j.output
 #SBATCH --error=log/%j.error
 
+nvidia-smi
 module load anaconda3/2022.05
 module load ffmpeg/20190305 
 
 source activate /work/van-speech-nlp/jindaznb/mmenv/
 cd ..
+
+
+
+
+
+# 
+# python 1_finetuned_whisper_gen_json_torch_pt_train.py --speaker_id M02
+# speaker_id='M02' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/finetuned_torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}_finetuned_whisper"
+
+
+# 42977426
+# python 1_finetuned_whisper_gen_json_torch_pt_train.py --speaker_id M03
+# speaker_id='M03' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/finetuned_torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}_finetuned_whisper"
+
+# 42981874
+# python 1_finetuned_whisper_gen_json_torch_pt_train.py --speaker_id M04
+# speaker_id='M04' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/finetuned_torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}_finetuned_whisper"
+
+
+# 42981906
+# python 1_finetuned_whisper_gen_json_torch_pt_train.py --speaker_id M05 && speaker_id='M05' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/finetuned_torgo_${speaker_id}" --dataset_name "torgo_${speaker_id}_finetuned_whisper"
 
 
 # train adpater with giga_17 dataset

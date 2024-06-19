@@ -1,0 +1,2 @@
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(

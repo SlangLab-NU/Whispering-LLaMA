@@ -8,13 +8,22 @@ import torch
 import torch.nn.functional as F
 from torch import Tensor
 import argparse
+import time
+
+
+
+start_time = time.time() 
 
 
 parser = argparse.ArgumentParser(description="Process and save data checkpoints")
 parser.add_argument('--speaker_id', type=str, required=True, help="Speaker ID")
+parser.add_argument('--model_name', type=str,
+                    default='tiny', help='Whisper model to load (default: tiny.en)')
+
 
 args = parser.parse_args()
 speaker_id = args.speaker_id
+model_name = args.model_name
 
 # We get the acoustic embeddings from Whisper Large V2
 model,processor = whisper.load_model("large-v2")
@@ -29,14 +38,14 @@ import json
 
 # The below is the json file you can generate using the "To generatn-best hyporhesis.ipynb" notebook; Need to further tokenize the hypothesis
 
-with open(f'Inference/gs_inferences/torgo_train_{speaker_id}.json', "r") as file:  # Change the file path and name here
+with open(f'Inference/gs_inferences/torgo_train_{speaker_id}_{model_name}.json', "r") as file:  # Change the file path and name here
     train_data = json.load(file)
 
-with open(f'Inference/gs_inferences/torgo_val_{speaker_id}.json', "r") as valid_file:
+with open(f'Inference/gs_inferences/torgo_val_{speaker_id}_{model_name}.json', "r") as valid_file:
     val_data = json.load(valid_file)
 
 # Load the test set
-with open(f'Inference/gs_inferences/torgo_test_{speaker_id}.json', "r") as test_file:
+with open(f'Inference/gs_inferences/torgo_test_{speaker_id}_{model_name}.json', "r") as test_file:
     test_data = json.load(test_file)
 
 
@@ -104,15 +113,24 @@ def process_train_data(train_data):
 
 split = "train"
 result = process_train_data(train_data)
-torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_train.pt')
+torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{model_name}_{split}.pt')
 print(f"Processed {split} data and saved checkpoint for {speaker_id}")
 
 split = "val"
 result = process_train_data(val_data)
-torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{split}.pt')
+torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{model_name}_{split}.pt')
 print(f"Processed {split} data and saved checkpoint for {speaker_id}")
 
 split = "test"
 result = process_train_data(test_data)
-torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{split}.pt')
+torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{model_name}_{split}.pt')
 print(f"Processed {split} data and saved checkpoint for {speaker_id}")
+
+
+end_time = time.time()
+
+elapsed_time = end_time - start_time
+
+elapsed_time_minutes = elapsed_time / 60
+
+print(f"script runtime {elapsed_time_minutes:.2f}")

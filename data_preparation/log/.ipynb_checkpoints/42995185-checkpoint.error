@@ -1,0 +1,102 @@
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+Map:   0%|          | 0/9551 [00:00<?, ? examples/s]Map:   6%|▋         | 609/9551 [00:00<00:01, 5989.76 examples/s]Map:  17%|█▋        | 1613/9551 [00:00<00:01, 7677.88 examples/s]Map:  31%|███▏      | 3000/9551 [00:00<00:00, 10146.08 examples/s]Map:  47%|████▋     | 4529/9551 [00:00<00:00, 12085.37 examples/s]Map:  63%|██████▎   | 6000/9551 [00:00<00:00, 12699.27 examples/s]Map:  78%|███████▊  | 7450/9551 [00:00<00:00, 13287.07 examples/s]Map:  93%|█████████▎| 8895/9551 [00:00<00:00, 13654.02 examples/s]Map: 100%|██████████| 9551/9551 [00:00<00:00, 11956.02 examples/s]
+Map:   0%|          | 0/367 [00:00<?, ? examples/s]Map: 100%|██████████| 367/367 [00:00<00:00, 7523.91 examples/s]
+Filter:   0%|          | 0/9551 [00:00<?, ? examples/s]Filter:  10%|█         | 1000/9551 [00:14<02:00, 70.83 examples/s]Filter:  21%|██        | 2000/9551 [00:18<01:05, 115.95 examples/s]Filter:  31%|███▏      | 3000/9551 [00:23<00:43, 150.30 examples/s]Filter:  42%|████▏     | 4000/9551 [00:27<00:32, 171.16 examples/s]Filter:  52%|█████▏    | 5000/9551 [00:32<00:24, 185.95 examples/s]Filter:  63%|██████▎   | 6000/9551 [00:36<00:18, 196.79 examples/s]Filter:  73%|███████▎  | 7000/9551 [00:41<00:12, 207.91 examples/s]Filter:  84%|████████▍ | 8000/9551 [00:45<00:07, 217.10 examples/s]Filter:  94%|█████████▍| 9000/9551 [00:49<00:02, 225.59 examples/s]Filter: 100%|██████████| 9551/9551 [00:51<00:00, 228.03 examples/s]Filter: 100%|██████████| 9551/9551 [00:51<00:00, 184.80 examples/s]
+Filter:   0%|          | 0/367 [00:00<?, ? examples/s]Filter: 100%|██████████| 367/367 [00:02<00:00, 174.82 examples/s]Filter: 100%|██████████| 367/367 [00:02<00:00, 174.00 examples/s]
+Filter:   0%|          | 0/9472 [00:00<?, ? examples/s]Filter:  11%|█         | 1000/9472 [00:02<00:17, 480.74 examples/s]Filter:  21%|██        | 2000/9472 [00:04<00:15, 487.49 examples/s]Filter:  32%|███▏      | 3000/9472 [00:06<00:12, 500.55 examples/s]Filter:  42%|████▏     | 4000/9472 [00:07<00:10, 504.90 examples/s]Filter:  53%|█████▎    | 5000/9472 [00:10<00:09, 496.54 examples/s]Filter:  63%|██████▎   | 6000/9472 [00:12<00:07, 479.44 examples/s]Filter:  74%|███████▍  | 7000/9472 [00:14<00:05, 467.52 examples/s]Filter:  84%|████████▍ | 8000/9472 [00:16<00:03, 485.03 examples/s]Filter:  95%|█████████▌| 9000/9472 [00:18<00:00, 486.59 examples/s]Filter: 100%|██████████| 9472/9472 [00:19<00:00, 507.45 examples/s]Filter: 100%|██████████| 9472/9472 [00:19<00:00, 492.05 examples/s]
+Filter:   0%|          | 0/366 [00:00<?, ? examples/s]Filter: 100%|██████████| 366/366 [00:00<00:00, 520.22 examples/s]Filter: 100%|██████████| 366/366 [00:00<00:00, 503.08 examples/s]
+  0%|          | 0/9440 [00:00<?, ?it/s]  0%|          | 0/9440 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/0_prepare_torgo_json.py", line 351, in <module>
+    generate_inference_json(train_dataset, f'torgo_train_{speaker_id}_{model_name}')
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/0_prepare_torgo_json.py", line 319, in generate_inference_json
+    result, _ = whisper.decode(model, mel, options)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 843, in decode
+    result = DecodingTask(model, options).run(mel)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 740, in run
+    tokens, sum_logprobs, no_speech_probs = self._main_loop(audio_features, tokens)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 689, in _main_loop
+    logits = self.inference.logits(tokens, audio_features)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 162, in logits
+    return self.model.decoder(tokens, audio_features, kv_cache=self.kv_cache)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 211, in forward
+    x = block(x, xa, mask=self.mask, kv_cache=kv_cache)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 138, in forward
+    x = x + self.cross_attn(self.cross_attn_ln(x), xa, kv_cache=kv_cache)[0]
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 90, in forward
+    wv, qk = self.qkv_attention(q, k, v, mask)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 102, in qkv_attention
+    qk = q @ k
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 734.00 MiB. GPU 
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/slam-llm/transformers/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+Map:   0%|          | 0/300 [00:00<?, ? examples/s]Map: 100%|██████████| 300/300 [00:00<00:00, 2904.70 examples/s]
+Map:   0%|          | 0/592 [00:00<?, ? examples/s]Map: 100%|██████████| 592/592 [00:00<00:00, 5287.13 examples/s]Map: 100%|██████████| 592/592 [00:00<00:00, 4498.26 examples/s]
+Filter:   0%|          | 0/300 [00:00<?, ? examples/s]Filter: 100%|██████████| 300/300 [00:05<00:00, 57.66 examples/s]Filter: 100%|██████████| 300/300 [00:05<00:00, 57.55 examples/s]
+Filter:   0%|          | 0/592 [00:00<?, ? examples/s]Filter: 100%|██████████| 592/592 [00:03<00:00, 170.46 examples/s]Filter: 100%|██████████| 592/592 [00:03<00:00, 169.72 examples/s]
+Filter:   0%|          | 0/299 [00:00<?, ? examples/s]Filter: 100%|██████████| 299/299 [00:00<00:00, 568.94 examples/s]Filter: 100%|██████████| 299/299 [00:00<00:00, 558.61 examples/s]
+Filter:   0%|          | 0/583 [00:00<?, ? examples/s]Filter: 100%|██████████| 583/583 [00:00<00:00, 600.36 examples/s]Filter: 100%|██████████| 583/583 [00:00<00:00, 592.98 examples/s]
+  0%|          | 0/9440 [00:00<?, ?it/s]  0%|          | 0/9440 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/0_prepare_torgo_json.py", line 351, in <module>
+    generate_inference_json(train_dataset, f'torgo_train_{speaker_id}_{model_name}')
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/0_prepare_torgo_json.py", line 319, in generate_inference_json
+    result, _ = whisper.decode(model, mel, options)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 843, in decode
+    result = DecodingTask(model, options).run(mel)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 740, in run
+    tokens, sum_logprobs, no_speech_probs = self._main_loop(audio_features, tokens)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 689, in _main_loop
+    logits = self.inference.logits(tokens, audio_features)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/decoding.py", line 162, in logits
+    return self.model.decoder(tokens, audio_features, kv_cache=self.kv_cache)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 211, in forward
+    x = block(x, xa, mask=self.mask, kv_cache=kv_cache)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 138, in forward
+    x = x + self.cross_attn(self.cross_attn_ln(x), xa, kv_cache=kv_cache)[0]
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 90, in forward
+    wv, qk = self.qkv_attention(q, k, v, mask)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/whisper_openAI/whisper/model.py", line 102, in qkv_attention
+    qk = q @ k
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 734.00 MiB. GPU 

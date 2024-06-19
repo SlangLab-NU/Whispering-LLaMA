@@ -1,18 +1,56 @@
 #!/bin/bash -l
 #SBATCH -N 1
-#SBATCH -c 3
+#SBATCH -c 12
 #SBATCH -p gpu
 #SBATCH --gres=gpu:v100-sxm2:1   # --gres=gpu:t4:1
 #SBATCH --time=08:00:00
 #SBATCH --output=log/%j.output
 #SBATCH --error=log/%j.error
 
+nvidia-smi
 module load anaconda3/2022.05
 module load ffmpeg/20190305 
 
 source activate /work/van-speech-nlp/jindaznb/mmenv/
 export CUDA_LAUNCH_BLOCKING=1
 
+cd ..
+
+
+# 43003263
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M03" --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "M03"
+
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M04" --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "M04"
+
+python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M05" --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "M05"
+
+
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M01" --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "M01"
+
+
+
+
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M02" --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "M02"
+s
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "F01" --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "F01"
+
+
+
+# 43041908
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "F03"  --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "F03"
+
+# python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "F04"  --best_of 50
+# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "F04"
+
+
+ 
 
 # 42951175
 # python 2_finetune_whisper_on_torgo.py --speaker_id M03
@@ -23,10 +61,21 @@ export CUDA_LAUNCH_BLOCKING=1
 # python 2_finetune_whisper_on_torgo.py --speaker_id M05
 
 # 42951178
-python 2_finetune_whisper_on_torgo.py --speaker_id M02
+# python 2_finetune_whisper_on_torgo.py --speaker_id M02
 
 
-cd ..
+
+# 42966792
+# python 2_finetune_whisper_on_torgo.py --speaker_id F01
+# 42966794
+# python 2_finetune_whisper_on_torgo.py --speaker_id F03
+# 42966797
+# python 2_finetune_whisper_on_torgo.py --speaker_id F04
+# 42966799
+# python 2_finetune_whisper_on_torgo.py --speaker_id M01
+
+
+
 
 
 # finetuning with TORGO datasset 
