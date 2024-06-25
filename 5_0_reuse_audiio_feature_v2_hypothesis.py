@@ -40,14 +40,17 @@ model.eval()
 
 
 speakers_to_process = [
-    'F01', 
-    'F03', 
-    'F04', 
-    'M01', 
-    'M02', 
-    'M03', 
-    'M04', 
-    'M05'
+    # F01 training set is wrong
+    'F01',  
+
+    # finished
+    # 'F03', 
+    # 'F04', 
+    # 'M01', 
+    # 'M02', 
+    # 'M03', 
+    # 'M04', 
+    # 'M05'
 ]
 
 

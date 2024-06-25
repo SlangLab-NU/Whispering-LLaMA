@@ -1,0 +1,258 @@
+2024-06-24 19:26:52,628 INFO    StreamThr :17121 [internal.py:wandb_internal():85] W&B internal server running at pid: 17121, started at: 2024-06-24 19:26:52.617638
+2024-06-24 19:26:52,633 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status
+2024-06-24 19:26:52,634 INFO    WriterThread:17121 [datastore.py:open_for_write():87] open: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/run-5q7n58t7.wandb
+2024-06-24 19:26:52,660 DEBUG   SenderThread:17121 [sender.py:send():379] send: header
+2024-06-24 19:26:54,336 DEBUG   SenderThread:17121 [sender.py:send():379] send: run
+2024-06-24 19:26:54,659 INFO    SenderThread:17121 [dir_watcher.py:__init__():211] watching files in: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files
+2024-06-24 19:26:54,659 INFO    SenderThread:17121 [sender.py:_start_run_threads():1188] run started: 5q7n58t7 with start time 1719271612.624076
+2024-06-24 19:26:54,685 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: check_version
+2024-06-24 19:26:54,686 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: check_version
+2024-06-24 19:26:54,835 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: run_start
+2024-06-24 19:26:54,891 DEBUG   HandlerThread:17121 [system_info.py:__init__():26] System info init
+2024-06-24 19:26:54,891 DEBUG   HandlerThread:17121 [system_info.py:__init__():41] System info init done
+2024-06-24 19:26:54,891 INFO    HandlerThread:17121 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 19:26:54,892 INFO    SystemMonitor:17121 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 19:26:54,892 INFO    HandlerThread:17121 [system_monitor.py:probe():214] Collecting system info
+2024-06-24 19:26:54,893 INFO    SystemMonitor:17121 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 19:26:54,894 INFO    SystemMonitor:17121 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 19:26:54,895 INFO    SystemMonitor:17121 [interfaces.py:start():188] Started gpu monitoring
+2024-06-24 19:26:54,897 INFO    SystemMonitor:17121 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 19:26:54,898 INFO    SystemMonitor:17121 [interfaces.py:start():188] Started network monitoring
+2024-06-24 19:26:54,928 DEBUG   HandlerThread:17121 [system_info.py:probe():152] Probing system
+2024-06-24 19:26:54,951 DEBUG   HandlerThread:17121 [system_info.py:_probe_git():137] Probing git
+2024-06-24 19:26:55,006 DEBUG   HandlerThread:17121 [system_info.py:_probe_git():145] Probing git done
+2024-06-24 19:26:55,006 DEBUG   HandlerThread:17121 [system_info.py:probe():200] Probing system done
+2024-06-24 19:26:55,006 DEBUG   HandlerThread:17121 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.8.19', 'heartbeatAt': '2024-06-24T23:26:54.928697', 'startedAt': '2024-06-24T23:26:52.447145', 'docker': None, 'cuda': None, 'args': ('--lr', '1e-3', '--option', 'S', '--d', '1', '--pretrained_path', 'weights/alpaca.pth', '--tokenizer_path', 'weights/tokenizer.model', '--data_path', 'Inference/gs_inferences/large-v2_hypo/torgo_F01_large-v2', '--dataset_name', 'torgo_F01_large-v2'), 'state': 'running', 'program': 'training/WL-S_M_train.py', 'codePathLocal': 'training/WL-S_M_train.py', 'codePath': 'training/WL-S_M_train.py', 'git': {'remote': 'https://github.com/SlangLab-NU/Whispering-LLaMA.git', 'commit': '41a995d0e750ae8777aab4a1bb1d69468f6b0289'}, 'email': 'jindaz.work@outlook.com', 'root': '/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA', 'host': 'd1011', 'username': 'zhang.jinda1', 'executable': '/work/van-speech-nlp/jindaznb/visenv/bin/python', 'cpu_count': 28, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1.1485714285714288, 'min': 1000.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 1.099, 'min': 1000.0, 'max': 3700.0}, {'current': 1.0, 'min': 1000.0, 'max': 3700.0}, {'current': 1.099, 'min': 1000.0, 'max': 3700.0}, {'current': 1.043, 'min': 1000.0, 'max': 3700.0}, {'current': 0.999, 'min': 1000.0, 'max': 3700.0}, {'current': 3.599, 'min': 1000.0, 'max': 3700.0}, {'current': 1.007, 'min': 1000.0, 'max': 3700.0}, {'current': 1.046, 'min': 1000.0, 'max': 3700.0}, {'current': 1.399, 'min': 1000.0, 'max': 3700.0}, {'current': 1.004, 'min': 1000.0, 'max': 3700.0}, {'current': 1.298, 'min': 1000.0, 'max': 3700.0}, {'current': 1.034, 'min': 1000.0, 'max': 3700.0}, {'current': 1.091, 'min': 1000.0, 'max': 3700.0}, {'current': 1.099, 'min': 1000.0, 'max': 3700.0}, {'current': 1.0, 'min': 1000.0, 'max': 3700.0}, {'current': 1.199, 'min': 1000.0, 'max': 3700.0}, {'current': 0.999, 'min': 1000.0, 'max': 3700.0}, {'current': 1.021, 'min': 1000.0, 'max': 3700.0}, {'current': 1.0, 'min': 1000.0, 'max': 3700.0}, {'current': 1.099, 'min': 1000.0, 'max': 3700.0}, {'current': 1.0, 'min': 1000.0, 'max': 3700.0}, {'current': 0.999, 'min': 1000.0, 'max': 3700.0}, {'current': 1.0, 'min': 1000.0, 'max': 3700.0}, {'current': 0.999, 'min': 1000.0, 'max': 3700.0}, {'current': 1.093, 'min': 1000.0, 'max': 3700.0}, {'current': 1.082, 'min': 1000.0, 'max': 3700.0}, {'current': 0.999, 'min': 1000.0, 'max': 3700.0}, {'current': 1.019, 'min': 1000.0, 'max': 3700.0}], 'disk': {'/': {'total': 19.521484375, 'used': 10.707195281982422}}, 'gpu': 'Tesla V100-SXM2-32GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}], 'memory': {'total': 187.36173248291016}}
+2024-06-24 19:26:55,007 INFO    HandlerThread:17121 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-24 19:26:55,007 INFO    HandlerThread:17121 [system_monitor.py:probe():227] Publishing system info
+2024-06-24 19:26:55,009 DEBUG   HandlerThread:17121 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-24 19:26:55,666 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/conda-environment.yaml
+2024-06-24 19:27:10,071 ERROR   HandlerThread:17121 [system_info.py:_save_conda():223] Error saving conda packages: Command '['conda', 'env', 'export']' timed out after 15 seconds
+Traceback (most recent call last):
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/wandb/sdk/internal/system/system_info.py", line 216, in _save_conda
+    subprocess.call(
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/subprocess.py", line 342, in call
+    return p.wait(timeout=timeout)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/subprocess.py", line 1814, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['conda', 'env', 'export']' timed out after 15 seconds
+2024-06-24 19:27:10,102 DEBUG   HandlerThread:17121 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-24 19:27:10,134 INFO    HandlerThread:17121 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-24 19:27:10,659 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:10,659 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-24 19:27:10,659 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:10,660 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-24 19:27:10,660 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:10,660 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-24 19:27:10,661 DEBUG   SenderThread:17121 [sender.py:send():379] send: files
+2024-06-24 19:27:10,662 INFO    SenderThread:17121 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-24 19:27:10,700 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/wandb-metadata.json
+2024-06-24 19:27:11,025 INFO    wandb-upload_0:17121 [upload_job.py:push():130] Uploaded file /tmp/tmpkcn86qf2wandb/81w6vr86-wandb-metadata.json
+2024-06-24 19:27:13,664 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:14,583 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-24 19:27:14,584 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: python_packages
+2024-06-24 19:27:14,587 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:14,588 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 19:27:14,599 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 19:27:14,669 DEBUG   SenderThread:17121 [sender.py:send():379] send: telemetry
+2024-06-24 19:27:14,707 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/requirements.txt
+2024-06-24 19:27:15,586 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:16,979 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:17,979 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:18,716 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log
+2024-06-24 19:27:18,844 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:18,979 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:19,980 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:20,763 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log
+2024-06-24 19:27:20,980 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:21,980 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:22,782 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log
+2024-06-24 19:27:22,980 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:23,897 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:23,981 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:24,788 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/config.yaml
+2024-06-24 19:27:24,981 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:25,981 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:26,981 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:27,982 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:28,982 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:29,585 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 19:27:29,585 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 19:27:29,741 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:29,982 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:30,982 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:31,982 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:32,982 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:33,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:34,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:35,588 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:35,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:36,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:37,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:38,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:39,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:40,589 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:40,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:41,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:42,983 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:43,984 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:44,585 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 19:27:44,585 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 19:27:44,984 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:45,738 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:45,984 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:46,984 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:47,984 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:48,984 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:49,985 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:50,985 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:51,589 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:51,985 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:52,985 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:53,985 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:27:54,314 DEBUG   SenderThread:17121 [sender.py:send():379] send: exit
+2024-06-24 19:27:54,314 INFO    SenderThread:17121 [sender.py:send_exit():586] handling exit code: 1
+2024-06-24 19:27:54,315 INFO    SenderThread:17121 [sender.py:send_exit():588] handling runtime: 59
+2024-06-24 19:27:54,325 INFO    SenderThread:17121 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 19:27:54,325 INFO    SenderThread:17121 [sender.py:send_exit():594] send defer
+2024-06-24 19:27:54,326 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,326 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-24 19:27:54,326 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,326 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-24 19:27:54,327 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 1
+2024-06-24 19:27:54,327 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,327 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-24 19:27:54,327 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,327 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-24 19:27:54,327 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 2
+2024-06-24 19:27:54,328 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,328 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-24 19:27:54,328 INFO    HandlerThread:17121 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 19:27:54,328 INFO    HandlerThread:17121 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 19:27:54,329 DEBUG   SystemMonitor:17121 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 19:27:54,329 INFO    HandlerThread:17121 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 19:27:54,330 DEBUG   SystemMonitor:17121 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 19:27:54,330 DEBUG   SystemMonitor:17121 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 19:27:54,522 INFO    HandlerThread:17121 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-24 19:27:54,523 INFO    HandlerThread:17121 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 19:27:54,523 INFO    HandlerThread:17121 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 19:27:54,524 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,524 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-24 19:27:54,524 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 3
+2024-06-24 19:27:54,524 DEBUG   SenderThread:17121 [sender.py:send():379] send: stats
+2024-06-24 19:27:54,525 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,525 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-24 19:27:54,526 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,526 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-24 19:27:54,526 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 4
+2024-06-24 19:27:54,526 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,526 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-24 19:27:54,527 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,527 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-24 19:27:54,527 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 5
+2024-06-24 19:27:54,527 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,527 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-24 19:27:54,528 DEBUG   SenderThread:17121 [sender.py:send():379] send: summary
+2024-06-24 19:27:54,540 INFO    SenderThread:17121 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 19:27:54,540 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,540 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-24 19:27:54,540 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 6
+2024-06-24 19:27:54,541 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,541 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-24 19:27:54,541 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,541 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-24 19:27:54,542 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 7
+2024-06-24 19:27:54,542 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 19:27:54,542 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:54,542 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-24 19:27:54,542 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:54,543 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-24 19:27:55,219 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/wandb-summary.json
+2024-06-24 19:27:55,314 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 19:27:56,222 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log
+2024-06-24 19:27:57,751 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 8
+2024-06-24 19:27:57,751 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 19:27:57,752 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:57,752 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-24 19:27:57,753 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:57,753 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-24 19:27:57,753 INFO    SenderThread:17121 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-24 19:27:57,756 INFO    SenderThread:17121 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-06-24 19:27:58,226 INFO    Thread-12 :17121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log
+2024-06-24 19:27:58,285 INFO    SenderThread:17121 [job_builder.py:build():545] adding wandb-job metadata file
+2024-06-24 19:27:58,315 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 9
+2024-06-24 19:27:58,316 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:27:58,316 DEBUG   SenderThread:17121 [sender.py:send():379] send: artifact
+2024-06-24 19:27:58,316 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-24 19:27:58,325 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 19:27:58,903 INFO    wandb-upload_1:17121 [upload_job.py:push():88] Uploaded file /tmp/tmp83icw52l/wandb-job.json
+2024-06-24 19:27:59,023 INFO    wandb-upload_0:17121 [upload_job.py:push():88] Uploaded file /home/zhang.jinda1/.local/share/wandb/artifacts/staging/tmpezb35mym
+2024-06-24 19:27:59,637 INFO    SenderThread:17121 [sender.py:send_artifact():1530] sent artifact job-https___github.com_SlangLab-NU_Whispering-LLaMA.git_training_WL-S_M_train.py - {'id': 'QXJ0aWZhY3Q6OTIyMjQzMjM4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIyOTYyNDA4Ng==', 'latestArtifact': None}}
+2024-06-24 19:27:59,637 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:27:59,637 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-24 19:27:59,637 INFO    SenderThread:17121 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-24 19:28:00,230 INFO    SenderThread:17121 [dir_watcher.py:finish():388] scan: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files
+2024-06-24 19:28:00,231 INFO    SenderThread:17121 [dir_watcher.py:finish():402] scan save: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/conda-environment.yaml conda-environment.yaml
+2024-06-24 19:28:00,231 INFO    SenderThread:17121 [dir_watcher.py:finish():402] scan save: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/config.yaml config.yaml
+2024-06-24 19:28:00,231 INFO    SenderThread:17121 [dir_watcher.py:finish():402] scan save: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log output.log
+2024-06-24 19:28:00,232 INFO    SenderThread:17121 [dir_watcher.py:finish():402] scan save: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/requirements.txt requirements.txt
+2024-06-24 19:28:00,244 INFO    SenderThread:17121 [dir_watcher.py:finish():402] scan save: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/wandb-metadata.json wandb-metadata.json
+2024-06-24 19:28:00,245 INFO    SenderThread:17121 [dir_watcher.py:finish():402] scan save: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/wandb-summary.json wandb-summary.json
+2024-06-24 19:28:00,246 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 10
+2024-06-24 19:28:00,252 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 19:28:00,253 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:28:00,253 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-24 19:28:00,253 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:28:00,254 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-24 19:28:00,254 INFO    SenderThread:17121 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 19:28:00,327 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 19:28:00,328 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 19:28:00,480 INFO    wandb-upload_1:17121 [upload_job.py:push():130] Uploaded file /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/config.yaml
+2024-06-24 19:28:00,528 INFO    wandb-upload_2:17121 [upload_job.py:push():130] Uploaded file /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/requirements.txt
+2024-06-24 19:28:00,596 INFO    wandb-upload_3:17121 [upload_job.py:push():130] Uploaded file /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/wandb-summary.json
+2024-06-24 19:28:00,614 INFO    wandb-upload_0:17121 [upload_job.py:push():130] Uploaded file /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/files/output.log
+2024-06-24 19:28:00,815 INFO    Thread-11 :17121 [sender.py:transition_state():614] send defer: 11
+2024-06-24 19:28:00,817 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:28:00,817 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-24 19:28:00,818 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:28:00,818 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-24 19:28:00,818 INFO    SenderThread:17121 [file_pusher.py:join():175] waiting for file pusher
+2024-06-24 19:28:00,818 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 12
+2024-06-24 19:28:00,819 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:28:00,819 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-24 19:28:00,819 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:28:00,819 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-24 19:28:00,819 INFO    SenderThread:17121 [file_stream.py:finish():601] file stream finish called
+2024-06-24 19:28:01,048 INFO    SenderThread:17121 [file_stream.py:finish():605] file stream finish is done
+2024-06-24 19:28:01,049 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 13
+2024-06-24 19:28:01,049 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:28:01,049 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-24 19:28:01,050 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:28:01,050 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-24 19:28:01,050 INFO    SenderThread:17121 [sender.py:transition_state():614] send defer: 14
+2024-06-24 19:28:01,050 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 19:28:01,051 INFO    HandlerThread:17121 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-24 19:28:01,051 DEBUG   SenderThread:17121 [sender.py:send():379] send: final
+2024-06-24 19:28:01,051 DEBUG   SenderThread:17121 [sender.py:send():379] send: footer
+2024-06-24 19:28:01,052 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: defer
+2024-06-24 19:28:01,052 INFO    SenderThread:17121 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-24 19:28:01,053 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 19:28:01,054 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 19:28:01,054 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: server_info
+2024-06-24 19:28:01,055 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: server_info
+2024-06-24 19:28:01,061 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 19:28:01,062 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-24 19:28:01,063 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-24 19:28:01,063 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 19:28:01,120 DEBUG   SenderThread:17121 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 19:28:01,121 INFO    MainThread:17121 [wandb_run.py:_footer_history_summary_info():3988] rendering history
+2024-06-24 19:28:01,121 INFO    MainThread:17121 [wandb_run.py:_footer_history_summary_info():4020] rendering summary
+2024-06-24 19:28:01,121 INFO    MainThread:17121 [wandb_run.py:_footer_sync_info():3947] logging synced files
+2024-06-24 19:28:01,122 DEBUG   HandlerThread:17121 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-24 19:28:01,122 INFO    HandlerThread:17121 [handler.py:finish():882] shutting down handler
+2024-06-24 19:28:02,062 INFO    WriterThread:17121 [datastore.py:close():296] close: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240624_192652-5q7n58t7/run-5q7n58t7.wandb
+2024-06-24 19:28:02,121 INFO    SenderThread:17121 [sender.py:finish():1608] shutting down sender
+2024-06-24 19:28:02,121 INFO    SenderThread:17121 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 19:28:02,121 INFO    SenderThread:17121 [file_pusher.py:join():175] waiting for file pusher

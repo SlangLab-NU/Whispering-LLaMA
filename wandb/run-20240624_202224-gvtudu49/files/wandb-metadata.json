@@ -1,0 +1,203 @@
+{
+    "os": "Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-06-25T00:22:26.868844",
+    "startedAt": "2024-06-25T00:22:24.492948",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--lr",
+        "1e-3",
+        "--option",
+        "S",
+        "--d",
+        "1",
+        "--pretrained_path",
+        "weights/alpaca.pth",
+        "--tokenizer_path",
+        "weights/tokenizer.model",
+        "--data_path",
+        "Inference/gs_inferences/large-v2_hypo/torgo_F01_large-v2",
+        "--dataset_name",
+        "torgo_F01_large-v2"
+    ],
+    "state": "running",
+    "program": "training/WL-S_M_train.py",
+    "codePathLocal": "training/WL-S_M_train.py",
+    "codePath": "training/WL-S_M_train.py",
+    "git": {
+        "remote": "https://github.com/SlangLab-NU/Whispering-LLaMA.git",
+        "commit": "41a995d0e750ae8777aab4a1bb1d69468f6b0289"
+    },
+    "email": "jindaz.work@outlook.com",
+    "root": "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA",
+    "host": "d1011",
+    "username": "zhang.jinda1",
+    "executable": "/work/van-speech-nlp/jindaznb/visenv/bin/python",
+    "cpu_count": 28,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1.0312142857142856,
+        "min": 1000.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.099,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.015,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.186,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.499,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.003,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.096,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.098,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.004,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.002,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.024,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 19.521484375,
+            "used": 10.707195281982422
+        }
+    },
+    "gpu": "Tesla V100-SXM2-32GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34359738368
+        }
+    ],
+    "memory": {
+        "total": 187.36173248291016
+    }
+}

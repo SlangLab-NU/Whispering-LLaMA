@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-import wandb
+# import wandb
 from pathlib import Path
 import shutil
 import argparse
@@ -57,7 +57,7 @@ micro_batch_size = 4
 gradient_accumulation_steps = batch_size // micro_batch_size
 
 train_path = f'{data_path}_train.pt'
-val_path = f'{data_path}_test.pt'
+val_path = f'{data_path}_val.pt'
 
 train_data = torch.load(train_path,map_location=torch.device('cpu'))
 val_data   = torch.load(val_path,map_location=torch.device('cpu'))
@@ -80,7 +80,7 @@ max_input_length = 1000
 save_interval = epoch_size # save every epoch
 log_interval = 1
 run_name = f'WL_S_{learning_rate}'
-out_dir: str = 'runs/'+run_name+dataset_name
+out_dir: str = f"runs/{run_name}_{dataset_name}"
 
 # wandb configuration
 # wandb.login()
@@ -302,16 +302,6 @@ def get_batch(fabric: L.Fabric, model ,data: list):
 
 
 def save_model_checkpoint(fabric, model, file_path):
-    """
-    Save the model checkpoint to the specified file path.
-
-    This function saves the state of the model in a way that can be restored later. 
-
-    Args:
-        fabric (L.Fabric): The training fabric instance, which handles distributed training and other utilities.
-        model (torch.nn.Module): The model that needs to be saved.
-        file_path (str or Path): The file path where the model checkpoint will be saved.
-    """
     file_path = Path(file_path)
 
     if isinstance(fabric.strategy, DeepSpeedStrategy):

@@ -11,9 +11,151 @@
 nvidia-smi
 module load anaconda3/2022.05
 module load ffmpeg/20190305 
+source activate /work/van-speech-nlp/jindaznb/visenv/
 
-source activate /work/van-speech-nlp/jindaznb/mmenv/
-cd ..
+
+speaker_id='M05' && python training/WL-S_M_train.py --lr 1e-3 \
+    --option 'M' \
+    --d 1 \
+    --pretrained_path 'weights/alpaca.pth' \
+    --tokenizer_path 'weights/tokenizer.model' \
+    --data_path "Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2" \
+    --adapter_path "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/runs/WL_M_0.001_torgo_M05_large-v2/iter-000002.pth"
+
+
+# 43097452
+speaker_id='M01' && python training/WL-S_M_train-Copy1.py --lr 1e-3 \
+    --option 'S' \
+    --d 1 \
+    --pretrained_path 'weights/alpaca.pth' \
+    --tokenizer_path 'weights/tokenizer.model' \
+    --data_path "Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+# 43100449
+# speaker_id='M02' && python training/WL-S_M_train-Copy1.py --lr 1e-3 \
+#     --option 'S' \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+# 43100450
+# speaker_id='M03' && python training/WL-S_M_train-Copy1.py --lr 1e-3 \
+#     --option 'S' \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+
+
+
+    
+# 43095348
+# speaker_id='F01' && python training/WL-S_M_train-Copy1.py --lr 1e-3 \
+#     --option 'M' \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+# S: 43094923
+
+
+
+
+
+# 43077610
+# speaker_id='M01' && python training/WL-S_M_train.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+# 43077614
+# speaker_id='M02' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+# 43077615
+# speaker_id='M03' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+
+
+
+
+# 43074028
+# speaker_id='M04' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+# 43074027
+# speaker_id='M05' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+# 43074029
+# speaker_id='F04' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+#  43074030
+# speaker_id='F03' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+
+
+
+
+
+
+
+# 43066918
+# speaker_id='M01' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+# 43066919
+# speaker_id='M02' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+# 43066920
+# speaker_id='M03' && python training/WL-S_train-Copy1.py --lr 1e-3 \
+#     --d 1 \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"
+
+
+
+
 
 
 

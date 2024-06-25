@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-import wandb
+# import wandb
 from pathlib import Path
 import shutil
 import argparse
@@ -9,6 +9,10 @@ import argparse
 import lightning as L
 import numpy as np
 import torch
+
+torch.backends.cuda.enable_mem_efficient_sdp(False)
+torch.backends.cuda.enable_flash_sdp(False)
+
 
 # support running without installing as a package
 wd = Path(__file__).parent.parent.resolve() # does not work as jupyter notebook 
@@ -21,32 +25,29 @@ from lit_llama.tokenizer import Tokenizer
 from lightning.fabric.strategies import DeepSpeedStrategy
 from generate.generate_for_WL import generate
 
-#cli setup
-"""
---lr : learning rate for the model (default: 1e-3)
---d : No of GPUs (default: 1)
---pretrained_path : Path to Alpaca checkpoint
---tokenizer_path : Path to LLaMA tokenizer
---data_path : Path to data
-"""
+#cli setup 
 parser = argparse.ArgumentParser()
 parser.add_argument('--lr', type=float, default=1e-3,help='learning rate for the model (default: 1e-3)')
 parser.add_argument('--d', type=int, default=1,help='No of GPUs (default: 1)')
 parser.add_argument('--pretrained_path', type=str,default= 'model/Alpaca_PY/lit-llama.pth',help='Path to Alpaca checkpoint') 
 parser.add_argument('--tokenizer_path', type=str,help='Path to LLaMA tokenizer') 
 parser.add_argument('--data_path', type=str,help='Path to data') 
+# resume
+parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')
+parser.add_argument('--dataset_name', type=str, help='Name of the dataset to be used for training (default: None)')
+
 
 args = parser.parse_args()
 learning_rate = args.lr
 pretrained_path = args.pretrained_path
 tokenizer_path = args.tokenizer_path
 data_path = args.data_path
+is_resume_from_checkpoint = args.resume
+dataset_name = args.dataset_name
 
-"""
-defines hyperparameters, batch configuration, and loads the training and validation data.
-"""
 # Hyperparameters
-num_epochs = 25
+# num_epochs = 25
+num_epochs = 10
 weight_decay = 0.02
 
 # Batch and device configuration
@@ -56,7 +57,7 @@ micro_batch_size = 4
 gradient_accumulation_steps = batch_size // micro_batch_size
 
 train_path = f'{data_path}_train.pt'
-val_path = f'{data_path}_test.pt'
+val_path = f'{data_path}_val.pt'
 
 train_data = torch.load(train_path,map_location=torch.device('cpu'))
 val_data   = torch.load(val_path,map_location=torch.device('cpu'))
@@ -76,29 +77,28 @@ max_seq_length = 2048
 max_input_length = 1000
 
 # Checkpointing configuration
-
 save_interval = epoch_size # save every epoch
 log_interval = 1
 run_name = f'WL_M_{learning_rate}'
-out_dir: str = 'runs/'+run_name
+out_dir: str = f"runs/{run_name}_{dataset_name}"
 
 # wandb configuration
-wandb.login()
-wandb.init(
-    project="GigaCat",
-    name=run_name,
-    group=run_name,
-    config={
-    "learning_rate": learning_rate,
-    "num_epochs": num_epochs,
-    "weight_decay": weight_decay,
-    "batch_size": (batch_size*devices),
-    "micro_batch_size":micro_batch_size,
-    "dataset":'gigaspeech',
-    'devices':devices,
-    'max_input_length':max_input_length,
-    }
-)
+# wandb.login()
+# wandb.init(
+#     project="GigaCat",
+#     name=run_name,
+#     group=run_name,
+#     config={
+#     "learning_rate": learning_rate,
+#     "num_epochs": num_epochs,
+#     "weight_decay": weight_decay,
+#     "batch_size": (batch_size*devices),
+#     "micro_batch_size":micro_batch_size,
+#     "dataset":'gigaspeech',
+#     'devices':devices,
+#     'max_input_length':max_input_length,
+#     }
+# )
 
 # Use if needed, we use DDP strategy with the current implementation on 2x A100s
 ds_config = {
@@ -108,6 +108,7 @@ ds_config = {
 }
 
 def main():
+    ## The Fabric class is used to create a distributed computing environment for training models.
     fabric = L.Fabric(
         accelerator="cuda", 
         devices=devices, 
@@ -118,12 +119,12 @@ def main():
     fabric.launch()
     fabric.seed_everything(1337 + fabric.global_rank)
 
+    ## Setup Model and Load Pretrained Weights
     if fabric.global_rank == 0:
         os.makedirs(out_dir, exist_ok=True)
         
     config = LLaMAConfig(block_size=max_seq_length)
     
-
     if not os.path.isfile(pretrained_path):
         raise FileNotFoundError(
             f"Can't find the pretrained weights at {pretrained_path}."
@@ -137,7 +138,7 @@ def main():
     # Adding Cross Attention (K,V) weigths from the Whisper Decoder to Alpaca State_dict 
     (_, w_ck_pt) = whisper.load_model("large-v2",device='cpu')
     print('loaded Whisper checkpoint')
-    for n, p in model.named_parameters():
+    for n, p in model.named_parameters(): # Iterate through all named parameters of whisper
         if 'whisper' in n :
             #transformer.h.2.attn.whisper_value.weight
             layer = n.split('.')[2]
@@ -146,8 +147,6 @@ def main():
             #decoder.blocks.3.cross_attn.key.weight
             w_key = f'decoder.blocks.{layer}.cross_attn.{kv}.{suffix}'
             checkpoint[n] = w_ck_pt['model_state_dict'][w_key].cpu()
-
-        
         
     with fabric.init_module():
          # strict=False because missing keys due to adapter weights not containted in state dict  
@@ -161,7 +160,7 @@ def main():
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
     model, optimizer = fabric.setup(model, optimizer)
     train(fabric, model, optimizer, train_data, val_data, out_dir)
-    wandb.finish()
+    # wandb.finish()
 
     # Save the final checkpoint at the end of training
     save_model_checkpoint(fabric, model, os.path.join(out_dir, "lit-llama-adapter-finetuned.pth"))
@@ -200,13 +199,15 @@ def train(
             lr = learning_rate - ((learning_rate - 1e-5)/max_iters)*(iter_num)
             for param_group in optimizer.param_groups:
                 param_group['lr'] = lr
-            wandb.log({"lr": lr})
+            # wandb.log({"lr": lr})
+            print({"lr": lr})
 
         dt = time.time() - t0
         
         if iter_num % log_interval == 0:
             fabric.print(f"iter {iter_num}: loss {loss.item():.4f}, time: {dt:.2f}s")
-            wandb.log({"train_iter": iter_num, "train_Iter_loss": loss.item()})
+            # wandb.log({"train_iter": iter_num, "train_Iter_loss": loss.item()})
+            print({"train_iter": iter_num, "train_Iter_loss": loss.item()})
             
        # Saving Adapter weights at the end of epoch
         if (iter_num + 1) % epoch_size == 0:
@@ -217,7 +218,8 @@ def train(
             val_loss = validate(fabric, model, val_data)
             fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
             fabric.barrier()
-            wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
+            # wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
+            print({"val_step": iter_num, "val_step_loss": val_loss})
             print('End of epoch ',(iter_num+1)/epoch_size)
 
 
@@ -327,4 +329,3 @@ if __name__ == "__main__":
     torch.set_float32_matmul_precision("high")
 
     main()
-    

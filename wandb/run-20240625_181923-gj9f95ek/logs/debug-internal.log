@@ -1,0 +1,264 @@
+2024-06-25 18:19:23,249 INFO    StreamThr :10581 [internal.py:wandb_internal():85] W&B internal server running at pid: 10581, started at: 2024-06-25 18:19:23.242742
+2024-06-25 18:19:23,250 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status
+2024-06-25 18:19:23,251 INFO    WriterThread:10581 [datastore.py:open_for_write():87] open: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/run-gj9f95ek.wandb
+2024-06-25 18:19:23,256 DEBUG   SenderThread:10581 [sender.py:send():379] send: header
+2024-06-25 18:19:24,227 DEBUG   SenderThread:10581 [sender.py:send():379] send: run
+2024-06-25 18:19:24,465 INFO    SenderThread:10581 [dir_watcher.py:__init__():211] watching files in: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files
+2024-06-25 18:19:24,465 INFO    SenderThread:10581 [sender.py:_start_run_threads():1188] run started: gj9f95ek with start time 1719353963.247218
+2024-06-25 18:19:24,472 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: check_version
+2024-06-25 18:19:24,473 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: check_version
+2024-06-25 18:19:24,565 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: run_start
+2024-06-25 18:19:43,162 DEBUG   HandlerThread:10581 [system_info.py:__init__():26] System info init
+2024-06-25 18:19:43,162 DEBUG   HandlerThread:10581 [system_info.py:__init__():41] System info init done
+2024-06-25 18:19:43,162 INFO    HandlerThread:10581 [system_monitor.py:start():194] Starting system monitor
+2024-06-25 18:19:43,163 INFO    SystemMonitor:10581 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-25 18:19:43,163 INFO    HandlerThread:10581 [system_monitor.py:probe():214] Collecting system info
+2024-06-25 18:19:43,164 INFO    SystemMonitor:10581 [interfaces.py:start():188] Started cpu monitoring
+2024-06-25 18:19:43,164 INFO    SystemMonitor:10581 [interfaces.py:start():188] Started disk monitoring
+2024-06-25 18:19:43,167 INFO    SystemMonitor:10581 [interfaces.py:start():188] Started gpu monitoring
+2024-06-25 18:19:43,175 DEBUG   HandlerThread:10581 [system_info.py:probe():152] Probing system
+2024-06-25 18:19:43,176 INFO    SystemMonitor:10581 [interfaces.py:start():188] Started memory monitoring
+2024-06-25 18:19:43,176 INFO    SystemMonitor:10581 [interfaces.py:start():188] Started network monitoring
+2024-06-25 18:19:43,194 DEBUG   HandlerThread:10581 [system_info.py:_probe_git():137] Probing git
+2024-06-25 18:19:43,226 DEBUG   HandlerThread:10581 [system_info.py:_probe_git():145] Probing git done
+2024-06-25 18:19:43,226 DEBUG   HandlerThread:10581 [system_info.py:probe():200] Probing system done
+2024-06-25 18:19:43,226 DEBUG   HandlerThread:10581 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.8.19', 'heartbeatAt': '2024-06-25T22:19:43.175846', 'startedAt': '2024-06-25T22:19:23.148717', 'docker': None, 'cuda': None, 'args': ('--lr', '1e-3', '--option', 'M', '--d', '1', '--pretrained_path', 'weights/alpaca.pth', '--tokenizer_path', 'weights/tokenizer.model', '--data_path', 'Inference/gs_inferences/large-v2_hypo/torgo_M05_large-v2', '--dataset_name', 'torgo_M05_large-v2', '--adapter_path', '/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/runs/WL_M_0.001_torgo_M05_large-v2/iter-000002.pth'), 'state': 'running', 'program': 'training/WL-S_M_train.py', 'codePathLocal': 'training/WL-S_M_train.py', 'codePath': 'training/WL-S_M_train.py', 'git': {'remote': 'https://github.com/SlangLab-NU/Whispering-LLaMA.git', 'commit': '41a995d0e750ae8777aab4a1bb1d69468f6b0289'}, 'email': 'jindaz.work@outlook.com', 'root': '/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA', 'host': 'd1028', 'username': 'zhang.jinda1', 'executable': '/work/van-speech-nlp/jindaznb/visenv/bin/python', 'cpu_count': 64, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2794.644, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}, {'current': 2794.644, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 19.521484375, 'used': 5.206485748291016}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 503.40164947509766}}
+2024-06-25 18:19:43,226 INFO    HandlerThread:10581 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-25 18:19:43,226 INFO    HandlerThread:10581 [system_monitor.py:probe():227] Publishing system info
+2024-06-25 18:19:43,227 DEBUG   HandlerThread:10581 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-25 18:19:43,479 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/conda-environment.yaml
+2024-06-25 18:19:55,428 DEBUG   HandlerThread:10581 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-25 18:19:55,441 INFO    HandlerThread:10581 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-25 18:19:55,491 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/conda-environment.yaml
+2024-06-25 18:19:55,492 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-metadata.json
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-25 18:19:55,520 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:55,521 DEBUG   SenderThread:10581 [sender.py:send():379] send: files
+2024-06-25 18:19:55,521 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-25 18:19:55,845 INFO    wandb-upload_0:10581 [upload_job.py:push():130] Uploaded file /tmp/tmpvdy8fwlpwandb/wmxelk4w-wandb-metadata.json
+2024-06-25 18:19:56,080 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-25 18:19:56,080 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: python_packages
+2024-06-25 18:19:56,081 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 18:19:56,083 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:19:56,089 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: stop_status
+2024-06-25 18:19:56,155 DEBUG   SenderThread:10581 [sender.py:send():379] send: telemetry
+2024-06-25 18:19:56,493 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/requirements.txt
+2024-06-25 18:19:57,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:19:58,083 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:19:58,496 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:19:59,057 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:19:59,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:00,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:00,499 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:01,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:02,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:03,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:04,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:04,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:05,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:06,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:07,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:08,083 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:09,083 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:09,390 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:10,083 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:11,081 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 18:20:11,081 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: stop_status
+2024-06-25 18:20:11,126 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:11,509 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:12,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:13,084 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:14,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:15,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:15,235 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:16,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:17,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:18,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:19,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:20,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:21,082 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:21,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:22,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:23,086 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:23,524 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:24,086 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:25,085 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:26,089 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:26,089 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 18:20:26,090 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:26,373 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: stop_status
+2024-06-25 18:20:26,527 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/config.yaml
+2024-06-25 18:20:27,089 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:28,102 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:29,100 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:29,530 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:30,144 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:30,144 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:30,145 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:30,145 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:30,150 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:30,532 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_created():271] file/dir created: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:31,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:31,112 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:31,112 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:31,112 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:31,116 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:31,151 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:31,152 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:31,152 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:31,156 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:31,534 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:31,534 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:32,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:32,156 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:32,243 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:32,244 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:32,244 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:32,248 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:32,535 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:33,042 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:33,042 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:33,042 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:33,046 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:33,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:33,537 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:33,537 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:34,122 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:34,123 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:34,123 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:34,123 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:34,127 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:34,537 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:35,059 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:35,060 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:35,060 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:35,067 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:35,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:35,539 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:35,539 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:36,047 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:36,048 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:36,048 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:36,052 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:36,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:36,540 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:36,951 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:36,952 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:36,952 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:36,955 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:37,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:37,542 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:37,542 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:37,864 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:37,903 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:37,904 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:37,904 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:37,908 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:38,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:38,543 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:38,966 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:38,967 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:38,967 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:38,971 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:39,005 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:39,006 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:39,006 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:39,010 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:39,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:39,545 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:39,545 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:39,833 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:39,834 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:39,834 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:39,838 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:40,104 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:40,546 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:40,611 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:40,612 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:40,612 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:40,616 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:41,084 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 18:20:41,085 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: stop_status
+2024-06-25 18:20:41,124 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:41,423 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:41,424 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:41,424 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:41,431 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:41,547 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:41,548 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:42,105 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:42,303 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:42,304 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:42,304 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:42,307 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:42,548 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:43,105 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:43,177 DEBUG   SystemMonitor:10581 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-25 18:20:43,178 DEBUG   SenderThread:10581 [sender.py:send():379] send: stats
+2024-06-25 18:20:43,179 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:43,287 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:43,288 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:43,288 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:43,293 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:43,552 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:43,552 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:44,106 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:44,224 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:44,224 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:44,224 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:44,230 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:44,553 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:45,105 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:45,367 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:45,368 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:45,368 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:45,372 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:45,557 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:45,557 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:46,105 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:46,185 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:46,185 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:46,185 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:46,189 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:46,224 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:46,225 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:46,225 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:46,228 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:46,558 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:47,068 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:47,068 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:47,069 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:47,072 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:47,105 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:47,561 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:47,561 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:47,896 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:47,897 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:47,898 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:47,902 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:48,105 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 18:20:48,561 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:48,702 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:48,741 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-25 18:20:48,742 DEBUG   SenderThread:10581 [sender.py:send():379] send: history
+2024-06-25 18:20:48,743 DEBUG   SenderThread:10581 [sender.py:send_request():406] send_request: summary_record
+2024-06-25 18:20:48,750 INFO    SenderThread:10581 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-25 18:20:49,564 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/wandb-summary.json
+2024-06-25 18:20:49,564 INFO    Thread-12 :10581 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/wandb/run-20240625_181923-gj9f95ek/files/output.log
+2024-06-25 18:20:53,751 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:20:58,752 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:21:03,752 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:21:08,753 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:21:13,179 DEBUG   SenderThread:10581 [sender.py:send():379] send: stats
+2024-06-25 18:21:14,180 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:21:19,181 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 18:21:24,181 DEBUG   HandlerThread:10581 [handler.py:handle_request():158] handle_request: status_report

@@ -11,10 +11,124 @@ nvidia-smi
 module load anaconda3/2022.05
 module load ffmpeg/20190305 
 
-source activate /work/van-speech-nlp/jindaznb/mmenv/
+source activate /work/van-speech-nlp/jindaznb/visenv/
 export CUDA_LAUNCH_BLOCKING=1
 
 
+# 43094999
+
+
+# 43100459
+model_id='large-v2' && option='S' && speaker_id='M01' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+    python Inference/WL-S_M_inference.py \
+    --option $option \
+    --pretrained_path 'weights/alpaca.pth' \
+    --tokenizer_path 'weights/tokenizer.model' \
+    --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+    --save_dir "runs/Inference/${speaker_id}" \
+    --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+
+model_id='large-v2' && option='S' && speaker_id='M02' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+    python Inference/WL-S_M_inference.py \
+    --option $option \
+    --pretrained_path 'weights/alpaca.pth' \
+    --tokenizer_path 'weights/tokenizer.model' \
+    --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+    --save_dir "runs/Inference/${speaker_id}" \
+    --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+model_id='large-v2' && option='S' && speaker_id='M03' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+    python Inference/WL-S_M_inference.py \
+    --option $option \
+    --pretrained_path 'weights/alpaca.pth' \
+    --tokenizer_path 'weights/tokenizer.model' \
+    --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+    --save_dir "runs/Inference/${speaker_id}" \
+    --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+# 43097411
+# model_id='large-v2' && option='S' && speaker_id='M02' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+
+# model_id='large-v2' && option='S' && speaker_id='M03' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+
+
+
+# model_id='large-v2' && speaker_id='F03' && dataset_name="torgo_${speaker_id}_${model_id}" && python Inference/WL-S_M_inference.py \
+#     --option 'S' \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference" \
+#     --root "runs/WL_S_0.001_${dataset_name}" 
+
+
+# analyze M03 43079353
+# python 4_1_whisper_inf_baseline.py --speaker_id M03 --model_name "large-v2"
+
+
+# speaker_id='M03' && option='S' && dataset_name="torgo_${speaker_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/tiny_hypo/torgo_${speaker_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+
+ 
+# speaker_id='M03' && dataset_name="torgo_${speaker_id}" && python Inference/WL-S_inference.py \
+#     --option 'S' \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/baseline_data_tiny_hypo_v2/torgo_${speaker_id}_test.pt" \
+#     --save_dir "runs/Inference" \
+#     --root "runs/WL_S_0.001_${dataset_name}" 
+
+
+# 43072614
+# speaker_id='M01' && dataset_name="torgo_${speaker_id}_large-v2" && python Inference/WL-M_inference.py \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/torgo_${speaker_id}_large-v2_test.pt" \
+#     --save_dir "runs/Inference" \
+#     --root "runs/WL_M_0.001_${dataset_name}" 
+
+
+# speaker_id='M02' && dataset_name="torgo_${speaker_id}_large-v2" && python Inference/WL-M_inference.py \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data "Inference/gs_inferences/torgo_${speaker_id}_large-v2_test.pt" \
+#     --save_dir "runs/Inference" \
+#     --root "runs/WL_M_0.001_${dataset_name}" 
+
+
+
+
+# python 01_output_feature_pt.py --speaker_id "F01"
 
 # 43003263
 # python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M03" --best_of 50
@@ -39,9 +153,9 @@ export CUDA_LAUNCH_BLOCKING=1
 # python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "M02" --best_of 50
 # python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "M02"
 
-# 43054844
+# 43064594
 # python 0_prepare_torgo_json.py --model_name "large-v2" --speaker_id "F01" --best_of 50
-# python 01_output_feature_pt.py  --model_name "large_v2" --speaker_id "F01"
+# python 01_output_feature_pt.py --speaker_id "F01"
 
 
 

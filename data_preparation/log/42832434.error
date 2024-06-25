@@ -1,7 +1,0 @@
-susage: WL-S_train-Copy1.py [-h] [--lr LR] [--d D]
-                           [--pretrained_path PRETRAINED_PATH]
-                           [--tokenizer_path TOKENIZER_PATH]
-                           [--data_path DATA_PATH] [--resume RESUME]
-                           [--dataset_name DATASET_NAME]
-WL-S_train-Copy1.py: error: unrecognized arguments:  
-/var/spool/slurmd/job42832434/slurm_script: line 33: --dataset_name: command not found

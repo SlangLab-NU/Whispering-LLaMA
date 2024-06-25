@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/data_preparation/2_finetune_whisper_on_torgo.py", line 145, in <module>
-    os.makedirs(output_path + '/logs')
-  File "/work/van-speech-nlp/jindaznb/mmenv/lib/python3.9/os.py", line 225, in makedirs
-    mkdir(name, mode)
-FileExistsError: [Errno 17] File exists: '../finetuned_whisper_output/logs'

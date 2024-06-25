@@ -15,10 +15,13 @@ import time
 start_time = time.time() 
 
 
+data_folder = 'Inference/gs_inferences/baseline_data_tiny_hypo_v2'
+
+
 parser = argparse.ArgumentParser(description="Process and save data checkpoints")
 parser.add_argument('--speaker_id', type=str, required=True, help="Speaker ID")
 parser.add_argument('--model_name', type=str,
-                    default='tiny', help='Whisper model to load (default: tiny.en)')
+                    default='', help='Whisper model to load (default: tiny.en)')
 
 
 args = parser.parse_args()
@@ -38,15 +41,26 @@ import json
 
 # The below is the json file you can generate using the "To generatn-best hyporhesis.ipynb" notebook; Need to further tokenize the hypothesis
 
-with open(f'Inference/gs_inferences/torgo_train_{speaker_id}_{model_name}.json', "r") as file:  # Change the file path and name here
-    train_data = json.load(file)
+if model_name:
+    with open(f'{data_folder}/torgo_train_{speaker_id}_{model_name}.json', "r") as file:  # Change the file path and name here
+        train_data = json.load(file)
+    
+    with open(f'{data_folder}/torgo_val_{speaker_id}_{model_name}.json', "r") as valid_file:
+        val_data = json.load(valid_file)
+    
+    # Load the test set
+    with open(f'{data_folder}/torgo_test_{speaker_id}_{model_name}.json', "r") as test_file:
+        test_data = json.load(test_file)
+else:
+    with open(f'{data_folder}/torgo_train_{speaker_id}.json', "r") as file:  
+        train_data = json.load(file)
 
-with open(f'Inference/gs_inferences/torgo_val_{speaker_id}_{model_name}.json', "r") as valid_file:
-    val_data = json.load(valid_file)
-
-# Load the test set
-with open(f'Inference/gs_inferences/torgo_test_{speaker_id}_{model_name}.json', "r") as test_file:
-    test_data = json.load(test_file)
+    with open(f'{data_folder}/torgo_val_{speaker_id}.json', "r") as valid_file:
+        val_data = json.load(valid_file)
+    
+    # Load the test set
+    with open(f'{data_folder}/torgo_test_{speaker_id}.json', "r") as test_file:
+        test_data = json.load(test_file)
 
 
 """Implementation derived from https://github.com/tloen/alpaca-lora"""
@@ -113,18 +127,18 @@ def process_train_data(train_data):
 
 split = "train"
 result = process_train_data(train_data)
-torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{model_name}_{split}.pt')
+torch.save(result,f'{data_folder}/torgo_{speaker_id}_{model_name}_{split}.pt')
 print(f"Processed {split} data and saved checkpoint for {speaker_id}")
 
-split = "val"
-result = process_train_data(val_data)
-torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{model_name}_{split}.pt')
-print(f"Processed {split} data and saved checkpoint for {speaker_id}")
+# split = "val"
+# result = process_train_data(val_data)
+# torch.save(result,f'{data_folder}/torgo_{speaker_id}_{model_name}_{split}.pt')
+# print(f"Processed {split} data and saved checkpoint for {speaker_id}")
 
-split = "test"
-result = process_train_data(test_data)
-torch.save(result,f'Inference/gs_inferences/torgo_{speaker_id}_{model_name}_{split}.pt')
-print(f"Processed {split} data and saved checkpoint for {speaker_id}")
+# split = "test"
+# result = process_train_data(test_data)
+# torch.save(result,f'{data_folder}/torgo_{speaker_id}_{model_name}_{split}.pt')
+# print(f"Processed {split} data and saved checkpoint for {speaker_id}")
 
 
 end_time = time.time()

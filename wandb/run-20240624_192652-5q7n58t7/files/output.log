@@ -1,0 +1,21 @@
+
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option S --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+Traceback (most recent call last):
+  File "training/WL-S_M_train.py", line 339, in <module>
+    main()
+  File "training/WL-S_M_train.py", line 144, in main
+    model = LLaMA(config)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/lit_llama/WL_S.py", line 232, in __init__
+    self.lm_head = nn.Linear(config.n_embd, config.vocab_size, bias=False)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 96, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/utilities/init.py", line 54, in __torch_function__
+    return func(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/utils/_device.py", line 62, in __torch_function__
+    return func(*args, **kwargs)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

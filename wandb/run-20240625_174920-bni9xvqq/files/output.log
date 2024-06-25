@@ -1,0 +1,10 @@
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option S --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+loaded Whisper checkpoint
+loaded LAMMA model
+Number of trainable parameters: 4.8999M
+iter 0: loss 4.4996, time: 1.43s
+iter 1: loss 3.4812, time: 0.96s
+iter 2: loss 1.5814, time: 1.36s
+iter 3: loss 3.1347, time: 0.93s

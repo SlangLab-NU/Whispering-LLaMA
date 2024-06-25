@@ -1,0 +1,29 @@
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option M --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+Traceback (most recent call last):
+  File "training/WL-S_M_train.py", line 360, in <module>
+    main()
+  File "training/WL-S_M_train.py", line 152, in main
+    model = LLaMA(config)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/lit_llama/WL_M.py", line 236, in __init__
+    h=nn.ModuleList(Block(config, i) for i in range(config.n_layer)),
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/nn/modules/container.py", line 279, in __init__
+    self += modules
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/nn/modules/container.py", line 320, in __iadd__
+    return self.extend(modules)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/nn/modules/container.py", line 401, in extend
+    for i, module in enumerate(modules):
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/lit_llama/WL_M.py", line 236, in <genexpr>
+    h=nn.ModuleList(Block(config, i) for i in range(config.n_layer)),
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/lit_llama/WL_M.py", line 198, in __init__
+    self.attn = CausalSelfAttention(config, block_idx)
+  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/lit_llama/WL_M.py", line 34, in __init__
+    self.c_attn = nn.Linear(config.n_embd, 3 * config.n_embd, bias=False)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 96, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/utilities/init.py", line 54, in __torch_function__
+    return func(*args, **kwargs)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/torch/utils/_device.py", line 62, in __torch_function__
+    return func(*args, **kwargs)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 96.00 MiB (GPU 0; 79.15 GiB total capacity; 8.91 GiB already allocated; 94.81 MiB free; 8.93 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

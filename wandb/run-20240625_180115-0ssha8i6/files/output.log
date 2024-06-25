@@ -1,0 +1,11 @@
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option M --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+loaded Whisper checkpoint
+ckpt found
+Traceback (most recent call last):
+  File "training/WL-S_M_train.py", line 358, in <module>
+    main()
+  File "training/WL-S_M_train.py", line 173, in main
+    state_dict.update(adapter_checkpoint)
+NameError: name 'state_dict' is not defined

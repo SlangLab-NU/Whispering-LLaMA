@@ -1,0 +1,46 @@
+
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option S --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+loaded Whisper checkpoint
+loaded LAMMA model
+Number of trainable parameters: 4.8999M
+iter 0: loss 2.7527, time: 4.04s
+{'train_iter': 0, 'train_Iter_loss': 2.752678394317627}
+iter 1: loss 2.9462, time: 3.90s
+{'train_iter': 1, 'train_Iter_loss': 2.946171283721924}
+iter 2: loss 0.8260, time: 3.63s
+{'train_iter': 2, 'train_Iter_loss': 0.8260394334793091}
+iter 3: loss 4.2883, time: 4.74s
+{'train_iter': 3, 'train_Iter_loss': 4.288275718688965}
+iter 4: loss 6.9777, time: 3.25s
+{'train_iter': 4, 'train_Iter_loss': 6.977734565734863}
+iter 5: loss 2.1964, time: 3.68s
+{'train_iter': 5, 'train_Iter_loss': 2.196443796157837}
+iter 6: loss 4.6472, time: 3.08s
+{'train_iter': 6, 'train_Iter_loss': 4.647182941436768}
+{'lr': 0.0009997123287671234}
+iter 7: loss 3.6231, time: 3.59s
+{'train_iter': 7, 'train_Iter_loss': 3.6230883598327637}
+iter 8: loss 4.6204, time: 3.99s
+{'train_iter': 8, 'train_Iter_loss': 4.620428085327148}
+iter 9: loss 0.5995, time: 3.67s
+{'train_iter': 9, 'train_Iter_loss': 0.5994528532028198}
+iter 10: loss 1.6972, time: 3.74s
+{'train_iter': 10, 'train_Iter_loss': 1.6971927881240845}
+iter 11: loss 1.6952, time: 3.66s
+{'train_iter': 11, 'train_Iter_loss': 1.695243239402771}
+iter 12: loss 3.2396, time: 3.45s
+{'train_iter': 12, 'train_Iter_loss': 3.239647626876831}
+iter 13: loss 1.5772, time: 5.64s
+{'train_iter': 13, 'train_Iter_loss': 1.5772356986999512}
+iter 14: loss 3.0913, time: 4.13s
+{'train_iter': 14, 'train_Iter_loss': 3.091304063796997}
+{'lr': 0.0009993835616438356}
+iter 15: loss 1.2954, time: 3.47s
+{'train_iter': 15, 'train_Iter_loss': 1.2953660488128662}
+iter 16: loss 0.6791, time: 3.32s
+{'train_iter': 16, 'train_Iter_loss': 0.6791285276412964}
+iter 17: loss 1.4197, time: 4.76s
+{'train_iter': 17, 'train_Iter_loss': 1.4197291135787964}
+iter 18: loss 1.1679, time: 4.26s

@@ -192,12 +192,6 @@ model,_ = whisper.load_model('tiny')
 model.load_state_dict(hf_state_dict)
 
 
-
-
-
-
-
-
 data_df = pd.read_csv(torgo_csv_path)
 dataset_csv = load_dataset('csv', data_files=torgo_csv_path)
 

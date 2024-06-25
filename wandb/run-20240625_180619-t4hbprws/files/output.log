@@ -1,0 +1,87 @@
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option M --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+loaded Whisper checkpoint
+ckpt found
+loaded LAMMA model
+Number of trainable parameters: 7.9719M
+iter 2: loss 0.1202, time: 1.44s
+iter 3: loss 0.1484, time: 1.00s
+iter 4: loss 0.1456, time: 0.84s
+iter 5: loss 0.0354, time: 0.80s
+iter 6: loss 0.1279, time: 0.87s
+{'lr': 0.0009997082105263158}
+iter 7: loss 0.0739, time: 0.84s
+iter 8: loss 0.4989, time: 0.93s
+iter 9: loss 0.0417, time: 0.78s
+iter 10: loss 0.0254, time: 0.77s
+iter 11: loss 0.0441, time: 0.84s
+iter 12: loss 0.0167, time: 0.84s
+iter 13: loss 0.2181, time: 0.81s
+iter 14: loss 0.0587, time: 0.79s
+{'lr': 0.0009993747368421053}
+iter 15: loss 0.1373, time: 0.79s
+iter 16: loss 0.2399, time: 0.90s
+iter 17: loss 0.0799, time: 0.84s
+iter 18: loss 0.3076, time: 0.82s
+iter 19: loss 0.4521, time: 0.85s
+iter 20: loss 0.0312, time: 0.89s
+iter 21: loss 0.0121, time: 0.83s
+iter 22: loss 0.0256, time: 0.85s
+{'lr': 0.0009990412631578948}
+iter 23: loss 0.0171, time: 0.81s
+iter 24: loss 0.5861, time: 0.86s
+iter 25: loss 0.2764, time: 1.00s
+iter 26: loss 0.0070, time: 0.82s
+iter 27: loss 0.5192, time: 0.78s
+iter 28: loss 0.9511, time: 0.80s
+iter 29: loss 0.3420, time: 0.82s
+iter 30: loss 0.6583, time: 0.80s
+{'lr': 0.0009987077894736843}
+iter 31: loss 0.1928, time: 0.88s
+iter 32: loss 0.0452, time: 0.94s
+iter 33: loss 0.5058, time: 0.82s
+iter 34: loss 0.0731, time: 0.84s
+iter 35: loss 0.0664, time: 0.85s
+iter 36: loss 0.0805, time: 0.79s
+iter 37: loss 0.0585, time: 0.92s
+iter 38: loss 0.0346, time: 0.79s
+{'lr': 0.0009983743157894738}
+iter 39: loss 0.0219, time: 0.85s
+iter 40: loss 0.8118, time: 0.82s
+iter 41: loss 0.4127, time: 0.83s
+iter 42: loss 2.3347, time: 0.93s
+iter 43: loss 0.0586, time: 0.82s
+iter 44: loss 0.0700, time: 0.83s
+iter 45: loss 0.1034, time: 0.90s
+iter 46: loss 0.1643, time: 0.86s
+{'lr': 0.000998040842105263}
+iter 47: loss 0.1753, time: 0.86s
+iter 48: loss 0.3249, time: 0.81s
+iter 49: loss 0.1000, time: 0.88s
+iter 50: loss 0.3731, time: 0.83s
+iter 51: loss 0.4482, time: 0.82s
+iter 52: loss 0.0429, time: 0.88s
+iter 53: loss 0.4287, time: 0.91s
+iter 54: loss 0.0052, time: 0.95s
+{'lr': 0.0009977073684210526}
+iter 55: loss 0.1159, time: 0.81s
+iter 56: loss 0.0401, time: 0.80s
+iter 57: loss 0.1161, time: 0.76s
+iter 58: loss 0.4157, time: 0.81s
+iter 59: loss 0.0608, time: 0.84s
+iter 60: loss 0.0967, time: 0.78s
+iter 61: loss 0.2248, time: 0.74s
+iter 62: loss 0.0121, time: 0.77s
+{'lr': 0.000997373894736842}
+iter 63: loss 0.0852, time: 1.05s
+iter 64: loss 0.0364, time: 0.90s
+iter 65: loss 0.1250, time: 0.85s
+iter 66: loss 0.7337, time: 0.80s
+iter 67: loss 0.1131, time: 0.89s
+iter 68: loss 0.0638, time: 0.83s
+iter 69: loss 0.1762, time: 0.85s
+iter 70: loss 0.1021, time: 0.93s
+{'lr': 0.0009970404210526316}
+iter 71: loss 0.6824, time: 0.79s
+iter 72: loss 0.0955, time: 0.94s
