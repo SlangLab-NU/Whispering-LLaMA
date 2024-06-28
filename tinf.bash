@@ -15,39 +15,110 @@ source activate /work/van-speech-nlp/jindaznb/visenv/
 export CUDA_LAUNCH_BLOCKING=1
 
 
-# 43094999
 
 
-# 43100459
-model_id='large-v2' && option='S' && speaker_id='M01' && dataset_name="torgo_${speaker_id}_${model_id}" && \
-    python Inference/WL-S_M_inference.py \
-    --option $option \
-    --pretrained_path 'weights/alpaca.pth' \
-    --tokenizer_path 'weights/tokenizer.model' \
-    --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
-    --save_dir "runs/Inference/${speaker_id}" \
-    --root "runs/WL_${option}_0.001_${dataset_name}" 
+# analyze M03 43079353
+python 4_1_whisper_inf_baseline.py --speaker_id M03 --model_name "large-v2"
+
+# 43119402
+# python 4_1_whisper_inf_baseline.py --speaker_id M01 --model_name "large-v2"
+# python 4_1_whisper_inf_baseline.py --speaker_id M02 --model_name "large-v2"
+
+# python 4_1_whisper_inf_baseline.py --speaker_id M04 --model_name "large-v2"
+# python 4_1_whisper_inf_baseline.py --speaker_id M05 --model_name "large-v2"
+
+# 43119431
+# python 4_1_whisper_inf_baseline.py --speaker_id F01 --model_name "large-v2"
+# python 4_1_whisper_inf_baseline.py --speaker_id F03 --model_name "large-v2"
+# python 4_1_whisper_inf_baseline.py --speaker_id F04 --model_name "large-v2"
+
+
+# python 2_finetune_whisper_on_torgo_frozen_encoder --speaker_id M03 --model_name "whisper-large-v2"
+
+
+# model_id='large-v2' && option='M' && speaker_id='F01' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+# model_id='large-v2' && option='M' && speaker_id='F03' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+# model_id='large-v2' && option='M' && speaker_id='F04' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
 
 
 
-model_id='large-v2' && option='S' && speaker_id='M02' && dataset_name="torgo_${speaker_id}_${model_id}" && \
-    python Inference/WL-S_M_inference.py \
-    --option $option \
-    --pretrained_path 'weights/alpaca.pth' \
-    --tokenizer_path 'weights/tokenizer.model' \
-    --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
-    --save_dir "runs/Inference/${speaker_id}" \
-    --root "runs/WL_${option}_0.001_${dataset_name}" 
+# model_id='large-v2' && option='M' && speaker_id='M04' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
 
 
-model_id='large-v2' && option='S' && speaker_id='M03' && dataset_name="torgo_${speaker_id}_${model_id}" && \
-    python Inference/WL-S_M_inference.py \
-    --option $option \
-    --pretrained_path 'weights/alpaca.pth' \
-    --tokenizer_path 'weights/tokenizer.model' \
-    --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
-    --save_dir "runs/Inference/${speaker_id}" \
-    --root "runs/WL_${option}_0.001_${dataset_name}" 
+# model_id='large-v2' && option='M' && speaker_id='M05' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+
+
+# 43103724
+# model_id='large-v2' && option='S' && speaker_id='M02' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+
+# model_id='large-v2' && option='S' && speaker_id='M03' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
+
+
+# model_id='large-v2' && option='S' && speaker_id='M03' && dataset_name="torgo_${speaker_id}_${model_id}" && \
+#     python Inference/WL-S_M_inference.py \
+#     --option $option \
+#     --pretrained_path 'weights/alpaca.pth' \
+#     --tokenizer_path 'weights/tokenizer.model' \
+#     --data_path "Inference/gs_inferences/${model_id}_hypo/torgo_${speaker_id}_${model_id}_test.pt" \
+#     --save_dir "runs/Inference/${speaker_id}" \
+#     --root "runs/WL_${option}_0.001_${dataset_name}" 
 
 
 # 43097411
@@ -84,8 +155,7 @@ model_id='large-v2' && option='S' && speaker_id='M03' && dataset_name="torgo_${s
 #     --root "runs/WL_S_0.001_${dataset_name}" 
 
 
-# analyze M03 43079353
-# python 4_1_whisper_inf_baseline.py --speaker_id M03 --model_name "large-v2"
+
 
 
 # speaker_id='M03' && option='S' && dataset_name="torgo_${speaker_id}" && \

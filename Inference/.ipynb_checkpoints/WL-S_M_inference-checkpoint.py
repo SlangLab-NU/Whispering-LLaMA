@@ -156,6 +156,7 @@ def result(adapter_path,model):
     with open(os.path.join(save_dir,adapter_path.split('/')[-2]+adapter_path.split('/')[-1]+'.json'),'w') as f:
         f.write(json.dumps(to_json , indent = 4,ensure_ascii=False))
     print(os.path.join(save_dir,adapter_path.split('/')[-2]+'.json'))
+    
     print('the post string normalization wer is')
     x = 0
     for i in range(len(pr)):

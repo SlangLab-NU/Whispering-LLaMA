@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-# import wandb
+import wandb
 from pathlib import Path
 import shutil
 import argparse
@@ -31,11 +31,18 @@ parser.add_argument('--lr', type=float, default=1e-3,help='learning rate for the
 parser.add_argument('--d', type=int, default=1,help='No of GPUs (default: 1)')
 parser.add_argument('--pretrained_path', type=str,default= 'model/Alpaca_PY/lit-llama.pth',help='Path to Alpaca checkpoint') 
 parser.add_argument('--tokenizer_path', type=str,help='Path to LLaMA tokenizer') 
-parser.add_argument('--data_path', type=str,help='Path to data') 
-# resume
-parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')
+parser.add_argument('--data_path', type=str,help='Path to torch data') 
 parser.add_argument('--dataset_name', type=str, help='Name of the dataset to be used for training (default: None)')
 parser.add_argument('--option', choices=['S', 'M'],  required=True, help='Option to choose WL_S or WL_M')
+# resume
+parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')
+parser.add_argument(
+    '--adapter_path',
+    type=str,
+    default=None,
+    help='Path to the checkpoint file to resume training from (default: None)'
+)
+
 
 
 args = parser.parse_args()
@@ -46,6 +53,7 @@ data_path = args.data_path
 is_resume_from_checkpoint = args.resume
 dataset_name = args.dataset_name
 option=args.option
+adapter_path=args.adapter_path
 
 # Import the appropriate module based on user input
 if args.option == 'S':
@@ -87,26 +95,26 @@ max_input_length = 1000
 # Checkpointing configuration
 save_interval = epoch_size # save every epoch
 log_interval = 1
-run_name = f'WL_{option}_{learning_rate}'
-out_dir: str = f"runs/{run_name}_{dataset_name}"
+run_name = f'WL_{option}_{learning_rate}_{dataset_name}'
+out_dir: str = f"runs/{run_name}"
 
 # wandb configuration
-# wandb.login()
-# wandb.init(
-#     project="GigaCat",
-#     name=run_name,
-#     group=run_name,
-#     config={
-#     "learning_rate": learning_rate,
-#     "num_epochs": num_epochs,
-#     "weight_decay": weight_decay,
-#     "batch_size": (batch_size*devices),
-#     "micro_batch_size":micro_batch_size,
-#     "dataset":'gigaspeech',
-#     'devices':devices,
-#     'max_input_length':max_input_length,
-#     }
-# )
+wandb.login()
+wandb.init(
+    project="GigaCat",
+    name=run_name,
+    group=run_name,
+    config={
+    "learning_rate": learning_rate,
+    "num_epochs": num_epochs,
+    "weight_decay": weight_decay,
+    "batch_size": (batch_size*devices),
+    "micro_batch_size":micro_batch_size,
+    "dataset":'gigaspeech',
+    'devices':devices,
+    'max_input_length':max_input_length,
+    }
+)
 
 # Use if needed, we use DDP strategy with the current implementation on 2x A100s
 ds_config = {
@@ -158,6 +166,12 @@ def main():
         
     with fabric.init_module():
          # strict=False because missing keys due to adapter weights not containted in state dict  
+        # continue from previous cktp
+        state_dict = checkpoint
+        if adapter_path is not None and os.path.isfile(adapter_path):
+            adapter_checkpoint = torch.load(adapter_path)
+            print("ckpt found")
+            state_dict.update(adapter_checkpoint)
         model.load_state_dict(checkpoint, strict=False)
     print('loaded LAMMA model')
     mark_only_adapter_as_trainable(model)
@@ -167,8 +181,8 @@ def main():
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
     model, optimizer = fabric.setup(model, optimizer)
-    train(fabric, model, optimizer, train_data, val_data, out_dir)
-    # wandb.finish()
+    train(fabric, model, optimizer, train_data, val_data, out_dir, adapter_path)
+    wandb.finish()
 
     # Save the final checkpoint at the end of training
     save_model_checkpoint(fabric, model, os.path.join(out_dir, "lit-llama-adapter-finetuned.pth"))
@@ -181,14 +195,26 @@ def train(
     train_data: np.ndarray,
     val_data: np.ndarray,
     out_dir: str,
+    adapter_path: str,
 ) -> None:
     """The training loop.
 
     Loosely based on the nanoGPT implementation: https://github.com/karpathy/nanoGPT.
     """
+    if adapter_path:
+        import re
+        
+        # Extract the iteration number from the adapter path
+        adapter_file = find_latest_checkpoint(adapter_path)
+        iter_match = re.search(r"iter-(\d+).pth", adapter_file)
+        starting_iter = int(iter_match.group(1))+1  if iter_match else 0
+        print(f"resume from iteration: {starting_iter}")
+    else:
+        starting_iter = 0
+
     step_count = 0 # gets updated each time you compleate a batch aka each time you take a step
 
-    for iter_num in range(max_iters):
+    for iter_num in range(starting_iter,  max_iters):
 
         t0 = time.time()
 
@@ -207,28 +233,27 @@ def train(
             lr = learning_rate - ((learning_rate - 1e-5)/max_iters)*(iter_num)
             for param_group in optimizer.param_groups:
                 param_group['lr'] = lr
-            # wandb.log({"lr": lr})
+            wandb.log({"lr": lr})
             print({"lr": lr})
 
         dt = time.time() - t0
         
         if iter_num % log_interval == 0:
             fabric.print(f"iter {iter_num}: loss {loss.item():.4f}, time: {dt:.2f}s")
-            # wandb.log({"train_iter": iter_num, "train_Iter_loss": loss.item()})
-            print({"train_iter": iter_num, "train_Iter_loss": loss.item()})
+            wandb.log({"train_iter": iter_num, "train_Iter_loss": loss.item()})
+            # print({"train_iter": iter_num, "train_Iter_loss": loss.item()})
             
        # Saving Adapter weights at the end of epoch
         if (iter_num + 1) % epoch_size == 0:
-            print(f"Saving adapter weights to {out_dir}")
-            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{int((iter_num+1)/epoch_size):06d}.pth"))
+            print(f"Saving adapter weights to {out_dir}, epoch: {int((iter_num+1)/epoch_size):06d}")
+            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{iter_num:06d}.pth"))
 
         # Print and Log val loss 
             val_loss = validate(fabric, model, val_data)
             fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
             fabric.barrier()
-            # wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
-            print({"val_step": iter_num, "val_step_loss": val_loss})
-            print('End of epoch ',(iter_num+1)/epoch_size)
+            wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
+
 
 
 
@@ -330,6 +355,28 @@ def save_model_checkpoint(fabric, model, file_path):
             torch.save(state_dict, file_path)
         fabric.barrier()
 
+
+def find_latest_checkpoint(root_path):
+    latest_epoch = -1
+    latest_checkpoint = None
+
+    # List all files in the directory
+    files = os.listdir(root_path)
+
+    # Find the latest checkpoint
+    for file_name in files:
+        if not file_name.endswith('.pth'):
+            continue
+        try:
+            epoch_num = int(file_name.split('-')[1].split('.')[0])
+        except (IndexError, ValueError) as e:
+            print(f"Skipping file {file_name} due to incorrect format: {e}")
+            continue
+        if epoch_num > latest_epoch:
+            latest_epoch = epoch_num
+            latest_checkpoint = os.path.join(root_path, file_name)
+
+    return latest_checkpoint, latest_epoch
 
 if __name__ == "__main__":
     # Uncomment this line if you see an error: "Expected is_sm80 to be true, but got false"

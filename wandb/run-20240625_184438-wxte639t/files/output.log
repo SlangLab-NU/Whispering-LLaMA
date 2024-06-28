@@ -1,0 +1,16 @@
+/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python training/WL-S_M_train.py --lr 1e-3 --option M --d 1  ...
+[rank: 0] Seed set to 1337
+loaded LLaMA checkpoint
+loaded Whisper checkpoint
+loaded LAMMA model
+Number of trainable parameters: 7.9719M
+Traceback (most recent call last):
+  File "training/WL-S_M_train.py", line 386, in <module>
+    main()
+  File "training/WL-S_M_train.py", line 184, in main
+    train(fabric, model, optimizer, train_data, val_data, out_dir, adapter_path)
+  File "training/WL-S_M_train.py", line 209, in train
+    iter_match = re.search(r"iter-(\d+).pth", adapter_file)
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or bytes-like object

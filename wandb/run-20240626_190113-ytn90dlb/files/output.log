@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "training/WL-S_M_train.py", line 386, in <module>
+    main()
+  File "training/WL-S_M_train.py", line 128, in main
+    fabric = L.Fabric(
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/fabric.py", line 128, in __init__
+    self._connector = _Connector(
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/connector.py", line 145, in __init__
+    self._set_parallel_devices_and_init_accelerator()
+  File "/work/van-speech-nlp/jindaznb/visenv/lib/python3.8/site-packages/lightning/fabric/connector.py", line 349, in _set_parallel_devices_and_init_accelerator
+    raise RuntimeError(
+RuntimeError: `CUDAAccelerator` can not run on your system since the accelerator is not available. The following accelerator(s) is available and can be passed into `accelerator` argument of `Fabric`: ['cpu'].

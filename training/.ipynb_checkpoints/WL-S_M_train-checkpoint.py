@@ -62,8 +62,8 @@ elif args.option == 'M':
     from lit_llama.WL_M import LLaMA, LLaMAConfig, mark_only_adapter_as_trainable, adapter_state_from_state_dict
 
 # Hyperparameters
-# num_epochs = 25
 num_epochs = 10
+# num_epochs = 10
 weight_decay = 0.02
 
 # Batch and device configuration
@@ -201,12 +201,21 @@ def train(
 
     Loosely based on the nanoGPT implementation: https://github.com/karpathy/nanoGPT.
     """
-
-    import re
-    # Extract the iteration number from the adapter path
-    iter_match = re.search(r"iter-(\d+).pth", adapter_path)
-    starting_iter = int(iter_match.group(1))*epoch_size  if iter_match else 0
-    print(f"resume from iteration: {starting_iter}")
+    if adapter_path:
+        import re
+        
+        # Extract the iteration number from the adapter path
+        adapter_file = find_latest_checkpoint(adapter_path)
+        iter_match = re.search(r"iter-(\d+).pth", adapter_file)
+        if iter_match < 100:
+            starting_iter = int(iter_match.group(1)) * epoch_size
+        else:
+            starting_iter = int(iter_match.group(1)) + 1  
+        else:
+            starting_iter = 0
+        print(f"resume from iteration: {starting_iter}")
+    else:
+        starting_iter = 0
 
     step_count = 0 # gets updated each time you compleate a batch aka each time you take a step
 
@@ -239,16 +248,17 @@ def train(
             wandb.log({"train_iter": iter_num, "train_Iter_loss": loss.item()})
             # print({"train_iter": iter_num, "train_Iter_loss": loss.item()})
             
-       # Saving Adapter weights at the end of epoch
+        # Saving Adapter weights at the end of epoch
         if (iter_num + 1) % epoch_size == 0:
-            print(f"Saving adapter weights to {out_dir}")
-            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{int((iter_num+1)/epoch_size):06d}.pth"))
+            print(f"Saving adapter weights to {out_dir}, epoch: {int((iter_num+1)/epoch_size):06d}")
+            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{iter_num:06d}.pth")) # save by iteration
 
-        # Print and Log val loss 
+            # Print and Log val loss 
             val_loss = validate(fabric, model, val_data)
             fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
             fabric.barrier()
             wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
+            print('End of epoch ',(iter_num+1)/epoch_size)
 
 
 
@@ -351,6 +361,28 @@ def save_model_checkpoint(fabric, model, file_path):
             torch.save(state_dict, file_path)
         fabric.barrier()
 
+
+def find_latest_checkpoint(root_path):
+    latest_epoch = -1
+    latest_checkpoint = None
+
+    # List all files in the directory
+    files = os.listdir(root_path)
+
+    # Find the latest checkpoint
+    for file_name in files:
+        if not file_name.endswith('.pth'):
+            continue
+        try:
+            epoch_num = int(file_name.split('-')[1].split('.')[0])
+        except (IndexError, ValueError) as e:
+            print(f"Skipping file {file_name} due to incorrect format: {e}")
+            continue
+        if epoch_num > latest_epoch:
+            latest_epoch = epoch_num
+            latest_checkpoint = os.path.join(root_path, file_name)
+
+    return latest_checkpoint, latest_epoch
 
 if __name__ == "__main__":
     # Uncomment this line if you see an error: "Expected is_sm80 to be true, but got false"
