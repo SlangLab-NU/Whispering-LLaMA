@@ -1,0 +1,459 @@
+Recognized: she had your docks your dark suit and creacy washwater all year
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: while he's nearly niney three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: twice each day he plays sklskillfully and with this upon our little oregan
+Ground Truth: twice each day he plays skillfully and with zest upon our little organ
+
+Recognized: twice each day he plays skillfully and with this upon a small origen
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: except in the winter when the ozone or snow or ice prevents
+Ground Truth: except in the winter when the ozone or snow or ice prevents
+
+Recognized: except in the winter when the oot or snow or ice povents
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: a long flowing bear clings to his chin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: you wish to know all about my grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: iven those who observed him pronounced feeling of the utmost respect
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: he slowly takes a short walk in the open air each day
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: when he speaks his voice is just abit cracked and up crivers and a thaffel
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: don't ask me to carry an or oily drag lister
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: yet he still thinks as swiftly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: i looked up and noticed two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: jame may earn more money by working hart
+Ground Truth: jane may earn more money by working hard
+
+Recognized: the train approached the depos swalway
+Ground Truth: the train approached the depot slowly
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: i feel i can play this weeted
+Ground Truth: i feel i can play this weekend
+
+Recognized: why y'l worry over three items
+Ground Truth: why yell or worry over silly items
+
+Recognized: you're use to being on the field
+Ground Truth: you're used to being on the field
+
+Recognized: a eogrades higher or lower than nansies
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: the humanity is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: one vallodythe acts of school districts
+Ground Truth: one validated acts of school districts
+
+Recognized: i was conscious all the tome
+Ground Truth: i was conscious all the time
+
+Recognized: they carry me off on the stretcher
+Ground Truth: they carried me off on the stretcher
+
+Recognized: she had your docks your dark suit and creacy washwater all year
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: well he's nearly ninety three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: twice each day he plays sskillfully and with this upon our little organ
+Ground Truth: twice each day he plays skillfully and with zest upon our little organ
+
+Recognized: twice each day he plays skillfully and with this upon a small origan
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: except in the winter when the ozone or snow or ice pevets
+Ground Truth: except in the winter when the ozone or snow or ice prevents
+
+Recognized: except in the winter when the oots or snow or ice prevents
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: a long flowing bear clings to his chin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: you wish to know all about my grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: given those who observed him pronounced feeling of the upmost respect
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: he slowly takes a short walk in the open air each day
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: when he speaks his voice is just a bit cracked and apcrivers in a traffel
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: don't ask me to carry an oild oily drag like that
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: yet he still thinks as swiftly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: i looked up and noticed two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: jame may earn more money by working hard
+Ground Truth: jane may earn more money by working hard
+
+Recognized: the train approached the depo slowly
+Ground Truth: the train approached the depot slowly
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: i feer i can play this weeken
+Ground Truth: i feel i can play this weekend
+
+Recognized: why ya'll worry over sley items
+Ground Truth: why yell or worry over silly items
+
+Recognized: you're used to being on the field
+Ground Truth: you're used to being on the field
+
+Recognized: are your grades higher or lower than nansis
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: the humanity is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: one validathe acts of school districts
+Ground Truth: one validated acts of school districts
+
+Recognized: i was conscious all the time
+Ground Truth: i was conscious all the time
+
+Recognized: they carry me off on the stretcher
+Ground Truth: they carried me off on the stretcher
+
+Recognized: if you destroy corfundance in banks you do something to the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: if you distoy if you destroy confidence in banks you do something to reconody he thought
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: you'll be better off taking a coal shower
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: well robin where are yellow lilly
+Ground Truth: will robin wear a yellow lily
+
+Recognized: the islands are sparsely populated
+Ground Truth: the islands are sparsely populated
+
+Recognized: bright sunshime shimmers on the ocean
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: where were you wher we were away
+Ground Truth: where were you while we were away
+
+Recognized: everything that reals lis the shirf says
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: two other cases were also worthem
+Ground Truth: two other cases also were under advisement
+
+Recognized: two other casives also were under advertisement
+Ground Truth: two other cases also were under advisement
+
+Recognized: two other cases were also under abligery
+Ground Truth: two other cases were also under advisement
+
+Recognized: i trie to tell people in the commune nate
+Ground Truth: i tried to tell people in the community
+
+Recognized: mother sols yellod
+Ground Truth: mother sews yellow
+
+Recognized: if you're losing water weplace it immediately
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: see after day some new episode is reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: we will hosts hesback to the farm
+Ground Truth: we rode horseback to the farm
+
+Recognized: the little schoolhouse stood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: the box contained three tribvers
+Ground Truth: the box contained three sweaters
+
+Recognized: the museum hires musicians every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: alumony harms as divorce mean's wealth
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: i havehad my bell
+Ground Truth: i have had my bell rung
+
+Recognized: the delphins swam around the boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: thedalphen swam around arport
+Ground Truth: the dolphins swam around our boat
+
+Recognized: te first terce states require reviw event for nour
+Ground Truth: before thursday's exam review every formula
+
+Recognized: students watched as he helledet
+Ground Truth: students watched as he got out
+
+Recognized: the risk guided sols have lost their way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: carl lives in e livaly home
+Ground Truth: carl lives in a lively home
+
+Recognized: twing your arm as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: if you destroy confundince in banks you do something through the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: if you're destroyed if you destroy confidence in banks you do something to the econmy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: you'll be better off taking a coal shower
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: well robin wer a yellow lily
+Ground Truth: will robin wear a yellow lily
+
+Recognized: the islands are sparsely parpulated
+Ground Truth: the islands are sparsely populated
+
+Recognized: bright sunshine shimmers on the ocean
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: where were you wher we were away
+Ground Truth: where were you while we were away
+
+Recognized: everything that reals mits the shurftouch
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: two other cases where o wrknown
+Ground Truth: two other cases also were under advisement
+
+Recognized: two other casives also work under advertisement
+Ground Truth: two other cases also were under advisement
+
+Recognized: two other cases were also under a bagan
+Ground Truth: two other cases were also under advisement
+
+Recognized: i tried to tell people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: mother sells yellow
+Ground Truth: mother sews yellow
+
+Recognized: if youare losing water replace it immediately
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: see after day some new episode is reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: weroll host horseback to the farm
+Ground Truth: we rode horseback to the farm
+
+Recognized: the little school house stood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: the box contained three sweaters
+Ground Truth: the box contained three sweaters
+
+Recognized: the museum hires musicians every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: alumany harms a divorce man's wealth
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: i have had my bell run
+Ground Truth: i have had my bell rung
+
+Recognized: the dowhins swam around the boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: the douphins swam around our boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: be fur thursdays the clam review every formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: students watched as he calved
+Ground Truth: students watched as he got out
+
+Recognized: the misguided sils have lost their way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: carl lived in a lively home
+Ground Truth: carl lives in a lively home
+
+Recognized: swing your arm as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: she doesn't like it to her
+Ground Truth: she doesn't like it to have
+
+Recognized: some hotels are available nearby
+Ground Truth: some hotels are available nearby
+
+Recognized: each one i foolunteer to jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: some hotels are bevo nearby
+Ground Truth: some hotels are available nearby
+
+Recognized: there was only one decision to be made
+Ground Truth: there was only one decision to be made
+
+Recognized: eich were bounteer at jum first
+Ground Truth: each one volunteered to jump first
+
+Recognized: it wasn only ite
+Ground Truth: it was only
+
+Recognized: there was only one decision to be made
+Ground Truth: there was only one decision to be made
+
+Recognized: wha's only one deceason tou be made
+Ground Truth: there was only one decision to be made
+
+Recognized: the hotel oms shurved
+Ground Truth: the hotel owner shrugged
+
+Recognized: ogirl raled to his sons peedable
+Ground Truth: a good attitude is unbeatable
+
+Recognized: i tatl hes tationally a natch abob
+Ground Truth: he is definitely a notch above us
+
+Recognized: he's stephining only a notch of above us
+Ground Truth: he is definitely a notch above us
+
+Recognized: he is tephonly a nach abavath
+Ground Truth: he is definitely a notch above us
+
+Recognized: nobody really expects to evacuate
+Ground Truth: nobody really expects to evacuate
+
+Recognized: nobody really extruct to evatuate
+Ground Truth: nobody really expects to evacuate
+
+Recognized: the prospers lof cuppe
+Ground Truth: the prospects of cupping
+
+Recognized: the prospect of kariback spending is an mpusat one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+
+Recognized: he further proposed grant of an unspecified film for experimental hospital
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: she wore her shoe
+Ground Truth: she wore a she
+
+Recognized: she wor boren policear of wooden overall
+Ground Truth: she wore wore fleecy over wooden wool oh
+
+Recognized: she wore worm solysic bond overals
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: he ferthe proposed grant of an unspecified sun for exper on a hattarof
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: she doesn't like it to have heads
+Ground Truth: she doesn't like it to have
+
+Recognized: some hotels are vailable nearby
+Ground Truth: some hotels are available nearby
+
+Recognized: each one volunteer to jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: some hotels are available nearby
+Ground Truth: some hotels are available nearby
+
+Recognized: there was only one decision to be made
+Ground Truth: there was only one decision to be made
+
+Recognized: each one found here  jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: there was only
+Ground Truth: it was only
+
+Recognized: there was only one decision to be made
+Ground Truth: there was only one decision to be made
+
+Recognized: there was only one deceason to be made
+Ground Truth: there was only one decision to be made
+
+Recognized: the hotel omor shrugged
+Ground Truth: the hotel owner shrugged
+
+Recognized: a good relative is unspeadable
+Ground Truth: a good attitude is unbeatable
+
+Recognized: he tafanled he stationally an nach above us
+Ground Truth: he is definitely a notch above us
+
+Recognized: he's stepfing only a notch of above us
+Ground Truth: he is definitely a notch above us
+
+Recognized: he is dephenly am nuch above us
+Ground Truth: he is definitely a notch above us
+
+Recognized: nobody really expects to evacuate
+Ground Truth: nobody really expects to evacuate
+
+Recognized: nobody really exwect to evacuate
+Ground Truth: nobody really expects to evacuate
+
+Recognized: the prospect of cupet
+Ground Truth: the prospects of cupping
+
+Recognized: the prospect of carinback spending is an umpuzant one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+
+Recognized: he further proposed grant of an unspecified sim for experimental hospiles
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: she wore u sue
+Ground Truth: she wore a she
+
+Recognized: she wore borne fleasy of woodenwill
+Ground Truth: she wore wore fleecy over wooden wool oh
+
+Recognized: she wore worm fleeting brow overalls
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: he further proposed grants of an unspecified sumb for exparimon a hospitals
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: inta ball
+Ground Truth: it's about
+

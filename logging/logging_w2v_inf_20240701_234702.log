@@ -1,0 +1,82 @@
+01-Jul-24 23:47:02 - Log File Path: logging/logging_w2v_inf_20240701_234702.log
+
+01-Jul-24 23:47:03 - Loading model...
+01-Jul-24 23:47:06 - Unique speakers found in the dataset:
+01-Jul-24 23:47:06 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+01-Jul-24 23:47:06 - After removal of repeated prompts, the number of data in each dataset is:
+01-Jul-24 23:47:06 - Train:       9749/15091 (64%)
+01-Jul-24 23:47:06 - Validation:  483/1075 (44%)
+01-Jul-24 23:47:06 - Test:        228/228 (100%)
+
+01-Jul-24 23:49:36 - Loading model...
+01-Jul-24 23:49:39 - Unique speakers found in the dataset:
+01-Jul-24 23:49:39 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+01-Jul-24 23:49:39 - After removal of repeated prompts, the number of data in each dataset is:
+01-Jul-24 23:49:39 - Train:       9551/14652 (65%)
+01-Jul-24 23:49:39 - Validation:  300/667 (44%)
+01-Jul-24 23:49:39 - Test:        1075/1075 (100%)
+
+02-Jul-24 00:03:12 - Loading model...
+02-Jul-24 00:03:14 - Unique speakers found in the dataset:
+02-Jul-24 00:03:14 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+02-Jul-24 00:03:14 - After removal of repeated prompts, the number of data in each dataset is:
+02-Jul-24 00:03:14 - Train:       9551/14652 (65%)
+02-Jul-24 00:03:14 - Validation:  483/1075 (44%)
+02-Jul-24 00:03:14 - Test:        667/667 (100%)
+
+02-Jul-24 00:10:47 - Loading model...
+02-Jul-24 00:10:50 - Unique speakers found in the dataset:
+02-Jul-24 00:10:50 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+02-Jul-24 00:10:50 - After removal of repeated prompts, the number of data in each dataset is:
+02-Jul-24 00:10:50 - Train:       9519/14580 (65%)
+02-Jul-24 00:10:50 - Validation:  483/1075 (44%)
+02-Jul-24 00:10:50 - Test:        739/739 (100%)
+
+02-Jul-24 00:23:11 - Loading model...
+02-Jul-24 00:23:14 - Unique speakers found in the dataset:
+02-Jul-24 00:23:14 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+02-Jul-24 00:23:14 - After removal of repeated prompts, the number of data in each dataset is:
+02-Jul-24 00:23:14 - Train:       9508/14553 (65%)
+02-Jul-24 00:23:14 - Validation:  483/1075 (44%)
+02-Jul-24 00:23:14 - Test:        766/766 (100%)
+
+02-Jul-24 00:33:05 - Loading model...
+02-Jul-24 00:33:08 - Unique speakers found in the dataset:
+02-Jul-24 00:33:08 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+02-Jul-24 00:33:08 - After removal of repeated prompts, the number of data in each dataset is:
+02-Jul-24 00:33:08 - Train:       9493/14519 (65%)
+02-Jul-24 00:33:08 - Validation:  483/1075 (44%)
+02-Jul-24 00:33:08 - Test:        800/800 (100%)
+
+02-Jul-24 00:41:58 - Loading model...
+02-Jul-24 00:42:00 - Unique speakers found in the dataset:
+02-Jul-24 00:42:00 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+02-Jul-24 00:42:00 - After removal of repeated prompts, the number of data in each dataset is:
+02-Jul-24 00:42:00 - Train:       9559/14667 (65%)
+02-Jul-24 00:42:00 - Validation:  483/1075 (44%)
+02-Jul-24 00:42:00 - Test:        652/652 (100%)
+
+02-Jul-24 00:52:25 - Loading model...
+02-Jul-24 00:52:28 - Unique speakers found in the dataset:
+02-Jul-24 00:52:28 - ['F01' 'F03' 'F04' 'FC01' 'FC02' 'FC03' 'M01' 'M02' 'M03' 'M04' 'M05'
+ 'MC01' 'MC02' 'MC03' 'MC04']
+
+02-Jul-24 00:52:28 - After removal of repeated prompts, the number of data in each dataset is:
+02-Jul-24 00:52:28 - Train:       9594/14746 (65%)
+02-Jul-24 00:52:28 - Validation:  483/1075 (44%)
+02-Jul-24 00:52:28 - Test:        573/573 (100%)
+

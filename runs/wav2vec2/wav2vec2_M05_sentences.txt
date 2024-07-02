@@ -1,0 +1,219 @@
+Recognized: tis eash day he prate skilfurly and mers rest apon angusmal orden
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: gamy yoward who averm in gepunelis teening of upmost jewish back
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: wi she is many s manly three years forbut
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: is own slowy beard kllinged to his cent
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: in the wintig time when the is uriginal  sh provas
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: he slely takes the work in the povik er each day
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: yeur resonal i about your gray plat
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: weshtik his voice is clax and kc an triful
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: yet he still think and suis te as aful
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: dun f is tukay and forraget
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: she had urde coot in the greece wash water ona
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: trich each day he payed skillfully and with ret upon always smare origin
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: geryn yowood who ever him gem pronounced feeling of utmosrespect
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: wll well he is maly thmany three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: a rong flowing beard clingd to his chin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: except in the winteg time when the rigiar snow or ice prevens
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: he slorly takes a work in the open air each day
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: you wishtinue all about your gradfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: when he speaks his voice is  clack and croc a trifl
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: yet he still thinks and suis the as evu
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: then asks me to kir an olrag let rat
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: she had a dirk shoot in greecy wash water o
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: todays it datit is vary thirteen
+Ground Truth: today's date february   th
+
+Recognized: whe were you well we were away
+Ground Truth: where were you while we were away
+
+Recognized: i can i feel i can play with weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: one rate dated act of cu dispert
+Ground Truth: one validated acts of school districts
+
+Recognized: you use to being on the field
+Ground Truth: you're used to being on the field
+
+Recognized: if you destroy confidence in banks you do something to economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: the islands a expert ly populated
+Ground Truth: the islands are sparsely populated
+
+Recognized: wy yallo o alway silly thinked
+Ground Truth: why yell or worry over silly items
+
+Recognized: wat yell away over stilly items
+Ground Truth: why yell or worry over silly items
+
+Recognized: burt senshines hemers on the ocean
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: untied to te people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: they carried me off on the stuature
+Ground Truth: they carried me off on the stretcher
+
+Recognized: that thing approached the deep siloly
+Ground Truth: the train approached the depot slowly
+
+Recognized: al te great i ollow them nances
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: daying may in moore money by waking ard
+Ground Truth: jane may earn more money by working hard
+
+Recognized: the humidity is overwhelming here
+Ground Truth: the humidity is overwhelming there
+
+Recognized: everything went wid sumus the ser said
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: i was conscious all the time
+Ground Truth: i was conscious all the time
+
+Recognized: two other cases auher were under advisement
+Ground Truth: two other cases also were under advisement
+
+Recognized: i lect up and nertich to old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: we robbin we aother l
+Ground Truth: will robin wear a yellow lily
+
+Recognized: ye be betty off is taking a coold shawer
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: he feposed giant of an unexpected some of experimented asaters
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: he fi proposed grant for an unspetrified some for experimental hospital
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: the barx contained three tuetes
+Ground Truth: the box contained three sweaters
+
+Recognized: the museum hirs music chan every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: valated chool hou tood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: alermony homes a divort mant well
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: we rode hose horse back to the harm
+Ground Truth: we rode horseback to the farm
+
+Recognized: be foresed tat exam wevew every form eara
+Ground Truth: before thursday's exam review every formula
+
+Recognized: sewing your umps as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: i have had my bell rung
+Ground Truth: i have had my bell rung
+
+Recognized: af er using water wepliks it immediatly
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: day after day some new episode is urreqorted
+Ground Truth: day after day some new episode is reported
+
+Recognized: the misguided suls have lost the ray
+Ground Truth: the misguided souls have lost their way
+
+Recognized: students watched as he got out
+Ground Truth: students watched as he got out
+
+Recognized: the dolphins swam around aboat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: she wos wam filici run overous
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: croy lives in livery home
+Ground Truth: carl lives in a lively home
+
+Recognized: the prospact of crating back surpanding is an unpressed one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+
+Recognized: some hotels are available nearby
+Ground Truth: some hotels are available nearby
+
+Recognized: a good attentude is ambidable
+Ground Truth: a good attitude is unbeatable
+
+Recognized: the weight for week can be away dere again
+Ground Truth: the wait for work can be very do it again
+
+Recognized: nobody really xquaks to eragua de
+Ground Truth: nobody really expects to evacuate
+
+Recognized: nobody we expects to evacuate
+Ground Truth: nobody really expects to evacuate
+
+Recognized: its yuan volunteered to jump fist
+Ground Truth: each one volunteered to jump first
+
+Recognized: oltho always again again
+Ground Truth: although always again again
+
+Recognized: he is definitely enot abawarous
+Ground Truth: he is definitely a notch above us
+
+Recognized: the hotel met
+Ground Truth: the hotel man
+
+Recognized: the hotel only sured
+Ground Truth: the hotel owner shrugged
+

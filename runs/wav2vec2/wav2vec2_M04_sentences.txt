@@ -1,0 +1,252 @@
+Recognized: doing in dayshe played scutly ang with the apour art suporgans
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: well e  nnimus inmnmineswee is oll
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: yet is she still fentind and switly ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: it ses mein a winter whenthe ond ol annoor idufl bens
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: hit floren ten ap tunwolk in the open air iden
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: don't mt to kaand an oil oil llike that
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: along found wenband clingtothe etren
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: yo you wish d dint to hanorab bom my y grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: she ad detud in bgisi m was fir ayer
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: one on is shepit terabek carandon trat drive of
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: usu ry mantement
+Ground Truth: usually min min
+
+Recognized: givdont wo fo ad atdo f a feelin of the amon mo mepan
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: she asnear don tin in grey wile wat war
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: given those to who are gome themrenown teling f m anmos we pes
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: nman speaks heas voice beta bes gago quivered a tread to treverse
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: don't asd me to cay a  ol onlylain byt that
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: i tutn in the ont tht the ownor noor itprovince
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: b i kicken
+Ground Truth: i can
+
+Recognized: yet she to ton as tmet lee as s ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: an long flowin bedbirs cling to iches
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: his smalli is a jos waves in teopen air insidiindan
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: tear up  then the dat pil
+Ground Truth: tear up that paper
+
+Recognized: do what do no orato man mn like the gelbrother
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: twice he did it he is ually manily three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: twine iand andinthe is he played skillfully and witetin mapan on art somsmorgans
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: they tecame me a nonon on o i'm lebetrater
+Ground Truth: they carried me off on the stretcher
+
+Recognized: two other nagated auto wer under nd abbetement
+Ground Truth: two other cases also were under advisement
+
+Recognized: fonvalidi as art of schoon disistinthititre
+Ground Truth: one validated acts of school districts
+
+Recognized: i w wat way tecause i continion
+Ground Truth: i was conscious all the time
+
+Recognized: i was continuis ol olo ther times
+Ground Truth: i was conscious all the time
+
+Recognized: i use ayo grans higher lorenthan nancy
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: i jied to to tel people incumined
+Ground Truth: i tried to tell people in the community
+
+Recognized: why ye arewellinn over three items
+Ground Truth: why yell or worry over silly items
+
+Recognized: bits such tide twimmeld on ther otens
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: wellwell uwllwhyong we we were away
+Ground Truth: where were you while we were away
+
+Recognized: woof eleven wet iyor ladies
+Ground Truth: will robin wear a yellow lily
+
+Recognized: you ndto a cabadn ten youdo tumin to thy acameres he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: eveything ent weerned moon ban the church sells
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: five seel hagenbrane thes weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: jane may earned more money by loaworking art
+Ground Truth: jane may earn more money by working hard
+
+Recognized: bill tere you you  better ah dagin tacing ahoucher
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: the train abugin the te tip was floorless
+Ground Truth: the train approached the depot slowly
+
+Recognized: high lot up ennoidd no two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: this was indiampoa
+Ground Truth: this was easy for us
+
+Recognized: you uyur lead to beans onano filme
+Ground Truth: you're used to being on the field
+
+Recognized: both she maintwi tet overwhelmingt
+Ground Truth: the humidity is overwhelming there
+
+Recognized: the otan unbelimed to bot pabla
+Ground Truth: the islands are sparsely populated
+
+Recognized: she was morn than the wolen old e oros
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: she emier te tu in giwiwath water oy
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: given tho o who addont mapronoun telling ofammon we tat
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: many pt headvoi detbed gagon nquipveled amd tread to triven
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: don't add me to gey a will on ly will lain but that
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: tap in the wunder wet the own ornoor i nc
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: 'm i gicken
+Ground Truth: i can
+
+Recognized: yet she to tun had dwily d never
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: anow ar long flowin benbird glenduinjin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: he olly tad a gernwarg in bout open air in indiid
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: ther up  then that at the pip
+Ground Truth: tear up that paper
+
+Recognized: you ward do no orupo m m e grelboter
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: why she is willing niney three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: twin  and eighty da he played scoolfully and with tatenapan an armsmalorgan
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: they the gave me aionnonna anbdretron
+Ground Truth: they carried me off on the stretcher
+
+Recognized: two other negatedauto wr under and abbatament
+Ground Truth: two other cases also were under advisement
+
+Recognized: fan baledin and at amanscundddecddetwet
+Ground Truth: one validated acts of school districts
+
+Recognized: iw wat wuld crickeetemon the time
+Ground Truth: i was conscious all the time
+
+Recognized: i uld continumen all the time
+Ground Truth: i was conscious all the time
+
+Recognized: ayum ireria grens hi lawenthennancyed
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: idjis to tote people in  meind
+Ground Truth: i tried to tell people in the community
+
+Recognized: wy yewervinthe bern firty item
+Ground Truth: why yell or worry over silly items
+
+Recognized: baths fron ti to dwomen annother outians
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: well moer youwellwhile we were away
+Ground Truth: where were you while we were away
+
+Recognized: wol eleben way i yarrolady
+Ground Truth: will robin wear a yellow lily
+
+Recognized: fyou intoa krasadennben youdu nfermning to the cgraman
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: evident one wernd moon ban the jeck sall
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: i feel i blad the weakend
+Ground Truth: i feel i can play this weekend
+
+Recognized: jan may earned more money by woking r
+Ground Truth: jane may earn more money by working hard
+
+Recognized: better r youyoubeterah dugging titting a hakochar
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: the drain abongen bat but ti was slowly
+Ground Truth: the train approached the depot slowly
+
+Recognized: i locked up and we didn't know it two od men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: tedwen indioswa
+Ground Truth: this was easy for us
+
+Recognized: youl now you n you to been on the inam film
+Ground Truth: you're used to being on the field
+
+Recognized: both she mantiwan and overwhelmind
+Ground Truth: the humidity is overwhelming there
+
+Recognized: the island imbalinb blyd
+Ground Truth: the islands are sparsely populated
+
+Recognized: she was omsand the wollen oarond
+Ground Truth: she wore warm fleecy woolen overalls
+

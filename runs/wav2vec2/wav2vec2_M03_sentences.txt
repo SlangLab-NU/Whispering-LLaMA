@@ -1,0 +1,318 @@
+Recognized: he is nearly ninety three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: while he is nearly ninety three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: except in the winter when the osers snower ice prevents
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: she had your dark suit in greacy washwater all year
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: yet he still thinks as swiftly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: twice each day he plays skillfully and with zest upon our small organ
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: when he speaks his voice is just a bit crackled and quivers a trifle
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: when he speaks his voice is just a bit cracked and quivers a trifle
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: you wish to know all about my grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: the long flowing beard clings to his chin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: don't ask me to carry an odly rag like bhat
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: givin those who observe him a pronounced feeling of the utmost respect
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: you'd be better off taking a cold shower
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: one validated axs of school districts
+Ground Truth: one validated acts of school districts
+
+Recognized: jane may earn more money by working hard
+Ground Truth: jane may earn more money by working hard
+
+Recognized: are your grades higher or lower than nancies
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: you're used to being on the field
+Ground Truth: you're used to being on the field
+
+Recognized: bright sunshine shimers on the ocean
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: i looked up and noticed two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: the islands are sparsely populated
+Ground Truth: the islands are sparsely populated
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: i was conscious all the time
+Ground Truth: i was conscious all the time
+
+Recognized: the train approached the deepo slowly
+Ground Truth: the train approached the depot slowly
+
+Recognized: why yellow rurry over is silly items
+Ground Truth: why yell or worry over silly items
+
+Recognized: everything went real smooth the sheriff said
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: where were you while we were away
+Ground Truth: where were you while we were away
+
+Recognized: it carried me off on the stretcher
+Ground Truth: they carried me off on the stretcher
+
+Recognized: i feel i can play this weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: i tried to tell people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: will robin wear a yellow a lily
+Ground Truth: will robin wear a yellow lily
+
+Recognized: the humidity is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: if you destroy confidence in banks you do something in the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: if you destroy confidence in banks you do something to the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: two other cases also were under advisement
+Ground Truth: two other cases also were under advisement
+
+Recognized: the little schoolhouse stood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: the misguided souls have lost their way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: before thursday's exam review every formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: alumoni harms he divorced man's wealth
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: the museum hires musicians every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: the dolphin swam around our boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: day after day some new episode is reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: the boxcaine detained three sweaters
+Ground Truth: the box contained three sweaters
+
+Recognized: students watched as he got out
+Ground Truth: students watched as he got out
+
+Recognized: swing your arms as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: she wore warm fleacy woolen overalls
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: i have had my bell wrung
+Ground Truth: i have had my bell rung
+
+Recognized: he further proposed grants of an unspecified sum for experimental hospitals
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: carl lives in a lovely home
+Ground Truth: carl lives in a lovely home
+
+Recognized: carl lives in a lively home
+Ground Truth: carl lives in a lively home
+
+Recognized: if you are losing water replace it immediately
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: we rode horseback to the farm
+Ground Truth: we rode horseback to the farm
+
+Recognized: each one volunteered to jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: the prospect of cutting back spending is an unpleasant one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+
+Recognized: while he is nearly ninety three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: whil he is nearly ninety three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: except in the winter when the osers snow or ice prevents
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: she had your dark suit in greacy washedwater all year
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: yet he still thinks as swiftly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: twice each day he plays skillfully and with zest upon our small organ
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: when he speaks his voice is just a bit crackled and quivers a trifle
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: peakswhen he speaks his voice is just a bit cracked and quivers a trifle
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: you wish to know all about my grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: a long flowing beard clings to his chin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: don't ask me to carry an odli rag like that
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: giving those who observe him a pronounced feeling of the utmost respect
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: you'd be better off taking a cold shower
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: one validated ax of school districts
+Ground Truth: one validated acts of school districts
+
+Recognized: jane may earn more money by working hard
+Ground Truth: jane may earn more money by working hard
+
+Recognized: are your grades higher or lower than nancies
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: you're used to being on the field
+Ground Truth: you're used to being on the field
+
+Recognized: bright sunshine shimers on the ocean
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: i looked up and noticed two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: the islands are sparsely populated
+Ground Truth: the islands are sparsely populated
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: i was conscious all the time
+Ground Truth: i was conscious all the time
+
+Recognized: the train approached the deeple slowly
+Ground Truth: the train approached the depot slowly
+
+Recognized: why yellow rurry over silly items
+Ground Truth: why yell or worry over silly items
+
+Recognized: everything went real smooth the sheriff said
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: where were you while we were away
+Ground Truth: where were you while we were away
+
+Recognized: they carried me off on the stretcher
+Ground Truth: they carried me off on the stretcher
+
+Recognized: i feel i can play this weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: i tried to tell people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: will robin wear a yellow lily
+Ground Truth: will robin wear a yellow lily
+
+Recognized: the humidity is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: if you destroy confidence in banks you do something in the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: if you destroy confidence in banks you do something to the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: to other cases also were under advisement
+Ground Truth: two other cases also were under advisement
+
+Recognized: the little schoolhouse stood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: the misguided souls have lost their way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: before thursday's exam review every formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: alumoni harms a divorced man's wealth
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: the museum hires musicians every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: the dolphin swam around our boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: day after day some new episode is reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: the box caintained three sweaters
+Ground Truth: the box contained three sweaters
+
+Recognized: students watched as he got out
+Ground Truth: students watched as he got out
+
+Recognized: swing your arms as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: she wore warm fleacy woolen overalls
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: i have had my bell wrung
+Ground Truth: i have had my bell rung
+
+Recognized: he further proposed grants of an unspecified sum for experimental hospitals
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: carl lives in a lovely home
+Ground Truth: carl lives in a lovely home
+
+Recognized: carl lives in a lively home
+Ground Truth: carl lives in a lively home
+
+Recognized: if you are losing water replace it immediately
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: we rode horseback to the farm
+Ground Truth: we rode horseback to the farm
+
+Recognized: each one volunteered to jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: the prospect of cutting back spending is an unpleasant one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+

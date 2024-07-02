@@ -1,0 +1,534 @@
+Recognized: when ebig it voied it ded a bid crack and coivers a drip
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: grandfather leg dubi midern inis languag
+Ground Truth: grandfather likes to be modern in his language
+
+Recognized: a gab in the winter window are not ol id pervent
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: a young fellow in bar cink to adsin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: a young flowing bear clims doitim
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: wel e is nearly nimdy asor
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: hedredes himself in an asindbak troxscoat
+Ground Truth: he dresses himself in an ancient black frock coat
+
+Recognized: i uda uad you
+Ground Truth: i will lead you
+
+Recognized: yet is e rinks as sweevly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: i can read
+Ground Truth: i can read
+
+Recognized: but it oul ganewit overagion
+Ground Truth: but he always answers banana oil
+
+Recognized: buth it oways ended by memy oyr
+Ground Truth: but he always answers banana oil
+
+Recognized: then agamy dulgallyand oill regulate uba
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: you wish do know all about it my grandfother
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: givet towis o abeared him a burnowin te pillig a bedied moss repek
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: i can read
+Ground Truth: i can read
+
+Recognized: ursally my med avera puttdim
+Ground Truth: usually minus several buttons
+
+Recognized: they ad erdarigative in greeny witewid arer
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: eie take a yard ruck in the open air endi
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: twaned in e hiblay she carefully wil and with esed upoun our small origin
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: we hive ovay heard in the wangamore and mokyes
+Ground Truth: we have often urged him to walk more and smoke less
+
+Recognized: when ebig it woid it dead a bed crack and quavers a drifl
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: grandvare like dobe mydern inthe anguis
+Ground Truth: grandfather likes to be modern in his language
+
+Recognized: a gab in the winter wen the ar not our il pervent
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: d i feelin bid clink to edz
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: a young fillo in beer clingdividion
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: well he is neally ninty he isart
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: edreted in meav in and isin't back trocoit
+Ground Truth: he dresses himself in an ancient black frock coat
+
+Recognized: wi we ade you
+Ground Truth: i will lead you
+
+Recognized: yet ise link as sweethy as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: i can read
+Ground Truth: i can read
+
+Recognized: bit ea oud can e be wer over
+Ground Truth: but he always answers banana oil
+
+Recognized: both e oways ende by name e orio
+Ground Truth: but he always answers banana oil
+
+Recognized: thein agamy bulgariand oilraduate ube
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: you wild to know all about it my grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: giveit doid o a bear him a burn out te bili avdied mut rebek
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: e can read
+Ground Truth: i can read
+
+Recognized: yearsly mided avrah berdon
+Ground Truth: usually minus several buttons
+
+Recognized: they ad ardig de in greedy widewide all ear
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: ially take a yard wock in the open air indy
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: dwined in the hibi carefully wil andwi aled abim hour small orgun
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: the ive avin hared if deragamar and morkyes
+Ground Truth: we have often urged him to walk more and smoke less
+
+Recognized: the quick brown fax jumps over the lidny dog
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: it was granted al the time
+Ground Truth: i was conscious all the time
+
+Recognized: we gathed elle on the beach
+Ground Truth: we gathered shells on the beach
+
+Recognized: where were you while we were ry
+Ground Truth: where were you while we were away
+
+Recognized: the island is for the pumier labes
+Ground Truth: the islands are sparsely populated
+
+Recognized: bolidvigers was co ire immaberis
+Ground Truth: both figures would go higher in later years
+
+Recognized: on vealebades act of sku district
+Ground Truth: one validated acts of school districts
+
+Recognized: are year grat ir arlos and nanci
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: i feel again tey did weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: te other keis ow yor andthe ad advidmit
+Ground Truth: two other cases also were under advisement
+
+Recognized: i try to dow people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: the iumindidy is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: the is de move meram
+Ground Truth: she is thinner than i am
+
+Recognized: jam may arn more money but yworkin art
+Ground Truth: jane may earn more money by working hard
+
+Recognized: jadwan ris godwerth
+Ground Truth: just one side got wet
+
+Recognized: my ren yoh iaya gingem ap
+Ground Truth: mother sews yellow gingham aprons
+
+Recognized: i looked up and noted to artman
+Ground Truth: i looked up and noticed two old men
+
+Recognized: i scruped the floors soroly
+Ground Truth: i scrubbed the floors thoroughly
+
+Recognized: itan try to do my best
+Ground Truth: i just try to do my best
+
+Recognized: the alt is grey and white
+Ground Truth: their house is grey and white
+
+Recognized: did wit easy for us
+Ground Truth: this was easy for us
+
+Recognized: yould be better of taking te cut shourd
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: if you ded try comfident in think youll do yure meing the iscommonyad
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: narink is an afendom as innerint
+Ground Truth: nothing is as offensive as innocence
+
+Recognized: we rabin were yellow la
+Ground Truth: will robin wear a yellow lily
+
+Recognized: prid anim shimbers and the orsen
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: aly the big paint bo pa can train
+Ground Truth: all the big baseball players get traded
+
+Recognized: mily derway devilawrd contin
+Ground Truth: my sister made the flowered curtains
+
+Recognized: i 'l arwary of seri album
+Ground Truth: why yell or worry over silly items
+
+Recognized: the dream abrotthe boydlon
+Ground Truth: the train approached the depot slowly
+
+Recognized: they carried me up and unde strate
+Ground Truth: they carried me off on the stretcher
+
+Recognized: yudu pin on the field
+Ground Truth: you're used to being on the field
+
+Recognized: every thing went rear smooth deserved
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: you will allow awill live
+Ground Truth: he will allow a rare lie
+
+Recognized: this innite a program of yorcany turned over
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: they did not a broken with oteac pendicin
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: it also pervided for fund to clip hum and elp kisd bir dormatory
+Ground Truth: it also provides for funds to clear slums and help colleges build dormitories
+
+Recognized: the rider cur art did empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: alamoni rde invoragement well
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: we arroyed urtdeg de the far
+Ground Truth: we rode horseback to the farm
+
+Recognized: then dawin su'm rowng ovr book
+Ground Truth: the dolphins swam around our boat
+
+Recognized: they hav ther tey om nu effiside in reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: it edentally became a rise proticlyng
+Ground Truth: it eventually became a rather proud claim
+
+Recognized: a bilde perpoes grand antededaction for aexarimental ispelchoise
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: the midguidednos av attherway
+Ground Truth: the misguided souls have lost their way
+
+Recognized: there is a tree old ap upper
+Ground Truth: there is a treehouse up above
+
+Recognized: alluminum everywhere cand arjeden be fem
+Ground Truth: aluminum silverware can often be flimsy
+
+Recognized: nurzing ad bida had duitic advantage of the inarible sended to itm
+Ground Truth: nothing has been done yet to take advantage of the enabling legislation
+
+Recognized: this is a period of cranaden forming
+Ground Truth: this is a period of transition for me
+
+Recognized: if you are ready no other replay this immedatly
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: when i'll always belt youid force
+Ground Truth: when all else fails use force
+
+Recognized: he wore a wirm printy welin abea
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: mate abdernate they receive anin point cup
+Ground Truth: night after night they received annoying phone calls
+
+Recognized: i aggu back liopall int pack this week
+Ground Truth: i expect we'll bounce back this week
+
+Recognized: the bug can dimby siluetted
+Ground Truth: the box contained three sweaters
+
+Recognized: teborer dit egam reval eavery formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: tembyom i muidint everyyov me
+Ground Truth: the museum hires musicians every evening
+
+Recognized: and love hes elin for you
+Ground Truth: alfalfa is healthy for you
+
+Recognized: the job prevides many veneri
+Ground Truth: the job provides many benefits
+
+Recognized: i 've elit my bewerum
+Ground Truth: i have had my bell rung
+
+Recognized: their books are very equepensive
+Ground Truth: the books are very expensive
+
+Recognized: teridin't an edi cried m
+Ground Truth: students watched as he got out
+
+Recognized: aro of player amir dea
+Ground Truth: a roll of wire lay near the wall
+
+Recognized: kal is in ei viseo
+Ground Truth: carl lives in a lively home
+
+Recognized: it was a good win wors
+Ground Truth: it was a good win for us
+
+Recognized: you rub the bagin idey
+Ground Truth: he wrapped the package hastily
+
+Recognized: swinger on masi hadekeng
+Ground Truth: swing your arm as high as you can
+
+Recognized: both injuries were to the game lay
+Ground Truth: both injuries were to the same leg
+
+Recognized: the quick brown fox jumps over the lady dog
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: i was granted al the time
+Ground Truth: i was conscious all the time
+
+Recognized: we gathered eway on the beach
+Ground Truth: we gathered shells on the beach
+
+Recognized: where were you while we were awn
+Ground Truth: where were you while we were away
+
+Recognized: the island are for the pumpyr laby
+Ground Truth: the islands are sparsely populated
+
+Recognized: poet bigger wath co ir in later years
+Ground Truth: both figures would go higher in later years
+
+Recognized: one valladated ack of schor district
+Ground Truth: one validated acts of school districts
+
+Recognized: 're er grad eyr arroer than nanci
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: i feel i can bay this weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: to either case ow your under adviment
+Ground Truth: two other cases also were under advisement
+
+Recognized: i try to del people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: the iumined is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: she is deemed te madam
+Ground Truth: she is thinner than i am
+
+Recognized: jan may earn more money by workin art
+Ground Truth: jane may earn more money by working hard
+
+Recognized: dedwan rid graduate
+Ground Truth: just one side got wet
+
+Recognized: myren yoh iaroh gingem abre
+Ground Truth: mother sews yellow gingham aprons
+
+Recognized: i looked up annoded to artman
+Ground Truth: i looked up and noticed two old men
+
+Recognized: i scrub the blor torrolly
+Ground Truth: i scrubbed the floors thoroughly
+
+Recognized: ijust tri to do my will
+Ground Truth: i just try to do my best
+
+Recognized: the out is grey and white
+Ground Truth: their house is grey and white
+
+Recognized: tit wet easy for us
+Ground Truth: this was easy for us
+
+Recognized: yould be better ub dekin the cor sour
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: if you dedray gravident inbang youll do um being then isgmheaid
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: nithink is n offentiv in the yand
+Ground Truth: nothing is as offensive as innocence
+
+Recognized: we rabbin wer a yellow lily
+Ground Truth: will robin wear a yellow lily
+
+Recognized: brade and line shimmers on the origin
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: alid a big bandfol play cantrad
+Ground Truth: all the big baseball players get traded
+
+Recognized: my leader may the bilowrd kurtain
+Ground Truth: my sister made the flowered curtains
+
+Recognized: i'm ar worry of silly adam
+Ground Truth: why yell or worry over silly items
+
+Recognized: the drain abro te diboiduory
+Ground Truth: the train approached the depot slowly
+
+Recognized: they carried me up and and strad
+Ground Truth: they carried me off on the stretcher
+
+Recognized: yere youdu ben on the field
+Ground Truth: you're used to being on the field
+
+Recognized: everyting went rea smooth the yerabed
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: you will allow a relly
+Ground Truth: he will allow a rare lie
+
+Recognized: thit is not a programe of ocanadard overtory
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: they dednied a program of ordery madiline
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: his ourdo provided for vantuclear um and elp card birdormedori
+Ground Truth: it also provides for funds to clear slums and help colleges build dormitories
+
+Recognized: telido co ert tured empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: alamoney arent divergement well
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: wyerod ard bacg de the far
+Ground Truth: we rode horseback to the farm
+
+Recognized: the dobin so'm arown overbook
+Ground Truth: the dolphins swam around our boat
+
+Recognized: they adither day am nu abei ind reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: it eventually became a ralproud claim
+Ground Truth: it eventually became a rather proud claim
+
+Recognized: everte purpo grants anbedebacom for aenperinmentol isvertoise
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: the midguided ogt aver at ther way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: there is a tree old ap ubu
+Ground Truth: there is a treehouse up above
+
+Recognized: allumenum everywhere can evidey be terme
+Ground Truth: aluminum silverware can often be flimsy
+
+Recognized: natting had been ad duideg advantage of the inably adtur iten
+Ground Truth: nothing has been done yet to take advantage of the enabling legislation
+
+Recognized: this is a period of tranidin for me
+Ground Truth: this is a period of transition for me
+
+Recognized: if you are rudy noade rebladid immibily
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: wen ot aways bed yeuld vorce
+Ground Truth: when all else fails use force
+
+Recognized: they wore a warm pridy walin ompera
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: night atter nat they receive a noin porn cup
+Ground Truth: night after night they received annoying phone calls
+
+Recognized: i aggue back up olin bik this week
+Ground Truth: i expect we'll bounce back this week
+
+Recognized: the bog can dempreweather
+Ground Truth: the box contained three sweaters
+
+Recognized: theboreded exam review every formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: tambwam i new yee dint every yof me
+Ground Truth: the museum hires musicians every evening
+
+Recognized: and vover is evly for you
+Ground Truth: alfalfa is healthy for you
+
+Recognized: the job provided mony weneve
+Ground Truth: the job provides many benefits
+
+Recognized: i h've allet my bowerun
+Ground Truth: i have had my bell rung
+
+Recognized: their books are very expensive
+Ground Truth: the books are very expensive
+
+Recognized: to din't wad addy cried out
+Ground Truth: students watched as he got out
+
+Recognized: arot a bayer la mir dhea
+Ground Truth: a roll of wire lay near the wall
+
+Recognized: caro le in the dibilio
+Ground Truth: carl lives in a lively home
+
+Recognized: it was a good wind worel
+Ground Truth: it was a good win for us
+
+Recognized: erab the baggad ade
+Ground Truth: he wrapped the package hastily
+
+Recognized: showing ger arm asi adukam
+Ground Truth: swing your arm as high as you can
+
+Recognized: both injuries were do the same leage
+Ground Truth: both injuries were to the same leg
+

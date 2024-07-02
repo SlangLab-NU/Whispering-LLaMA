@@ -1,0 +1,66 @@
+Recognized: except in the winning the use wals no olexcedent
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: he slowly kicks a slight walk in the open air is gaye
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: in wisking all all about my gram pally
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: she hak een nau in gret masmor aryear
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: liminegam wit abmkim piam pil in  of the moss
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: long fore mare clink keen kin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: yes he still tinks as mostly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he skill speaks intwifly in amo
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he skill takes as fuickly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: questionig he plays bilfoy and withesk upon a small origin
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: when he speaks hes voice egisobe cres and cumus netci
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: ansep in the wind vies also oalized pelank
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: he slowly kicks a slitwalk in the open air in gay
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: o whisking all all about my grand fally
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: she her  got tu and greefi was more alwiou
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: limineamul who amlin ham pian biling in of emos
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: a longforming mirclin knken
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: yea he celtic and sliffly and ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he still takes i sonip cloye tat mo
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he gill taks as sliply as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: quicnn he plays scalfull and with rests upon a small organ
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: when he speaks he voices egisabe crant and quimus nus tramfl
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+

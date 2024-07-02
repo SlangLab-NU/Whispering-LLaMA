@@ -1,0 +1,513 @@
+Recognized: yet he still thinks as swiftly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: you wish to know all about my grandfather
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: he dressed himself in an ancient black frock coat
+Ground Truth: he dressed himself in an ancient black frock coat
+
+Recognized: usually minus several buttons
+Ground Truth: usually minus several buttons
+
+Recognized: grandfather likes to be modern in his language
+Ground Truth: grandfather likes to be modern in his language
+
+Recognized: she had your dark suit in greacy wash water all year
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: don't ask me to carry an oily reg like that
+Ground Truth: don't ask me to carry an oily rag like that
+
+Recognized: but he always answers banana oil
+Ground Truth: but he always answers banana oil
+
+Recognized: well he is nearly ninety three years old
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: h slowly takes a short walk in the open air each day
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: giving those who observe him a pronounced feeling of the utmost respect
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: the quick brown fox jumps over the lazy dog
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: twice each day he plays skillfully and with zest upon our small organ
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: except in the winter when the ows or snow or ice provents
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: except in the winter when the use or snow or ice prevents
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: when he speaks his voice is just a bit cracked and quivers a trifle
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: we have often urged him to walk more and smoke less
+Ground Truth: we have often urged him to walk more and smoke less
+
+Recognized: a long flowing beard clings to his chin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: you'd be better off taking a cold shower
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: you'd be better off taking a cold shour
+Ground Truth: you'd be better off taking a cold shower
+
+Recognized: both figures would go higher in hlater years
+Ground Truth: both figures would go higher in later years
+
+Recognized: mother shows yellow gingham aprons
+Ground Truth: mother sews yellow gingham aprons
+
+Recognized: i'll just try to do my best
+Ground Truth: i just try to do my best
+
+Recognized: where were you while we were away
+Ground Truth: where were you while we were away
+
+Recognized: if you destroy confidence in banks you do something to the economy he said
+Ground Truth: if you destroy confidence in banks you do something to the economy he said
+
+Recognized: the train approached the depo slowly
+Ground Truth: the train approached the depot slowly
+
+Recognized: the islands are sparsely populated
+Ground Truth: the islands are sparsely populated
+
+Recognized: you're used to being on the field
+Ground Truth: you're used to being on the field
+
+Recognized: my sister made the flowered curtains
+Ground Truth: my sister made the flowered curtains
+
+Recognized: breaght sunshine shimers on the ocean
+Ground Truth: bright sunshine shimmers on the ocean
+
+Recognized: two other cases also were under advisomend
+Ground Truth: two other cases also were under advisement
+
+Recognized: wy yell or worry over silly items
+Ground Truth: why yell or worry over silly items
+
+Recognized: just one sight got wet
+Ground Truth: just one side got wet
+
+Recognized: i looked up and noticed two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: will robin wear a yellow lily
+Ground Truth: will robin wear a yellow lily
+
+Recognized: i was conscious all the time
+Ground Truth: i was conscious all the time
+
+Recognized: hou will allow a rare lily rare lie
+Ground Truth: he will allow a rare lilyrare lie
+
+Recognized: all the big baseball players get traded
+Ground Truth: all the big baseball players get traded
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: i scrubbed the floor thoroughly
+Ground Truth: i scrubbed the floors thoroughly
+
+Recognized: i tried to tell people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: she is thinner than i am
+Ground Truth: she is thinner than i am
+
+Recognized: nothing is offensive as innocent
+Ground Truth: nothing is as offensive as innocence
+
+Recognized: we gathered shells on the beach
+Ground Truth: we gathered shells on the beach
+
+Recognized: oi feel like an play this weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: everything went real smooth the sheriff said
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: their house is gray and lite
+Ground Truth: their house is grey and white
+
+Recognized: are your grades higher or lower than nancies
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: the humidity is overwhelming merror
+Ground Truth: the humidity is overwhelming there
+
+Recognized: they carried me off on the srutter
+Ground Truth: they carried me off on the stretcher
+
+Recognized: one validated acts of school district
+Ground Truth: one validated acts of school districts
+
+Recognized: jane may earn more money by working hard
+Ground Truth: jane may earn more money by working hard
+
+Recognized: night after night they received annoying phone calls
+Ground Truth: night after night they received annoying phone calls
+
+Recognized: ifalpa is helthy for you
+Ground Truth: alfalfa is healthy for you
+
+Recognized: the misguided soles have lost their way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: if you are losing water replace it immediately
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: swing your arms as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: i expect will bounce back this week
+Ground Truth: i expect we'll bounce back this week
+
+Recognized: when ales fails he is force
+Ground Truth: when all else fails use force
+
+Recognized: alamoni carms ha divorced mann's well
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: carl lives in a lovely home
+Ground Truth: carl lives in a lovely home
+
+Recognized: karl lives in her lively home
+Ground Truth: carl lives in a lively home
+
+Recognized: it also provides for funs to clear slems and help colleges build dormitories
+Ground Truth: it also provides for funds to clear slums and help colleges build dormitories
+
+Recognized: it was a good wind for us
+Ground Truth: it was a good win for us
+
+Recognized: nothing has been done yet to take advantage of the enabling legislation
+Ground Truth: nothing has been done yet to take advantage of the enabling legislation
+
+Recognized: alubinums of ware can often be flimsy
+Ground Truth: aluminum silverware can often be flimsy
+
+Recognized: this is a period of transition for me
+Ground Truth: this is a period of transition for me
+
+Recognized: there is a treehouse up above
+Ground Truth: there is a treehouse up above
+
+Recognized: the dolphins swam around our boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: the box contain three sweaters
+Ground Truth: the box contained three sweaters
+
+Recognized: this is not a programme of socialized medicine
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: this is not a programme of socialized medicine
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: it eventually became a rather proud claim
+Ground Truth: it eventually became a rather proud claim
+
+Recognized: the little schoolhouse stood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: students watched as he got out
+Ground Truth: students watched as he got out
+
+Recognized: both injuries were to the same leg
+Ground Truth: both injuries were to the same leg
+
+Recognized: the job provides many benefits
+Ground Truth: the job provides many benefits
+
+Recognized: the museum hires musicians every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: she wore one fleecy woollen overalls
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: before thursday's exam review every formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: i've had my bell run
+Ground Truth: i have had my bell rung
+
+Recognized: day after day some new episode is reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: he further proposed grants of an unspecified sum for experimental hospital
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: a rolle of wire lay near the wall
+Ground Truth: a roll of wire lay near the wall
+
+Recognized: he wrabbed the package hastily
+Ground Truth: he wrapped the package hastily
+
+Recognized: we rode horseback to the farm
+Ground Truth: we rode horseback to the farm
+
+Recognized: the books are very expensive
+Ground Truth: the books are very expensive
+
+Recognized: the da do academic bidding
+Ground Truth: did dad do academic bidding
+
+Recognized: a good attitude is unbeadable
+Ground Truth: a good attitude is unbeatable
+
+Recognized: the prospect of cutting back spending is an unpleasant one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+
+Recognized: each one volunteered to jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: the whotel owner shrugged
+Ground Truth: the hotel owner shrugged
+
+Recognized: the paro shoes was new
+Ground Truth: the pair of shoes was new
+
+Recognized: he really crucified him he nailed it for a yard lost
+Ground Truth: he really crucified him he nailed it for a yard loss
+
+Recognized: people who value themselves are lifes winners
+Ground Truth: people who value themselves are life's winners
+
+Recognized: the owners regularly look for plumming leaks
+Ground Truth: the owners regularly look for plumbing leaks
+
+Recognized: exray
+Ground Truth: x ray
+
+Recognized: i am willing to experiment for the first time
+Ground Truth: i'm willing to experiment for the first time
+
+Recognized: although always although always alone we survive
+Ground Truth: although always alone we survive
+
+Recognized: we have an excellent team
+Ground Truth: we have an excellent team
+
+Recognized: please open the window quickly
+Ground Truth: please open the window quickly
+
+Recognized: he is definitely a not above us
+Ground Truth: he is definitely a notch above us
+
+Recognized: i looked up and noticed two old men
+Ground Truth: i looked up and noticed two old men
+
+Recognized: will robin wear a yellow lily
+Ground Truth: will robin wear a yellow lily
+
+Recognized: i was conscious all the time
+Ground Truth: i was conscious all the time
+
+Recognized: he will alow a rare lily rare lie
+Ground Truth: he will allow a rare lilyrare lie
+
+Recognized: all the big baseball players get traded
+Ground Truth: all the big baseball players get traded
+
+Recognized: this was easy for us
+Ground Truth: this was easy for us
+
+Recognized: i scrubed the floor thoroughly
+Ground Truth: i scrubbed the floors thoroughly
+
+Recognized: i tried to tell people in the community
+Ground Truth: i tried to tell people in the community
+
+Recognized: she is thinner than i am
+Ground Truth: she is thinner than i am
+
+Recognized: nothing ist offensive as innocent
+Ground Truth: nothing is as offensive as innocence
+
+Recognized: we gathered shells on the beach
+Ground Truth: we gathered shells on the beach
+
+Recognized: i feel i can play this weekend
+Ground Truth: i feel i can play this weekend
+
+Recognized: everything went real smooth the sheriff said
+Ground Truth: everything went real smooth the sheriff said
+
+Recognized: their house is grey and white
+Ground Truth: their house is grey and white
+
+Recognized: are your grades higher or lower than nancies
+Ground Truth: are your grades higher or lower than nancy's
+
+Recognized: the humidity is overwhelming there
+Ground Truth: the humidity is overwhelming there
+
+Recognized: they carried me off on the strutcer
+Ground Truth: they carried me off on the stretcher
+
+Recognized: one validated acts of school districts
+Ground Truth: one validated acts of school districts
+
+Recognized: jane may earn more money by working hard
+Ground Truth: jane may earn more money by working hard
+
+Recognized: night after night they received annoying fone calls
+Ground Truth: night after night they received annoying phone calls
+
+Recognized: our felfa is healthy for you
+Ground Truth: alfalfa is healthy for you
+
+Recognized: the misguided soules have lost their way
+Ground Truth: the misguided souls have lost their way
+
+Recognized: if you are losing water replace it immediately
+Ground Truth: if you are losing water replace it immediately
+
+Recognized: swing your arms as high as you can
+Ground Truth: swing your arm as high as you can
+
+Recognized: i expect will bounce back this week
+Ground Truth: i expect we'll bounce back this week
+
+Recognized: when ell else fails he use force
+Ground Truth: when all else fails use force
+
+Recognized: alimoni harm the divorce mann's wealth
+Ground Truth: alimony harms a divorced man's wealth
+
+Recognized: karl lives in a lovely home
+Ground Truth: carl lives in a lovely home
+
+Recognized: carl lives in her lively home
+Ground Truth: carl lives in a lively home
+
+Recognized: it also provides for funs to clear slums and help colleges build dormitories
+Ground Truth: it also provides for funds to clear slums and help colleges build dormitories
+
+Recognized: it was a good wind for us
+Ground Truth: it was a good win for us
+
+Recognized: nothing has been done yet to take advantage of the enabling legislation
+Ground Truth: nothing has been done yet to take advantage of the enabling legislation
+
+Recognized: aluminum sovoare can often be flimsy
+Ground Truth: aluminum silverware can often be flimsy
+
+Recognized: this is a period of transition for me
+Ground Truth: this is a period of transition for me
+
+Recognized: there is a treehouse up above
+Ground Truth: there is a treehouse up above
+
+Recognized: the dolphins swarm around our boat
+Ground Truth: the dolphins swam around our boat
+
+Recognized: the box contained three sweaters
+Ground Truth: the box contained three sweaters
+
+Recognized: this is not a programe of socialized medicine
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: this is not a programme of socialized medicine
+Ground Truth: this is not a program of socialized medicine
+
+Recognized: it eventually became a rather proud claim
+Ground Truth: it eventually became a rather proud claim
+
+Recognized: the little schoolhouse stood empty
+Ground Truth: the little schoolhouse stood empty
+
+Recognized: students watched as he got out
+Ground Truth: students watched as he got out
+
+Recognized: both injuries were to the same leg
+Ground Truth: both injuries were to the same leg
+
+Recognized: the job provides many benefits
+Ground Truth: the job provides many benefits
+
+Recognized: the museum hires musicians every evening
+Ground Truth: the museum hires musicians every evening
+
+Recognized: she wore warm fleecy woollen overalls
+Ground Truth: she wore warm fleecy woolen overalls
+
+Recognized: before thursday's exam review every formula
+Ground Truth: before thursday's exam review every formula
+
+Recognized: i have had my bell run
+Ground Truth: i have had my bell rung
+
+Recognized: day after day some new episodes is reported
+Ground Truth: day after day some new episode is reported
+
+Recognized: he further proposed grants of an unspecified sum for experimental hospitals
+Ground Truth: he further proposed grants of an unspecified sum for experimental hospitals
+
+Recognized: a role of wire lay near the wall
+Ground Truth: a roll of wire lay near the wall
+
+Recognized: he wrapped the package hastily
+Ground Truth: he wrapped the package hastily
+
+Recognized: we role horseback to the farm
+Ground Truth: we rode horseback to the farm
+
+Recognized: the books are very expensive
+Ground Truth: the books are very expensive
+
+Recognized: the dad do academic bidding
+Ground Truth: did dad do academic bidding
+
+Recognized: a good attitude is unbeadable
+Ground Truth: a good attitude is unbeatable
+
+Recognized: the prospect of cutting back spending is an unpleasant one for any governor
+Ground Truth: the prospect of cutting back spending is an unpleasant one for any governor
+
+Recognized: each one volunteered to jump first
+Ground Truth: each one volunteered to jump first
+
+Recognized: the the whole tale owner shrugged
+Ground Truth: the hotel owner shrugged
+
+Recognized: the pair of shoes was new
+Ground Truth: the pair of shoes was new
+
+Recognized: he really crucified him he nailes it for a yard loss
+Ground Truth: he really crucified him he nailed it for a yard loss
+
+Recognized: people who value themselves are lives winners
+Ground Truth: people who value themselves are life's winners
+
+Recognized: the owners regularly look for plumming leaks
+Ground Truth: the owners regularly look for plumbing leaks
+
+Recognized: ex ray
+Ground Truth: x ray
+
+Recognized: i am willing to experiment for the first time
+Ground Truth: i'm willing to experiment for the first time
+
+Recognized: although always although always alone we survive
+Ground Truth: although always alone we survive
+
+Recognized: we have an excellent team
+Ground Truth: we have an excellent team
+
+Recognized: please open the window quickly
+Ground Truth: please open the window quickly
+
+Recognized: he is definitely a knotch above us
+Ground Truth: he is definitely a notch above us
+

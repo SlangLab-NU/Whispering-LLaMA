@@ -1,0 +1,120 @@
+Recognized: except in the winning the use wals no olexcedent
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: he slowly kicks a slight walk in the open air is gaye
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: yougo it my and several buttons
+Ground Truth: usually minus several buttons
+
+Recognized: in wisking all all about my gram pally
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: he always ences breel
+Ground Truth: but he always answers banana oil
+
+Recognized: but he always ankling bow
+Ground Truth: but he always answers banana oil
+
+Recognized: the quitks batton park came co with the lading gun
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: the quick band pought com owir lading un
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: she hak een nau in gret masmor aryear
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: liminegam wit abmkim piam pil in  of the moss
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: we hare lost gil jimdoork war slowly and spokeless
+Ground Truth: we have often urged him to walk more and smoke less
+
+Recognized: long fore mare clink keen kin
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: yes he still tinks as mostly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he skill speaks intwifly in amo
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he skill takes as fuickly as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: welk hes meling a nee to eagle
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: questionig he plays bilfoy and withesk upon a small origin
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: he ingrested himself in reating work bot olm
+Ground Truth: he dresses himself in an ancient black frock coat
+
+Recognized: te'mforly like to be modern in his language
+Ground Truth: grandfather likes to be modern in his language
+
+Recognized: when he speaks hes voice egisobe cres and cumus netci
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+
+Recognized: ansep in the wind vies also oalized pelank
+Ground Truth: except in the winter when the ooze or snow or ice prevents
+
+Recognized: he slowly kicks a slitwalk in the open air in gay
+Ground Truth: he slowly takes a short walk in the open air each day
+
+Recognized: usally mines several buctons
+Ground Truth: usually minus several buttons
+
+Recognized: o whisking all all about my grand fally
+Ground Truth: you wished to know all about my grandfather
+
+Recognized: he always enses brarwell
+Ground Truth: but he always answers banana oil
+
+Recognized: but he always anktle menowl
+Ground Truth: but he always answers banana oil
+
+Recognized: the quick batton park came clop with the lading arg
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: the quick burnd fork comes oveth ladyn guc
+Ground Truth: the quick brown fox jumps over the lazy dog
+
+Recognized: she her  got tu and greefi was more alwiou
+Ground Truth: she had your dark suit in greasy wash water all year
+
+Recognized: limineamul who amlin ham pian biling in of emos
+Ground Truth: giving those who observe him a pronounced feeling of the utmost respect
+
+Recognized: we ave off cin tunbewa mor slowly and smokeless
+Ground Truth: we have often urged him to walk more and smoke less
+
+Recognized: a longforming mirclin knken
+Ground Truth: a long flowing beard clings to his chin
+
+Recognized: yea he celtic and sliffly and ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he still takes i sonip cloye tat mo
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: yet he gill taks as sliply as ever
+Ground Truth: yet he still thinks as swiftly as ever
+
+Recognized: well he knewly nangi to yeag
+Ground Truth: well he is nearly ninety three years old
+
+Recognized: quicnn he plays scalfull and with rests upon a small organ
+Ground Truth: twice each day he plays skillfully and with zest upon our small organ
+
+Recognized: he grased himself in egin work botom
+Ground Truth: he dresses himself in an ancient black frock coat
+
+Recognized: van polly like to be modern in his language
+Ground Truth: grandfather likes to be modern in his language
+
+Recognized: when he speaks he voices egisabe crant and quimus nus tramfl
+Ground Truth: when he speaks his voice is just a bit cracked and quivers a trifle
+

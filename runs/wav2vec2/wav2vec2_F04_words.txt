@@ -1,0 +1,822 @@
+Recognized: p
+Ground Truth: fee
+
+Recognized: new
+Ground Truth: knew
+
+Recognized: trate
+Ground Truth: trait
+
+Recognized: double
+Ground Truth: stubble
+
+Recognized: chair
+Ground Truth: chair
+
+Recognized: trees
+Ground Truth: trace
+
+Recognized: go
+Ground Truth: go
+
+Recognized: there
+Ground Truth: hair
+
+Recognized: jacket
+Ground Truth: jacket
+
+Recognized: new
+Ground Truth: knew
+
+Recognized: chair
+Ground Truth: chair
+
+Recognized: chair
+Ground Truth: chair
+
+Recognized: stark
+Ground Truth: spark
+
+Recognized: wead
+Ground Truth: weed
+
+Recognized: mee
+Ground Truth: knee
+
+Recognized: park
+Ground Truth: park
+
+Recognized: goat
+Ground Truth: goat
+
+Recognized: dark
+Ground Truth: dark
+
+Recognized: bit
+Ground Truth: bit
+
+Recognized: thah
+Ground Truth: the
+
+Recognized: gadget
+Ground Truth: gadget
+
+Recognized: race
+Ground Truth: race
+
+Recognized: raid
+Ground Truth: raid
+
+Recognized: faire
+Ground Truth: fair
+
+Recognized: warm
+Ground Truth: warm
+
+Recognized: dog
+Ground Truth: bug
+
+Recognized: range
+Ground Truth: range
+
+Recognized: flour
+Ground Truth: floor
+
+Recognized: take it
+Ground Truth: jagged
+
+Recognized: rate
+Ground Truth: rate
+
+Recognized: trouble
+Ground Truth: trouble
+
+Recognized: no
+Ground Truth: know
+
+Recognized: better
+Ground Truth: beta
+
+Recognized: betta
+Ground Truth: beta
+
+Recognized: double
+Ground Truth: double
+
+Recognized: rave
+Ground Truth: rave
+
+Recognized: trade
+Ground Truth: trade
+
+Recognized: alpha
+Ground Truth: alpha
+
+Recognized: double
+Ground Truth: bubble
+
+Recognized: sire
+Ground Truth: share
+
+Recognized: sip
+Ground Truth: sip
+
+Recognized: stick
+Ground Truth: stick
+
+Recognized: car
+Ground Truth: car
+
+Recognized: warm
+Ground Truth: warm
+
+Recognized: slip
+Ground Truth: slip
+
+Recognized: sick
+Ground Truth: sip
+
+Recognized: sip
+Ground Truth: sip
+
+Recognized: swore
+Ground Truth: swore
+
+Recognized: dagger
+Ground Truth: dagger
+
+Recognized: bhat
+Ground Truth: bat
+
+Recognized: up
+Ground Truth: up
+
+Recognized: new
+Ground Truth: knew
+
+Recognized: tile
+Ground Truth: pile
+
+Recognized: sway
+Ground Truth: sway
+
+Recognized: charleee
+Ground Truth: charlie
+
+Recognized: mat
+Ground Truth: mut
+
+Recognized: here
+Ground Truth: here
+
+Recognized: lit
+Ground Truth: slip
+
+Recognized: slip
+Ground Truth: slip
+
+Recognized: slip
+Ground Truth: slip
+
+Recognized: bad
+Ground Truth: bad
+
+Recognized: troop
+Ground Truth: droop
+
+Recognized: bad
+Ground Truth: bad
+
+Recognized: near
+Ground Truth: near
+
+Recognized: single
+Ground Truth: single
+
+Recognized: that
+Ground Truth: bat
+
+Recognized: treet
+Ground Truth: sweet
+
+Recognized: suit
+Ground Truth: suit
+
+Recognized: ove
+Ground Truth: of
+
+Recognized: runt
+Ground Truth: root
+
+Recognized: pay
+Ground Truth: pay
+
+Recognized: late
+Ground Truth: light
+
+Recognized: no
+Ground Truth: know
+
+Recognized: rock
+Ground Truth: rock
+
+Recognized: tude
+Ground Truth: toot
+
+Recognized: nots
+Ground Truth: knot
+
+Recognized: fate
+Ground Truth: fate
+
+Recognized: were
+Ground Truth: were
+
+Recognized: we're
+Ground Truth: we're
+
+Recognized: prior
+Ground Truth: prior
+
+Recognized: bryer
+Ground Truth: briar
+
+Recognized: sheere
+Ground Truth: shear
+
+Recognized: shoot
+Ground Truth: suit
+
+Recognized: fear
+Ground Truth: fear
+
+Recognized: fear
+Ground Truth: fear
+
+Recognized: sprinkle
+Ground Truth: sprinkle
+
+Recognized: snoop
+Ground Truth: snoop
+
+Recognized: thogh
+Ground Truth: though
+
+Recognized: nah
+Ground Truth: gnaw
+
+Recognized: cycle
+Ground Truth: cycle
+
+Recognized: bare
+Ground Truth: bear
+
+Recognized: eror
+Ground Truth: error
+
+Recognized: jungle
+Ground Truth: jungle
+
+Recognized: dot
+Ground Truth: dot
+
+Recognized: thie
+Ground Truth: tie
+
+Recognized: thaie
+Ground Truth: tie
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: of ti
+Ground Truth: sigh
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: sighed
+Ground Truth: side
+
+Recognized: explore
+Ground Truth: explore
+
+Recognized: loop
+Ground Truth: loop
+
+Recognized: floor
+Ground Truth: floor
+
+Recognized: back
+Ground Truth: back
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: fruit
+Ground Truth: fruit
+
+Recognized: fim
+Ground Truth: him
+
+Recognized: spark
+Ground Truth: spark
+
+Recognized: fem
+Ground Truth: hem
+
+Recognized: seeds
+Ground Truth: seeds
+
+Recognized: sreing
+Ground Truth: sign
+
+Recognized: hill
+Ground Truth: hill
+
+Recognized: fishing
+Ground Truth: fitting
+
+Recognized: got
+Ground Truth: thought
+
+Recognized: golf
+Ground Truth: golf
+
+Recognized: spit
+Ground Truth: spit
+
+Recognized: mentl meten
+Ground Truth: mitten
+
+Recognized: edark
+Ground Truth: dark
+
+Recognized: broht
+Ground Truth: brought
+
+Recognized: sergent
+Ground Truth: sergeant
+
+Recognized: tart
+Ground Truth: dart
+
+Recognized: hum
+Ground Truth: hum
+
+Recognized: fied
+Ground Truth: side
+
+Recognized: reek
+Ground Truth: reek
+
+Recognized: e part
+Ground Truth: part
+
+Recognized: lear
+Ground Truth: lair
+
+Recognized: hitting
+Ground Truth: hitting
+
+Recognized: fretty
+Ground Truth: city
+
+Recognized: parpa
+Ground Truth: papa
+
+Recognized: brand
+Ground Truth: bran
+
+Recognized: bran
+Ground Truth: brawn
+
+Recognized: pretty
+Ground Truth: pretty
+
+Recognized: wittie
+Ground Truth: witty
+
+Recognized: cow
+Ground Truth: tell
+
+Recognized: written
+Ground Truth: written
+
+Recognized: otl
+Ground Truth: hotel
+
+Recognized: cart
+Ground Truth: cart
+
+Recognized: britten
+Ground Truth: bitten
+
+Recognized: click
+Ground Truth: lick
+
+Recognized: gittin
+Ground Truth: kitten
+
+Recognized: sittin'
+Ground Truth: sitting
+
+Recognized: rich
+Ground Truth: rich
+
+Recognized: hark
+Ground Truth: hark
+
+Recognized: him
+Ground Truth: him
+
+Recognized: echle
+Ground Truth: echo
+
+Recognized: quebecc
+Ground Truth: quebec
+
+Recognized: mike
+Ground Truth: mike
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: heart
+Ground Truth: heart
+
+Recognized: culo
+Ground Truth: kilo
+
+Recognized: key log
+Ground Truth: kilo
+
+Recognized: nitting
+Ground Truth: knitting
+
+Recognized: fox trot
+Ground Truth: foxtrot
+
+Recognized: loyal
+Ground Truth: loyal
+
+Recognized: barne
+Ground Truth: barn
+
+Recognized: bit
+Ground Truth: bite
+
+Recognized: bit
+Ground Truth: bit
+
+Recognized: hea
+Ground Truth: thorn
+
+Recognized: thorn
+Ground Truth: thorn
+
+Recognized: harp
+Ground Truth: harp
+
+Recognized: start
+Ground Truth: start
+
+Recognized: jouliet
+Ground Truth: juliet
+
+Recognized: park
+Ground Truth: park
+
+Recognized: dread
+Ground Truth: dread
+
+Recognized: not
+Ground Truth: knot
+
+Recognized: uniform
+Ground Truth: uniform
+
+Recognized: wicked
+Ground Truth: wicked
+
+Recognized: rip
+Ground Truth: zip
+
+Recognized: flicker
+Ground Truth: slicker
+
+Recognized: nest
+Ground Truth: nest
+
+Recognized: sip
+Ground Truth: sip
+
+Recognized: him him
+Ground Truth: him
+
+Recognized: him
+Ground Truth: him
+
+Recognized: bitter
+Ground Truth: bitter
+
+Recognized: not
+Ground Truth: knot
+
+Recognized: victor
+Ground Truth: victor
+
+Recognized: prior
+Ground Truth: prior
+
+Recognized: ire brier
+Ground Truth: briar
+
+Recognized: sheere
+Ground Truth: shear
+
+Recognized: stoot
+Ground Truth: suit
+
+Recognized: fear
+Ground Truth: fear
+
+Recognized: fear
+Ground Truth: fear
+
+Recognized: sprinkle
+Ground Truth: sprinkle
+
+Recognized: snoop
+Ground Truth: snoop
+
+Recognized: thou
+Ground Truth: though
+
+Recognized: though
+Ground Truth: though
+
+Recognized: nah
+Ground Truth: gnaw
+
+Recognized: cycle
+Ground Truth: cycle
+
+Recognized: bear
+Ground Truth: bear
+
+Recognized: air u air
+Ground Truth: error
+
+Recognized: joungle
+Ground Truth: jungle
+
+Recognized: dot
+Ground Truth: dot
+
+Recognized: tie
+Ground Truth: tie
+
+Recognized: thie
+Ground Truth: tie
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: ci of s
+Ground Truth: sigh
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: sighd
+Ground Truth: side
+
+Recognized: explore
+Ground Truth: explore
+
+Recognized: loop
+Ground Truth: loop
+
+Recognized: floor
+Ground Truth: floor
+
+Recognized: back
+Ground Truth: back
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: fruit
+Ground Truth: fruit
+
+Recognized: him
+Ground Truth: him
+
+Recognized: spark
+Ground Truth: spark
+
+Recognized: hem
+Ground Truth: hem
+
+Recognized: the seeds
+Ground Truth: seeds
+
+Recognized: sign
+Ground Truth: sign
+
+Recognized: hill
+Ground Truth: hill
+
+Recognized: fitting
+Ground Truth: fitting
+
+Recognized: foght
+Ground Truth: thought
+
+Recognized: golf
+Ground Truth: golf
+
+Recognized: spit
+Ground Truth: spit
+
+Recognized: minte mitton
+Ground Truth: mitten
+
+Recognized: dark
+Ground Truth: dark
+
+Recognized: brought
+Ground Truth: brought
+
+Recognized: sargent
+Ground Truth: sergeant
+
+Recognized: dart
+Ground Truth: dart
+
+Recognized: hum
+Ground Truth: hum
+
+Recognized: sighed
+Ground Truth: side
+
+Recognized: reak
+Ground Truth: reek
+
+Recognized: part
+Ground Truth: part
+
+Recognized: lare
+Ground Truth: lair
+
+Recognized: hitting
+Ground Truth: hitting
+
+Recognized: city
+Ground Truth: city
+
+Recognized: papa
+Ground Truth: papa
+
+Recognized: brand
+Ground Truth: bran
+
+Recognized: bran
+Ground Truth: brawn
+
+Recognized: pretty
+Ground Truth: pretty
+
+Recognized: witty
+Ground Truth: witty
+
+Recognized: tell
+Ground Truth: tell
+
+Recognized: written
+Ground Truth: written
+
+Recognized: hotel
+Ground Truth: hotel
+
+Recognized: kart
+Ground Truth: cart
+
+Recognized: bitten
+Ground Truth: bitten
+
+Recognized: lick
+Ground Truth: lick
+
+Recognized: kitten
+Ground Truth: kitten
+
+Recognized: sitting
+Ground Truth: sitting
+
+Recognized: rich
+Ground Truth: rich
+
+Recognized: hark
+Ground Truth: hark
+
+Recognized: him
+Ground Truth: him
+
+Recognized: ech
+Ground Truth: echo
+
+Recognized: quebec
+Ground Truth: quebec
+
+Recognized: mik
+Ground Truth: mike
+
+Recognized: sigh
+Ground Truth: sigh
+
+Recognized: heart
+Ground Truth: heart
+
+Recognized: cubo
+Ground Truth: kilo
+
+Recognized: kelo
+Ground Truth: kilo
+
+Recognized: knitting
+Ground Truth: knitting
+
+Recognized: fox trot
+Ground Truth: foxtrot
+
+Recognized: lawyel
+Ground Truth: loyal
+
+Recognized: barne
+Ground Truth: barn
+
+Recognized: bright
+Ground Truth: bite
+
+Recognized: bit
+Ground Truth: bit
+
+Recognized: thorne
+Ground Truth: thorn
+
+Recognized: thorne
+Ground Truth: thorn
+
+Recognized: harp
+Ground Truth: harp
+
+Recognized: start
+Ground Truth: start
+
+Recognized: juliet
+Ground Truth: juliet
+
+Recognized: park
+Ground Truth: park
+
+Recognized: dread
+Ground Truth: dread
+
+Recognized: not
+Ground Truth: knot
+
+Recognized: uniform
+Ground Truth: uniform
+
+Recognized: wicked
+Ground Truth: wicked
+
+Recognized: zip
+Ground Truth: zip
+
+Recognized: slicker
+Ground Truth: slicker
+
+Recognized: nest
+Ground Truth: nest
+
+Recognized: sip
+Ground Truth: sip
+
+Recognized: him hi
+Ground Truth: him
+
+Recognized: him
+Ground Truth: him
+
+Recognized: bitter
+Ground Truth: bitter
+
+Recognized: not
+Ground Truth: knot
+
+Recognized: victor
+Ground Truth: victor
+
