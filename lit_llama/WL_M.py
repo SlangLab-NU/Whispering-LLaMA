@@ -279,7 +279,7 @@ class LLaMA(llama.LLaMA):
 
 
         # forward the model itself
-        x = self.transformer.wte(idx)  # token embeddings of shape (b, t, n_embd)
+        x = self.transformer.wte(idx)  # token embeddings of shape (b, t, n_embd) embedding dim 4096
 
 
         if input_pos is None:  # proxy for use_cache=False aka proxy for training time 
@@ -304,9 +304,9 @@ class LLaMA(llama.LLaMA):
                     x,  audio_features ,rope, mask, max_seq_length, input_pos, self.kv_caches[i], self.adapter_kv_caches[i], self.w_kv_caches[i]
                 )
 
-        x = self.transformer.ln_f(x)
+        x = self.transformer.ln_f(x) # 4*199*4096
 
-        logits = self.lm_head(x)  # (b, t, vocab_size)
+        logits = self.lm_head(x)  # (b, t, vocab_size) 4*199*32000
 
         return logits
 

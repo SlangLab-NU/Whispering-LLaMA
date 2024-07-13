@@ -42,6 +42,8 @@ parser.add_argument(
     default=None,
     help='Path to the checkpoint file to resume training from (default: None)'
 )
+parser.add_argument('--num_epochs', type=int, default=10, help='Number of epochs for training (default: 10)')
+
 
 
 
@@ -54,6 +56,7 @@ is_resume_from_checkpoint = args.resume
 dataset_name = args.dataset_name
 option=args.option
 adapter_path=args.adapter_path
+num_epochs=args.num_epochs
 
 # Import the appropriate module based on user input
 if args.option == 'S':
@@ -61,9 +64,6 @@ if args.option == 'S':
 elif args.option == 'M':
     from lit_llama.WL_M import LLaMA, LLaMAConfig, mark_only_adapter_as_trainable, adapter_state_from_state_dict
 
-# Hyperparameters
-# num_epochs = 25
-num_epochs = 10
 weight_decay = 0.02
 
 # Batch and device configuration
@@ -110,7 +110,7 @@ wandb.init(
     "weight_decay": weight_decay,
     "batch_size": (batch_size*devices),
     "micro_batch_size":micro_batch_size,
-    "dataset":'gigaspeech',
+    "dataset":'torgo',
     'devices':devices,
     'max_input_length':max_input_length,
     }
@@ -207,8 +207,12 @@ def train(
         # Extract the iteration number from the adapter path
         adapter_file = find_latest_checkpoint(adapter_path)
         iter_match = re.search(r"iter-(\d+).pth", adapter_file)
-        starting_iter = int(iter_match.group(1))+1  if iter_match else 0
-        print(f"resume from iteration: {starting_iter}")
+        print(int(iter_match.group(1)))
+        if int(iter_match.group(1)) < 100:
+            starting_iter = int(iter_match.group(1)) * epoch_size
+        elif int(iter_match.group(1)) >= 100:
+            starting_iter = int(iter_match.group(1)) + 1  
+        print(f"resume from iteration: {starting_iter}, max iteration: {max_iters}")
     else:
         starting_iter = 0
 
@@ -243,16 +247,17 @@ def train(
             wandb.log({"train_iter": iter_num, "train_Iter_loss": loss.item()})
             # print({"train_iter": iter_num, "train_Iter_loss": loss.item()})
             
-       # Saving Adapter weights at the end of epoch
+        # Saving Adapter weights at the end of epoch
         if (iter_num + 1) % epoch_size == 0:
             print(f"Saving adapter weights to {out_dir}, epoch: {int((iter_num+1)/epoch_size):06d}")
-            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{iter_num:06d}.pth"))
+            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{iter_num:06d}.pth")) # save by iteration
 
-        # Print and Log val loss 
+            # Print and Log val loss 
             val_loss = validate(fabric, model, val_data)
             fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
             fabric.barrier()
             wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
+            print('End of epoch ',(iter_num+1)/epoch_size)
 
 
 
@@ -362,6 +367,7 @@ def find_latest_checkpoint(root_path):
 
     # List all files in the directory
     files = os.listdir(root_path)
+    print(files)
 
     # Find the latest checkpoint
     for file_name in files:
@@ -375,8 +381,8 @@ def find_latest_checkpoint(root_path):
         if epoch_num > latest_epoch:
             latest_epoch = epoch_num
             latest_checkpoint = os.path.join(root_path, file_name)
-
-    return latest_checkpoint, latest_epoch
+    # pritn(latest_checkpoint, latest_epoch)
+    return latest_checkpoint
 
 if __name__ == "__main__":
     # Uncomment this line if you see an error: "Expected is_sm80 to be true, but got false"

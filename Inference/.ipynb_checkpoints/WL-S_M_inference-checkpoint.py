@@ -35,7 +35,7 @@ parser.add_argument('--data_path',type=str, help='Path to dataset to run inferen
 parser.add_argument('--pretrained_path',type=str, help='Path to the Alpaca checkpoints')
 parser.add_argument('--tokenizer_path',type=str, help='Path to the tokenizer')
 parser.add_argument('--option', choices=['S', 'M'],  required=True, help='Option to choose WL_S or WL_M')
-
+parser.add_argument('--ckpt', type=str, help="Path to the checkpoint file")
 
 args = parser.parse_args()
 
@@ -55,7 +55,7 @@ elif args.option == 'M':
 
 files = os.listdir(root_path)
 files.sort() # files contains all the adapter checkpoints 
-print(f"files, {files}")
+# print(f"files, {files}")
 
 ## initializes settings for high precision matrix multiplication in PyTorch, loads a tokenizer and pretrained model, and then loads data from a specified path
 torch.set_float32_matmul_precision("high")
@@ -202,20 +202,22 @@ def result(adapter_path,model):
 latest_epoch = -1
 latest_checkpoint = None
 
-# Find the latest checkpoint
-for i in files:
-    print(i)
-    if not i.endswith('.pth'):
-        continue
-    try:
-        epoch_num = int(i.split('-')[1].split('.')[0])
-    except (IndexError, ValueError) as e:
-        print(f"Skipping file {i} due to incorrect format: {e}")
-        continue
-    if epoch_num > latest_epoch:
-        latest_epoch = epoch_num
-        latest_checkpoint = os.path.join(root_path, i)
-        # print(latest_checkpoint)
+if args.ckpt:
+        latest_checkpoint = args.ckpt
+else:
+    # Find the latest checkpoint
+    for i in files:
+        if not i.endswith('.pth'):
+            continue
+        try:
+            epoch_num = int(i.split('-')[1].split('.')[0])
+        except (IndexError, ValueError) as e:
+            print(f"Skipping file {i} due to incorrect format: {e}")
+            continue
+        if epoch_num > latest_epoch:
+            latest_epoch = epoch_num
+            latest_checkpoint = os.path.join(root_path, i)
+            print(latest_checkpoint)
 
 if latest_checkpoint is not None:
     adapter_path = latest_checkpoint

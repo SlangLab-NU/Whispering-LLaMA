@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+module load anaconda3/2022.05#!/usr/bin/env python
 # coding: utf-8
 
 # In[1]:

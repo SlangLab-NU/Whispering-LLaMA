@@ -11,17 +11,101 @@
 nvidia-smi
 module load anaconda3/2022.05
 module load ffmpeg/20190305 
+
 source activate /work/van-speech-nlp/jindaznb/visenv/
+cd /work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA
 
-# 43111953
-speaker_id='F04' && python training/WL-S_M_train.py --lr 1e-3 \
-    --option 'M' \
-    --d 1 \
-    --pretrained_path 'weights/alpaca.pth' \
-    --tokenizer_path 'weights/tokenizer.model' \
-    --data_path "Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" --dataset_name "torgo_${speaker_id}_large-v2"\ 
-    --adapter_path "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/runs/WL_M_0.001_torgo_M05_large-v2"
 
+# 43210104 43271154
+# speaker_id='M05' && option='M'  \
+#     && base_path='/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA' \
+#     && python training/WL-S_M_train.py --lr 1e-3 \
+#     --option $option \
+#     --d 1 \
+#     --pretrained_path "${base_path}/weights/alpaca.pth" \
+#     --tokenizer_path "${base_path}/weights/tokenizer.model" \
+#     --data_path "${base_path}/Inference/gs_inferences/single_phoneme/torgo_${speaker_id}_large-v2_phoneme" \
+#     --adapter_path "${base_path}/runs/WL_${option}_0.001_torgo_${speaker_id}_large-v2_phoneme" \
+#     --dataset_name "torgo_${speaker_id}_large-v2_phoneme" \
+#     --num_epochs 20 \
+#     --input_batch_size 32
+
+# 
+# speaker_id='M04' && option='M'  \
+#     && base_path='/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA' \
+#     && python training/WL-S_M_train.py --lr 1e-3 \
+#     --option $option \
+#     --d 1 \
+#     --pretrained_path "${base_path}/weights/alpaca.pth" \
+#     --tokenizer_path "${base_path}/weights/tokenizer.model" \
+#     --data_path "${base_path}/Inference/gs_inferences/single_phoneme/torgo_${speaker_id}_large-v2_phoneme" \
+#     --adapter_path "${base_path}/runs/WL_${option}_0.001_torgo_${speaker_id}_large-v2_phoneme" \
+#     --dataset_name "torgo_${speaker_id}_large-v2_phoneme" \
+#     --num_epochs 20 \
+#     --input_batch_size 32
+
+# 43281905
+# speaker_id='M03' && option='M'  \
+#     && base_path='/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA' \
+#     && python training/WL-S_M_train.py --lr 1e-3 \
+#     --option $option \
+#     --d 1 \
+#     --pretrained_path "${base_path}/weights/alpaca.pth" \
+#     --tokenizer_path "${base_path}/weights/tokenizer.model" \
+#     --data_path "${base_path}/Inference/gs_inferences/single_phoneme/torgo_${speaker_id}_large-v2_phoneme" \
+#     --adapter_path "${base_path}/runs/WL_${option}_0.001_torgo_${speaker_id}_large-v2_phoneme" \
+#     --dataset_name "torgo_${speaker_id}_large-v2_phoneme" \
+#     --num_epochs 20 \
+#     --input_batch_size 32
+
+
+
+
+
+# 43163037
+# speaker_id='F01' && option='M'  \
+#     && base_path='/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA' \
+#     && python training/WL-S_M_train.py --lr 1e-3 \
+#     --option $option \
+#     --d 1 \
+#     --pretrained_path "${base_path}/weights/alpaca.pth" \
+#     --tokenizer_path "${base_path}/weights/tokenizer.model" \
+#     --data_path "${base_path}/Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" \
+#     --dataset_name "torgo_${speaker_id}_large-v2" \
+#     --adapter_path "${base_path}/runs/WL_${option}_0.001_torgo_${speaker_id}_large-v2" \
+#     --num_epochs 20
+
+
+# 43163038
+# speaker_id='F03' && option='M'  \
+#     && base_path='/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA' \
+#     && python training/WL-S_M_train.py --lr 1e-3 \
+#     --option $option \
+#     --d 1 \
+#     --pretrained_path "${base_path}/weights/alpaca.pth" \
+#     --tokenizer_path "${base_path}/weights/tokenizer.model" \
+#     --data_path "${base_path}/Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" \
+#     --dataset_name "torgo_${speaker_id}_large-v2" \
+#     --adapter_path "${base_path}/runs/WL_${option}_0.001_torgo_${speaker_id}_large-v2" \
+#     --num_epochs 20
+
+# 43163040
+# speaker_id='F04' && option='M'  \
+#     && base_path='/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA' \
+#     && python training/WL-S_M_train.py --lr 1e-3 \
+#     --option $option \
+#     --d 1 \
+#     --pretrained_path "${base_path}/weights/alpaca.pth" \
+#     --tokenizer_path "${base_path}/weights/tokenizer.model" \
+#     --data_path "${base_path}/Inference/gs_inferences/large-v2_hypo/torgo_${speaker_id}_large-v2" \
+#     --dataset_name "torgo_${speaker_id}_large-v2" \
+#     --adapter_path "${base_path}/runs/WL_${option}_0.001_torgo_${speaker_id}_large-v2" \
+#     --num_epochs 20
+
+
+
+
+    
 
 # 43111952
 # speaker_id='F03' && python training/WL-S_M_train.py --lr 1e-3 \
