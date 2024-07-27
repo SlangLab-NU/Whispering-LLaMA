@@ -3,12 +3,13 @@ import json
 import os
 import sys
 import time
-# import wandb
+import wandb
 from pathlib import Path
 import shutil
 import argparse
 import tqdm
 from evaluate import load
+import re
 
 start_time = time.time()
 
@@ -173,16 +174,28 @@ def result(adapter_path,model):
     return return_dict
 
 # In case you want to log the metrics in WandB
-# wandb.login()
-# wandb.init(
-#     # set the wandb project where this run will be logged
-#     project="WHISPERing LLaMA", 
-#     name=root_path,
-# )
+wandb.login()
+wandb.init(
+    # set the wandb project where this run will be logged
+    project="WHISPERing LLaMA", 
+    name=root_path,
+)
 
-# Iterating through the Adapter Checkpoints and running inference for each checkpoint
+# # Iterating through the Adapter Checkpoints and running inference for each checkpoint
 # for i in files:
-#     adapter_path = os.path.join(root_path,i)
+#     print(i)
+#     def extract_loss(file_name):
+#         match = re.search(r'-loss-([0-9.]+)\.pth', file_name)
+#         if match:
+#             return float(match.group(1))
+#         else:
+#             return None
+
+#     # Find the file with the minimum loss
+#     min_loss_file = min(files, key=extract_loss)
+#     print(min_loss_file)
+#     adapter_path = os.path.join(root_path, min_loss_file)
+
 #     try:
 #         result_dict = result(adapter_path,model)
 #         wer_percent = result_dict['WER']*100
@@ -199,43 +212,37 @@ def result(adapter_path,model):
 #         print('skippin',adapter_path)
 
 
-latest_epoch = -1
-latest_checkpoint = None
+# Function to extract the loss value from the file name
+def extract_loss(file_name):
+    match = re.search(r'-loss-([0-9.]+)\.pth', file_name)
+    if match:
+        return float(match.group(1))
+    else:
+        return float('inf')
 
-if args.ckpt:
-        latest_checkpoint = args.ckpt
-else:
-    # Find the latest checkpoint
-    for i in files:
-        if not i.endswith('.pth'):
-            continue
-        try:
-            epoch_num = int(i.split('-')[1].split('.')[0])
-        except (IndexError, ValueError) as e:
-            print(f"Skipping file {i} due to incorrect format: {e}")
-            continue
-        if epoch_num > latest_epoch:
-            latest_epoch = epoch_num
-            latest_checkpoint = os.path.join(root_path, i)
-            print(latest_checkpoint)
+print(files)
+# Find the file with the minimum loss
+min_loss_file = min(files, key=extract_loss)
+print(min_loss_file)
 
-if latest_checkpoint is not None:
-    adapter_path = latest_checkpoint
+# Iterating through the Adapter Checkpoints and running inference for the checkpoint with the lowest loss
+adapter_path = os.path.join(root_path, min_loss_file)
+print("Using adapter path:", adapter_path)
+try:
     result_dict = result(adapter_path, model)
-    wer_percent = result_dict['WER'] 
-    wer_percent_post = result_dict['post_ST_wer'] 
+    wer_percent = result_dict['WER'] * 100
+    wer_percent_post = result_dict['post_ST_wer'] * 100
+    gt_percent = result_dict['gtms'] * 100
+    gt_percent_post = result_dict['post_gtms'] * 100
+    print({'epoch': min_loss_file,
+           'WER': wer_percent,
+           "WER_post": wer_percent_post,
+           "GTM": gt_percent,
+           "GTM_post": gt_percent_post})
+except Exception as e:
+    print('Skipping', adapter_path, 'due to error:', e)
 
-    gt_percent = result_dict['gtms'] 
-    gt_percent_post = result_dict['post_gtms'] 
-    print({
-        'epoch': latest_epoch,
-        'WER': wer_percent,
-        "WER_post": wer_percent_post,
-        "GTM": gt_percent,
-        "GTM_post": gt_percent_post
-    })
-else:
-    print('No checkpoint found.')
+
 
 
 # Record the end time

@@ -42,6 +42,7 @@ parser.add_argument(
 )
 parser.add_argument('--num_epochs', type=int, default=10, help='Number of epochs for training (default: 10)')
 parser.add_argument('--input_batch_size', type=int, default=32, help='Batch size for training (default: 32)')
+parser.add_argument('--micro_batch_size', type=int, default=4, help='Micro batch size for training (default: 4)')
 
 
 
@@ -55,6 +56,8 @@ option=args.option
 adapter_path=args.adapter_path
 num_epochs=args.num_epochs
 input_batch_size = args.input_batch_size
+micro_batch_size = args.micro_batch_size
+
 
 # Import the appropriate module based on user input
 if args.option == 'S':
@@ -67,7 +70,6 @@ weight_decay = 0.02
 # Batch and device configuration
 devices = args.d
 batch_size = input_batch_size / devices 
-micro_batch_size = 4 
 gradient_accumulation_steps = batch_size // micro_batch_size
 
 train_path = f'{data_path}_train.pt'
@@ -100,7 +102,7 @@ out_dir: str = f"runs/{run_name}"
 # wandb configuration
 wandb.login()
 wandb.init(
-    project="GigaCat",
+    project="WL-train",
     name=run_name,
     group=run_name,
     config={
@@ -216,7 +218,7 @@ def train(
         starting_iter = 0
 
     step_count = 0 # gets updated each time you compleate a batch aka each time you take a step
-
+    print(f"Starting Training..., from iteration: {starting_iter}, max iteration: {max_iters}")
     for iter_num in range(starting_iter,  max_iters):
 
         t0 = time.time()
@@ -248,12 +250,13 @@ def train(
             
         # Saving Adapter weights at the end of epoch
         if (iter_num + 1) % epoch_size == 0:
-            print(f"Saving adapter weights to {out_dir}, epoch: {int((iter_num+1)/epoch_size):06d}")
-            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{iter_num:06d}.pth")) # save by iteration
-
+            print(f"Saving adapter weights to {out_dir}, epoch: {int((iter_num+1)/epoch_size)}")
+            
             # Print and Log val loss 
             val_loss = validate(fabric, model, val_data)
             fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
+            save_model_checkpoint(fabric, model, os.path.join(out_dir, f"iter-{iter_num:06d}-loss-{val_loss:.3f}.pth")) # save by iteration
+
             fabric.barrier()
             wandb.log({"val_step": iter_num, "val_step_loss": val_loss})
             print('End of epoch ',(iter_num+1)/epoch_size)

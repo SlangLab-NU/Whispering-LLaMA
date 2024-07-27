@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/work/van-speech-nlp/jindaznb/jslpnb/mllm_expriments/Whispering-LLaMA/data_preparation/2_finetune_whisper_on_torgo.py", line 87, in <module>
-    print("Speaker ID: " + speaker_id)
-NameError: name 'speaker_id' is not defined

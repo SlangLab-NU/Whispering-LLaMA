@@ -34,8 +34,6 @@ parser.add_argument('--tokenizer_path', type=str,help='Path to LLaMA tokenizer')
 parser.add_argument('--data_path', type=str,help='Path to torch data') 
 parser.add_argument('--dataset_name', type=str, help='Name of the dataset to be used for training (default: None)')
 parser.add_argument('--option', choices=['S', 'M'],  required=True, help='Option to choose WL_S or WL_M')
-# resume
-parser.add_argument('--resume', type=str, help='Path to the checkpoint file to resume training from (default: None)')
 parser.add_argument(
     '--adapter_path',
     type=str,
@@ -43,7 +41,7 @@ parser.add_argument(
     help='Path to the checkpoint file to resume training from (default: None)'
 )
 parser.add_argument('--num_epochs', type=int, default=10, help='Number of epochs for training (default: 10)')
-
+parser.add_argument('--input_batch_size', type=int, default=32, help='Batch size for training (default: 32)')
 
 
 
@@ -52,11 +50,11 @@ learning_rate = args.lr
 pretrained_path = args.pretrained_path
 tokenizer_path = args.tokenizer_path
 data_path = args.data_path
-is_resume_from_checkpoint = args.resume
 dataset_name = args.dataset_name
 option=args.option
 adapter_path=args.adapter_path
 num_epochs=args.num_epochs
+input_batch_size = args.input_batch_size
 
 # Import the appropriate module based on user input
 if args.option == 'S':
@@ -68,7 +66,7 @@ weight_decay = 0.02
 
 # Batch and device configuration
 devices = args.d
-batch_size = 32 / devices 
+batch_size = input_batch_size / devices 
 micro_batch_size = 4 
 gradient_accumulation_steps = batch_size // micro_batch_size
 
@@ -81,6 +79,7 @@ val_data   = torch.load(val_path,map_location=torch.device('cpu'))
 train_data_len = len(train_data)
 val_data_len = len(val_data)
 
+print(f"batch_size: {batch_size}")
 print('loaded test data')
 
 epoch_size = train_data_len // micro_batch_size // devices
@@ -156,10 +155,10 @@ def main():
     print('loaded Whisper checkpoint')
     for n, p in model.named_parameters(): # Iterate through all named parameters of whisper
         if 'whisper' in n :
-            #transformer.h.2.attn.whisper_value.weight
-            layer = n.split('.')[2]
-            suffix = n.split('.')[-1]
-            kv = n.split('.')[4].split('_')[-1]
+            #transformer.h.2.attn.whisper_key/value.weight
+            layer = n.split('.')[2] # 2
+            suffix = n.split('.')[-1] # weight
+            kv = n.split('.')[4].split('_')[-1] # key/value
             #decoder.blocks.3.cross_attn.key.weight
             w_key = f'decoder.blocks.{layer}.cross_attn.{kv}.{suffix}'
             checkpoint[n] = w_ck_pt['model_state_dict'][w_key].cpu()
@@ -170,7 +169,7 @@ def main():
         state_dict = checkpoint
         if adapter_path is not None and os.path.isfile(adapter_path):
             adapter_checkpoint = torch.load(adapter_path)
-            print("ckpt found")
+            print("resuming ckpt found")
             state_dict.update(adapter_checkpoint)
         model.load_state_dict(checkpoint, strict=False)
     print('loaded LAMMA model')
@@ -329,9 +328,9 @@ def get_batch(fabric: L.Fabric, model ,data: list):
         n = max_len - len(x)
         return torch.cat((x, torch.full((n,), pad_id, dtype=x.dtype)))
 
-    x = torch.stack([pad_right(x, pad_id=0) for x in input_ids])
-    y = torch.stack([pad_right(x, pad_id=-1) for x in labels])
-    af = torch.cat([x for x in audio_features], dim =0)
+    x = torch.stack([pad_right(x, pad_id=0) for x in input_ids]) # 4*199
+    y = torch.stack([pad_right(x, pad_id=-1) for x in labels]) # 4*199
+    af = torch.cat([x for x in audio_features], dim =0) # 4*1500*1280
 
     x, y , af  = fabric.to_device((x.pin_memory(), y.pin_memory(), af.pin_memory()))
 
